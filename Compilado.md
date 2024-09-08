@@ -8,7 +8,7 @@
 ### 2.1 Ordem da oração:
 	- Sujeito-Objeto-(Complexo-Verbal)
     Observação: Complexo-Verbal se refere a um marcador-composto + verbo.
-    - Verbos auxiliares não recebem marcador-composto.
+    - Verbos auxiliares não recebem marcador-composto, apenas o verbo principal é acompanhado do marcador-composto.
     - O complexo-verbal, caso presente, é sempre o último elemento da oração.
 	 
 ### 2.2 Substantivos
@@ -129,7 +129,7 @@
 A partícula [PROP] é usada para expressar propósito ou intenção em uma ação.
 
 #### 2.11.1 Características
-- [PROP] é colocado imediatamente antes do verbo que expressa o propósito.
+- [PROP] é colocado imediatamente antes do verbo auxiliar que expressa o propósito.
 - Pode receber marcadores de evidencialidade para indicar a fonte ou certeza do propósito.
 
 #### 2.11.2 Exemplos
@@ -137,7 +137,11 @@ A partícula [PROP] é usada para expressar propósito ou intenção em uma aç�
    [Ele] [livro] [PROP].[EI] [aprender] [PASS].[PERF].[EP] [comprar]
    "Ele comprou um livro (eu vi) provavelmente para aprender (eu inferi)."
 
-2. Múltiplos Propósitos:
+2. Sem evidencialidade:
+    [Você] [2] [pés] [ter] [PROP] [cruzar] [PRES].[NEUTR].[EV] [ter]
+    "Eu acredito que você tem 2 pés para cruzar a ponte." (como ter é [EV], PROP não precisa de evidencialidade)
+
+3. Múltiplos Propósitos:
    [Nós] [corpo] [PROP].[EP] [exercitar] [E] [mente] [PROP].[EP] [relaxar] [parque] [PRES].[HAB].[EP] [ir]
    "Nós vamos ao parque para exercitar o corpo e relaxar a mente (eu sei por experiência)."
 
@@ -514,18 +518,27 @@ Observações:
 	Observação:  Todo futuro é hipotético (a menos que você seja um viajante do tempo), [EP] não é aplicável para futuro.
 
 ### 5.2 Modo Verbal
-- Declarativo: [SUJEITO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
+#### 5.2.1 Declarativo
+    [SUJEITO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
 
-- Imperativo: [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
-	"[MODO IMPERATIVO] [você] [dormir]." -> "Vá dormir."
-	"[MODO IMPERATIVO] [você] [agora] [dormir]." -> "Vá dormir agora."
-    Observação: Não se usa marcador de aspecto no modo imperativo.
+#### 5.2.2  Imperativo
+    O modo imperativo se distingue entre ordens diretas e pedidos.
+
+     - Ordens (diretas): [SUJEITO] [TEMPO (opcional)] [VERBO]
+     - Pedidos (corteses): [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
 	
+    "[MODO IMPERATIVO] [dormir]." -> "Vá dormir, por favor"
+    "[MODO IMPERATIVO] [você] [dormir]." -> "Vá dormir, por favor"
+	"[você] [agora] [dormir]." -> "Vá dormir agora."
+    Observação: Não se usa marcador de aspecto no modo imperativo, e em geral o sujeito é opcional.
+	
+#### 5.2.3
 - Hortativo: [MODO HORTATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
 	"[MODO HORTATIVO] [ela] [dormir]" -> "Deixe ela dormir."
 	Observação: Esse modo tem significado próximo a "preparar", "ajudar", "tornar possível", "não impedir".
     Observação: Não se usa marcador de aspecto no modo hortativo.
 	
+#### 5.2.4
 - Subjuntivo: [MODO SUBJUNTIVO] [SUJEITO] [TEMPO (opcional)][EVIDENCIAL] [VERBO]
 	- [EI] (planejado)
 	- [EV] (esperança)
@@ -535,6 +548,7 @@ Observações:
 	Observação: Subjuntivo é hipotético, [EP] não é aplicável para subjuntivo.
     Observação: Não se usa marcador de aspecto no modo subjuntivo.
 	
+#### 5.2.5
 - Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
 	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
 	Explicação: "Eu escreve *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
