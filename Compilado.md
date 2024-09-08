@@ -13,7 +13,7 @@
 	 
 ### 2.2 Substantivos
 - Geralmente derivados de verbos.
-- Afixo gerador de substântivos a partir de verbos transitivos
+- Afixo gerador de substantivos a partir de verbos transitivos
 	Exemplo: No Tupi o prefixo 'Mbi-' gera substantivos a partir de verbos transitivos (ex: U = comer, MbiU = comida).
 - Afixo gerador expressa algo que virá-a-ser
 	Exemplo: No Tupi o sufixo '-rama' expressa algo que virá a ser (ex: Mbiurama = ingrediente).
@@ -32,6 +32,7 @@
 ### 2.5 Artigos
 - Um artigo definido [ART.DEF].
 - Um artigo indefinido [ART.INDEF].
+- Artigos não são obrigatórios se é necessários se a definição do artigo puder ser inferida pelo contexto.
 
 ### 2.6 Pronomes
 - Variação na segunda pessoa singular para indicar intimidade.
@@ -93,7 +94,7 @@
 
 #### 2.9.2 Preposições em Frases
 
-- Exemplo: [ELA] [EM] [TORRE] [PASS].[CONT].[ET] [SONHAR]
+- Exemplo: [ELA] [EM] [TORRE] [PASS].[PERF].[ET] [SONHAR]
   (Ela sonhou na torre)
 
 #### 2.9.3 Preposições Compostas
@@ -101,23 +102,24 @@
 - Para expressar relações mais complexas, preposições podem ser combinadas.
 - Exemplo: [DE] [DENTRO] [CASA] (de dentro da casa)
 
-### 2.10 Reflexividade
+### 2.10 Reflexividade e Reciprocidade
 
 - A reflexividade é expressa através de uma partícula reflexiva pré-complexo-verbal: [PART.REFLEX]
 - Estrutura básica: [Sujeito] [Objeto] [PART.REFLEX] [TEMPO].[ASPECTO].[EVIDENCIAL] [verbo]
 - A partícula [PART.REFLEX] precede imediatamente o complexo verbal (marcadores + verbo)
 - Exemplos:
-  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX] [PRES].[CONT].[EP] [ver]
-  2. "Eles se amam": [Eles] [PART.REFLEX] [PRES].[CONT].[EV] [amar] 
-    Observação: Neste exemplo, cada integrante do grupo apontado ama todos do grupo, para indicar que cada integrante do grupo ama a si mesmo a constrção teria de ser diferente.
+  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX] [PRES].[NEUTR].[EP] [ver]
+  2. "Eles se amam": [Eles] [PART.REFLEX] [PRES].[CONST].[EV] [amar] 
+    Observação: Neste exemplo, cada integrante do grupo apontado ama todos do grupo, para indicar que cada integrante do grupo ama a si mesmo a construção teria de ser diferente.
 
 #### 2.10.1 Interação com Outros Elementos Gramaticais
 
 - Negação: A partícula de negação pode envolver o verbo ou todo o complexo verbal, mas não a [PART.REFLEX]
-  Exemplo: [Eu] [em] [espelho] [PART.REFLEX] [PRES].[CONT].[EV] [NEG] [ver] [NEG]
+  Exemplo: [Eu] [em] [espelho] [PART.REFLEX] [PRES].[CONST].[EV] [NEG] [ver] [NEG]
 
 - Perguntas: A ordem é invertida, [PART.REFLEX] permanece antes do verbo, e o evidencial é omitido
-  Exemplo: [PRES].[CONT] [PART.REFLEX] [preocupar] [Você] [INSTR] [isso] ?
+  Exemplo: [PRES].[CONST] [PART.REFLEX] [preocupar] [INSTR] [isso] ?
+  Observação: [preocupar] não necessariamente usa partícula reflexiva.
 
 - Imperativos: [MODO IMPERATIVO] precede o sujeito, [PART.REFLEX] mantém sua posição
   Exemplo: [MODO IMPERATIVO] [Você] [PART.REFLEX] [cuidar]
@@ -126,24 +128,20 @@
 
 A partícula [PROP] é usada para expressar propósito ou intenção em uma ação.
 
-#### 2.11.1 Estrutura Básica
-[Sujeito] [Objeto do Propósito] [PROP].[EVIDENCIAL] [Verbo de Propósito] [Objeto Principal] [TEMPO].[ASPECTO].[EVIDENCIAL] [Verbo Principal]
-
-#### 2.11.2 Características
+#### 2.11.1 Características
 - [PROP] é colocado imediatamente antes do verbo que expressa o propósito.
 - Pode receber marcadores de evidencialidade para indicar a fonte ou certeza do propósito.
-- Mantém a ordem SOV tanto na cláusula de propósito quanto na principal.
 
-#### 2.11.3 Exemplos
+#### 2.11.2 Exemplos
 1. Básico:
    [Ele] [livro] [PROP].[EI] [aprender] [PASS].[PERF].[EP] [comprar]
    "Ele comprou um livro (eu vi) provavelmente para aprender (eu inferi)."
 
 2. Múltiplos Propósitos:
-   [Nós] [corpo] [PROP].[EP] [exercitar] [mente] [PROP].[EP] [relaxar] [parque] [PRES].[HAB].[EP] [ir]
+   [Nós] [corpo] [PROP].[EP] [exercitar] [E] [mente] [PROP].[EP] [relaxar] [parque] [PRES].[HAB].[EP] [ir]
    "Nós vamos ao parque para exercitar o corpo e relaxar a mente (eu sei por experiência)."
 
-#### 2.11.4 Interação com Outros Elementos Gramaticais
+#### 2.11.3 Interação com Outros Elementos Gramaticais
 
 1. Negação:
    [Ele] [presente] [PROP] [comprar] [loja] [PASS].[PERF].[EP] [NEG] [ir] [NEG]
@@ -157,7 +155,7 @@ A partícula [PROP] é usada para expressar propósito ou intenção em uma aç�
    [COND] [chuva] [PRES].[PERF].[EP] [cair] [eu] [guarda-chuva] [PROP] [comprar] [loja] [FUT].[PERF].[EI] [ir]
    "Se chover, irei à loja para comprar um guarda-chuva."
 
-#### 2.11.5 Considerações Especiais
+#### 2.11.4 Considerações Especiais
 - Quando a ação principal é negada, o evidencial no [PROP] torna-se opcional.
 - Se a ação principal for em primeira pessoa, o evidencial no [PROP] torna-se opcional.
 - Em frases complexas, a estrutura básica é mantida, com possíveis aninhamentos de cláusulas de propósito.
@@ -213,7 +211,7 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 1. [Amor] [TOP] [vida] [em] [força] [mais poderosa] [PRES].[NEUT].[EV] [ser]
    ("O amor é a força mais poderosa na vida")
 
-2. [Ontem] [chuva] [PASS].[PERF].[EP] [cair], [hoje] [TOP] [sol] [PRES].[CONT].[EP] [brilhar]
+2. [Ontem] [chuva] [PASS].[PERF].[EP] [cair], [hoje] [TOP] [sol] [PRES].[CONST].[EP] [brilhar]
    ("Ontem choveu, mas hoje o sol está brilhando")
 
 3. [Língua] [TOP] [cultura] [de] [espelho] [PRES].[NEUT].[EA] [ser]
@@ -254,7 +252,7 @@ As construções condicionais na conlang são formadas usando o marcador condici
 - "Ele saiu correndo":
     [Ele] [SIM] [correr] [PASS.PERF.EP] [sair]
 - "Ela ficou a olhar o mar":
-    [Ela] [mar] [SIM] [olhar] [PASS.CONT.EP] [ficar]
+    [Ela] [mar] [SIM] [olhar] [PASS].[CONST].[EP] [ficar]
 - "Ismália pôs-se na torre a sonhar":
     [Ismália] [EM] [torre] [SIM] [sonhar] [PART.REFLEX] [PASS.PERF.ET] [pôr]
 
@@ -300,20 +298,20 @@ A partícula [VIA] é usada para expressar o meio, veículo ou método pelo qual
    "Nós nos comunicamos por email."
 
 3. Rotas ou caminhos:
-   [Eles] [VIA] [montanhas] [mercadorias] [PRES.HAB.EP] [transportar]
+   [Eles] [VIA] [montanhas] [mercadorias] [PRES].[HAB].[EP] [transportar]
    "Eles transportam mercadorias pelas montanhas."
 
 4. Métodos ou meios abstratos:
-   [Nós] [VIA] [negociação] [conflito] [PRES.CONT.EP] [resolver]
+   [Nós] [VIA] [negociação] [conflito] [PRES].[CONST].[EP] [resolver]
    "Nós estamos resolvendo o conflito por meio de negociação."
 
 #### 2.15.3 Interação com Outras Estruturas
 1. Com [INSTR]:
-   [Eu] [VIA] [carro] [INSTR] [GPS] [destino] [EM] [PASS.PERF.EP] [chegar]
+   [Eu] [VIA] [carro] [INSTR] [GPS] [destino] [EM] [PASS].[PERF].[EP] [chegar]
    "Eu cheguei ao destino de carro, usando GPS."
 
 2. Com [PROP]:
-   [Ela] [VIA] [avião] [PROP] [rapidez] [cidade] [FUT.PERF.EI] [alcançar]
+   [Ela] [VIA] [avião] [PROP] [rapidez] [cidade] [FUT].[PERF].[EI] [alcançar]
    "Ela alcançará a cidade de avião para ser mais rápido."
 
 #### 2.15.4 Considerações Especiais
@@ -323,15 +321,15 @@ A partícula [VIA] é usada para expressar o meio, veículo ou método pelo qual
 
 #### 2.15.5 Exemplos Adicionais
 1. Uso metafórico:
-   [Ideia] [VIA] [inspiração] [mente] [PASS.PERF.EV] [entrar]
+   [Ideia] [VIA] [inspiração] [mente] [PASS].[PERF].[EV] [entrar]
    "A ideia entrou em minha mente através da inspiração."
 
 2. Meio tecnológico:
-   [Dados] [VIA] [satélite] [PRES.CONT.EP] [transmitir]
+   [Dados] [VIA] [satélite] [PRES].[CONST].[EP] [transmitir]
    "Os dados estão sendo transmitidos via satélite."
 
 3. Método educacional:
-   [Crianças] [VIA] [jogos] [PRES.HAB.EP] [aprender]
+   [Crianças] [VIA] [jogos] [PRES].[HAB].[EP] [aprender]
    "As crianças aprendem através de jogos."
 
 ## 3 Sistema numérico
@@ -382,15 +380,15 @@ Em orações coordenadas com o mesmo sujeito, o sujeito pode ser omitido nas ora
 #### 4.2.2 Exemplos:
 
 - Contexto claro:
-    [PRES].[CONT].[EP] [chover] (Está chovendo)
+    [PRES].[CONST].[EP] [chover] (Está chovendo)
     Aqui, o sujeito (chuva) é omitido por ser óbvio no contexto.
 - Orações coordenadas:
     [Eu] [casa] [PASS].[PERF].[EP] [chegar], [PASS].[PERF].[EP] [comer], [e] [PASS].[PERF].[EP] [dormir]
     (Cheguei em casa, comi e dormi)
     O sujeito "eu" é omitido nas duas últimas orações.
 - Respostas curtas:
-    Pergunta: [PRES].[CONT] [dormir] [você]? (Você está dormindo?)
-    Resposta: [NEG].[PRES].[CONT].[EP] [dormir] [NEG] (Não estou dormindo)
+    Pergunta: [PRES].[CONST] [dormir] [você]? (Você está dormindo?)
+    Resposta: [NEG] [PRES].[CONST].[EP] [dormir] [NEG] (Não estou dormindo)
 
 #### 4.2.3 Considerações:
 
@@ -463,11 +461,11 @@ O sistema de negação permite duas formas principais: negação do verbo e nega
 
 #### 4.7.1 Perguntas Sim/Não
 Estrutura: [TEMPO].[ASPECTO] [VERBO] [SUJEITO] ?
-Exemplo: [PRES].[CONT] [DORMIR] [VOCÊ] ? (Está você dormindo?)
+Exemplo: [PRES].[CONST] [DORMIR] [VOCÊ] ? (Está você dormindo?)
 
 #### 4.7.2 Perguntas com Palavras Interrogativas
 Estrutura: [PALAVRA-INTERROGATIVA] [TEMPO].[ASPECTO] [VERBO] [SUJEITO] ?
-Exemplo: [PORQUE] [PRES].[CONT] [DORMIR] [VOCÊ] ? (Por que você está dormindo?)
+Exemplo: [PORQUE] [PRES].[CONST] [DORMIR] [VOCÊ] ? (Por que você está dormindo?)
 
 Observações:
 - A inversão da ordem serve como marcador claro de que a frase é uma pergunta
@@ -497,10 +495,10 @@ Observações:
         - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[EA] [cair] - "Há previsão de chuva amanhã."
 	[EV] - Evidencial de Verdade-Interna (experiência pessoal interna)
         - Indica experiência pessoal interna, como emoções ou sensações.
-        - Exemplo: [Eu] [você] [PRES].[CONT].[EV] [amar] - "Eu te amo (é uma verdade interna, um sentimento meu)"
+        - Exemplo: [Eu] [você] [PRES].[CONST].[EV] [amar] - "Eu te amo (é uma verdade interna, um sentimento meu)"
     [POSS] - De possibilidade
         - Indica possibilidade, sem implicar evidência de qualquer tipo.
-        - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[POT] [cair] - "Pode chover amanhã"
+        - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[POSS] [cair] - "Pode chover amanhã"
 - Incorporada também no sistema numérico.
 
 #### 5.1.2 Aspecto
@@ -516,7 +514,7 @@ Observações:
 	Observação:  Todo futuro é hipotético (a menos que você seja um viajante do tempo), [EP] não é aplicável para futuro.
 
 ### 5.2 Modo Verbal
-- Declarativo: [SUJEITO] [TEMPO][CONTINUIDADE][EVIDENCIAL] [VERBO]
+- Declarativo: [SUJEITO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
 
 - Imperativo: [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
 	"[MODO IMPERATIVO] [você] [dormir]." -> "Vá dormir."
@@ -540,11 +538,11 @@ Observações:
 - Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
 	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
 	Explicação: "Eu escreve *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
-	O instrumentativo é um modo específico de expressão a ferramenta usada para realizar a ação.
+	O instrumentativo é um modo específico de expressão da ferramenta usada para realizar a ação.
 
 ### 5.3 Modalidade
 - Modais com significado único e específico.
-	Explicação: "Can" em inglês pode significar capacidade, permissão ou possibilidade. Em vez disso os modais devem ter um único significado.
+	Explicação: "Can" em inglês pode significar capacidade, permissão ou possibilidade. Em vez disso, os modais devem ter um único significado.
 
 ### 5.4 Conceitos Específicos
 #### 5.4.1 Distinção entre 'Ser' e 'Estar'
@@ -554,10 +552,10 @@ Observações:
    - Indica características permanentes, essenciais ou de longa duração
    - Exemplo: [Eu] [alto] [PRES].[NEUT].[EP] [ser] - "Eu sou alto"
 
-2. Equivalente a "Estar" - [PRES].[CONT].[EV] [ser]
+2. Equivalente a "Estar" - [PRES].[CONST].[EV] [ser]
    - Não usa o aspecto Neutro [NEUT]
    - Indica estados temporários ou transitórios
-   - Exemplo: [Eu] [feliz] [PRES].[CONT].[EV] [ser] - "Eu estou feliz"
+   - Exemplo: [Eu] [feliz] [PRES].[CONST].[EV] [ser] - "Eu estou feliz"
 
 Casos Especiais:
 - Para enfatizar uma característica muito permanente ou essencial:
@@ -584,9 +582,23 @@ Casos Especiais:
 ### 6.2 Abstrações e Metáforas
 - Esperança: [EV] + [TEMPO FUTURO] (substantivado).
 - Plano: [EI] + [TEMPO FUTURO] (substantivado).
-- "Futuro" e "acima" são palavras semelhantes.
-- "Passado" e "abaixo" são palavras semelhantes.
-- "Presente" e "aqui" são palavras semelhantes.
+
+#### 6.2.1 Tempo e Lugar
+Expressões para tempo e lugar são construídas como se constrói expressõe de tempo na lingua do povo Yanomami:
+    Presente: Hwei Tëhë
+    Estação das chuvas: Maha Tëhë
+    Época das pupunhas: Raxa Tëhë
+
+Nesta conlang, a "localização" temporal e espacial se forma com as parículas usadas para definir os tempos verbais, seguidas de uma partícula que expressa "momento" ou "local".
+
+    "Futuro: [FUT]+[Partícula de momento]
+    "Acima": [FUT]+[Partícula de espaço]
+    
+    "Passado": [PAS]+[Partícula de momento]
+    "Abaixo": [PAS]+[Partícula de espaço]
+
+    "Presente": [PRES]+[Partícula de momento]
+    "Aqui": [PRES]+[Partícula de espaço]
 
 ### 6.3 Verbos Cognitivos
 - Saber: [EP]+[EI] (+ caracteristica de verbo)
