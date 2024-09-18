@@ -1,4 +1,4 @@
-# "Tente Outra Vez" - Tradução Final Revisada para a Conlang
+# "Tente Outra Vez"
 
 ## Estrofe 1
 Original:
@@ -25,7 +25,7 @@ Tradução:
 [água] [viva] [EM] [fonte] [PRES].[CONST].[EP] [estar]
 ([você] [outra] [tentar])
 [você] [dois] [pé] [ponte] [PROP] [cruzar] [PRES].[CONST].[EV] [ter]
-[PRES].[NEUTR].[EV] [NEG] [acabar] [NEG], [não], [não]
+[PRES].[PERF].[EV] [NEG] [acabar] [NEG], [não], [não]
 
 ## Estrofe 3
 Original:
@@ -63,7 +63,7 @@ Tradução:
 [querer] ([querer])
 [sincero] [ser] [e] [profundo] [desejar] [PRES].[NEUTR].[EP] [bastar]
 [você] [mundo] [capaz] [PROP] [sacudir] [FUT].[PERF].[EV] [ser]
-[ir]! [outra] [tentar]
+[ir]! [outra] [vez] [tentar]
 
 ## Estrofe 6
 Original:
@@ -75,6 +75,6 @@ Tente outra vez
 Tradução:
 [tentar] ([tentar])
 [e] [vitória] [perdida] [ser] [NEG] [dizer] [NEG]
-[COND] [INSTR] [batalhas] [vida] [PRES].[NETR].[EP] [viver],
-[CONSEQ] [outra] [tentar]
+[COND] [INSTR] [batalhas] [vida] [PRES].[HAB].[EP] [viver],
+[CONSEQ] [outra] [vez] [tentar]
 

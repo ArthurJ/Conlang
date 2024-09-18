@@ -1,4 +1,4 @@
-# Guia Abrangente da Conlang
+# Guia da Conlang
 
 ## 1. Fonologia e Prosódia
 - A penúltima sílaba é sempre tônica (regra geral da língua).
@@ -27,12 +27,12 @@
 ### 2.4 Adjetivos e Advérbios
 - Características definidoras únicas.
 - Adjetivos são pós-nominais (sucedem o sujeito que qualificam).
-- Adverbios são pré-nominais (precedem o complexo-verbal que modificam).
+- Advérbios são pré-nominais (precedem o complexo-verbal que modificam).
 
 ### 2.5 Artigos
 - Um artigo definido [ART.DEF].
 - Um artigo indefinido [ART.INDEF].
-- Artigos não são obrigatórios se é necessários se a definição do artigo puder ser inferida pelo contexto.
+- Artigos não são obrigatórios se a definição do artigo puder ser inferida pelo contexto.
 
 ### 2.6 Pronomes
 - Variação na segunda pessoa singular para indicar intimidade.
@@ -58,6 +58,7 @@
 	Exemplo: "bom", "superbom", "megabom"
 - Afixo para gerar profissões a partir de verbos.
 	Exemplo: Como no inglês "teach" -> "teacher"
+    O afixo em questão deve ser a palavra para pessoa junto ao verbo.
 
 ### 2.9 Preposições e Locuções Prepositivas
 
@@ -70,7 +71,7 @@
     [contra]
     [de]
     [desde]
-    [para]
+    [para] (destino, destinatário, prazo, "em benefício", "em nome de", resultado)
     [por]
     [perante]
     [sem]
@@ -122,7 +123,8 @@
   Observação: [preocupar] não necessariamente usa partícula reflexiva.
 
 - Imperativos: [MODO IMPERATIVO] precede o sujeito, [PART.REFLEX] mantém sua posição
-  Exemplo: [MODO IMPERATIVO] [Você] [PART.REFLEX] [cuidar]
+  Exemplo:  [MODO IMPERATIVO] [Você] [PART.REFLEX] [cuidar] -> Por favor, se cuide.
+            [Você] [PART.REFLEX] [cuidar] -> Se cuide!
 
 ### 2.11 Partícula de Propósito [PROP]
 
@@ -230,17 +232,21 @@ As construções condicionais na conlang são formadas usando o marcador condici
 
 - A oração condicional (introduzida por [COND]) geralmente vem primeiro.
 - A oração consequente (introduzida por [CONSEQ]) segue a condicional.
+- Verbos em orações condicionais geralmente usam POSS como evidencial.
 - Ambas as orações mantêm a ordem padrão Sujeito-Objeto-Complexo Verbal da língua.
+
 
 #### 2.13.2 Uso com Diferentes Tempos e Aspectos
 - Tanto [COND] quanto [CONSEQ] podem ser usados com diferentes marcadores de tempo e aspecto.
-- Exemplo: [COND] [chuva] [FUT].[PERF].[EI] [cair], [CONSEQ] [eu] [FUT].[PERF].[EI] [NEG] [sair] [NEG]
-  ("Se chover, então eu não sairei")
+- Exemplo: [COND] [chuva] [FUT].[PERF].[POSS] [cair], [CONSEQ] [eu] [NEG] [FUT].[PERF].[EI] [sair] [NEG]
+  ("Se chover, então eu não pretendo sair")
 
 #### 2.13.3 Condicionais Contrafactuais
 - Para condicionais contrafactuais (irreais), usa-se [COND] com marcadores de tempo passado.
-- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[EI] [ter], [CONSEQ] [eu] [PASS].[PERF].[EI] [voar]
-  ("Se eu tivesse asas, então eu teria voado")
+- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ] [eu] [PASS].[PERF].[EI] [voar]
+  ("Se eu tivesse asas, eu teria voado")
+- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ] [eu] [PASS].[IMPERF].[EI] [voar]
+  ("Se eu tivesse asas, eu estaria voando")
 
 #### 2.13.4 Posição Flexível do [CONSEQ]
 - Embora tipicamente [CONSEQ] introduza a oração consequente, em alguns casos pode ser posicionado no meio ou no final da oração para ênfase.
