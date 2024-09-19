@@ -23,6 +23,10 @@
 ### 2.3 Verbos
 - Característica definidora única (similar ao '-as' final em Esperanto).
 - Não há declinações.
+- A língua favorece construções verbais sobre nominais quando possível.
+- Priorize o uso de verbos para expressar ações e estados.
+    Exemplo:
+    "É pena que..." -> "[PRES].[CONST].[EV] [lamentar]" (verbo "lamentar" em vez de "é pena")
 
 ### 2.4 Adjetivos e Advérbios
 - Características definidoras únicas.
@@ -71,6 +75,7 @@
     [contra]
     [de]
     [desde]
+    [FONTE] (mesma função de "segundo" em "João está bem, segundo Maria"; especifica a origem da informação na oração que complementa)
     [para] (destino, destinatário, prazo, "em benefício", "em nome de", resultado)
     [por]
     [perante]
@@ -91,7 +96,10 @@
 #### 2.9.1 Ordem das Palavras com Preposições
 
 - Estrutura básica: [PREPOSIÇÃO] + [SUBSTANTIVO/SINTAGMA NOMINAL]
-- Exemplo: [EM] [TORRE] (na torre), [PARA] [CIDADE] (para a cidade)
+- Exemplos: 
+    [EM] [TORRE] (na torre), [PARA] [CIDADE] (para a cidade)
+    [João] [bem] [PRES][PERF][ET] [ser], [FONTE] [Maria] [E] [José]
+
 
 #### 2.9.2 Preposições em Frases
 
@@ -105,12 +113,15 @@
 
 ### 2.10 Reflexividade e Reciprocidade
 
-- A reflexividade é expressa através de uma partícula reflexiva pré-complexo-verbal: [PART.REFLEX]
-- Estrutura básica: [Sujeito] [Objeto] [PART.REFLEX] [TEMPO].[ASPECTO].[EVIDENCIAL] [verbo]
-- A partícula [PART.REFLEX] precede imediatamente o complexo verbal (marcadores + verbo)
+- A reflexividade é expressa através de partículas reflexivas específicas:
+    [PART.REFLEX.1a] - para primeira pessoa ("me")
+    [PART.REFLEX.2a] - para segunda pessoa ("te")
+    [PART.REFLEX.3a] - para terceira pessoa ("se")
+- Estrutura básica: [Sujeito] [Objeto] [PART.REFLEX.X] [TEMPO].[ASPECTO].[EVIDENCIAL] [verbo]
+- A partícula [PART.REFLEX.X] precede imediatamente o complexo verbal (marcadores + verbo)
 - Exemplos:
-  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX] [PRES].[NEUTR].[EP] [ver]
-  2. "Eles se amam": [Eles] [PART.REFLEX] [PRES].[CONST].[EV] [amar] 
+  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX.1a] [PRES].[NEUTR].[EP] [ver]
+  2. "Eles se amam": [Eles] [PART.REFLEX.3a] [PRES].[CONST].[EV] [amar] 
     Observação: Neste exemplo, cada integrante do grupo apontado ama todos do grupo, para indicar que cada integrante do grupo ama a si mesmo a construção teria de ser diferente.
 
 #### 2.10.1 Interação com Outros Elementos Gramaticais
@@ -174,7 +185,7 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 #### 2.12.1 Função e Uso
 
 - [TOP] é usado para marcar o elemento da frase que serve como o tema principal ou o foco primário da atenção.
-- Aparece imediatamente após o elemento topicalizado.
+- Aparece imediatamente após o elemento topicalizado, sem outras interferências na ordem das palavras.
 - Ajuda a estruturar a informação, destacando o que é mais importante ou central para o discurso atual.
 
 #### 2.12.2 Diretrizes para o Uso Apropriado
@@ -192,7 +203,7 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 #### 2.12.3 Posição na Frase
 
 - Estrutura básica: [Elemento Topicalizado] [TOP] [Resto da Frase]
-- Exemplo: [Liberdade] [TOP] [humano] [para] [essencial] [PRES].[NEUT].[EP] [ser]
+- Exemplo: [Liberdade] [TOP] [para] [humano] [essencial] [PRES].[NEUT].[EP] [ser]
   ("A liberdade é essencial para os humanos")
 
 #### 2.12.4 Interação com Outros Elementos
@@ -453,8 +464,53 @@ O sistema de negação permite duas formas principais: negação do verbo e nega
 - A distinção entre negação e antônimo permanece relevante neste sistema flexível.
 
 ### 4.4 Comparação
-- Comparativos e superlativos com palavra denotativa.
-	ToDo: Explicar
+
+O sistema de comparação na conlang utiliza palavras denotativas específicas para expressar diferentes tipos de comparações. Estas palavras funcionam como marcadores gramaticais que estabelecem relações comparativas entre elementos da frase.
+
+#### 4.4.1 Palavras Denotativas para Comparação:
+- [COMP.EQ] : para igualdade (tão... quanto)
+- [COMP.SUP] : para superioridade (mais... que)
+- [COMP.INF] : para inferioridade (menos... que)
+
+#### 4.4.2 Superlativos:
+- [ART.DEF] [ADJ] [COMP.SUP] : para superlativo positivo (o mais...)
+- [ART.DEF] [ADJ] [COMP.INF] : para superlativo negativo (o menos...)
+
+#### 4.4.3 Estrutura Básica:
+[Objeto A] [Característica] [Palavra Denotativa] [Objeto B] [TEMPO].[ASPECTO].[EVIDENCIAL] [ser/verbo]
+
+#### 4.4.4 Tipos de Comparação:
+
+1. Comparativo de Igualdade:
+      [lua] [brilhante] [COMP.EQ] [sol] [PRES].[NEUT].[EP] [ser]
+      "A lua é tão brilhante quanto o sol."
+
+      [ela] [COMP.EQ] [guepardo] [rápido] [PRES].[HAB].[EP] [correr]
+      "Ela corre tão rápido quanto um guepardo."
+
+      [ele] [eu] [COMP.EQ] [amigo] [PRES].[CONST].[EP] [tratar]
+      "Ele me trata como um amigo."
+
+2. Comparativo de Superioridade:
+   [montanha] [alto] [COMP.SUP] [colina] [PRES].[NEUT].[EP] [ser]
+   "A montanha é mais alta que a colina."
+
+3. Comparativo de Inferioridade:
+   [lago] [profundo] [COMP.INF] [oceano] [PRES].[NEUT].[EP] [ser]
+   "O lago é menos profundo que o oceano."
+
+4. Superlativo Positivo:
+   [montanha] [ART.DEF] [alto] [COMP.SUP] [EM] [região] [PRES].[NEUT].[EP] [ser]
+   "A montanha é a mais alta da região."
+
+5. Superlativo Negativo:
+   [rato] [ART.DEF] [pequeno] [COMP.INF] [EM] [POSV.TEMP] [zoológico] [mamífero] [PRES].[NEUT].[EP] [ser]
+   "O rato é o menor mamífero deste zoológico."
+
+#### 4.4.5 Notas Adicionais:
+- O uso de [ART.DEF] distingue o superlativo do comparativo de superioridade.
+- A estrutura mantém a ordem Sujeito-Objeto-Complexo Verbal da conlang.
+- Para ações, o verbo principal substitui 'ser' e vem ao final da frase.
 
 ### 4.5 Pluralização
 - Plural simples: palavra modificadora separada.
@@ -490,20 +546,21 @@ Observações:
 #### 5.1.1 Evidencialidade
 - Marcadores: 
 	[EP] - Evidencial Presencial
-        - Indica observação direta ou experiência pessoal.
+        - Indica observação direta ou experiência pessoal (empírica).
         - Exemplo: [Eu] [chuva] [PASS].[PERF].[EP] [ver] - "Eu vi a chuva (com meus próprios olhos)"
         - Exemplo: [Chuva] [PASS].[PERF].[EP] [cair] - "Eu presenciei a chuva"
+        - Obs: Não deve ser usado em contextos hipotéticos (por exemplo, em conjunto com tempo futuro ou no modo subjuntivo).
 	[ET] - Evidencial de Terceiros
         - Indica informação relatada ou ouvida de outras fontes.
-        - Exemplo: [Amigo] [loteria] [PASS].[PERF].[ET] [ganhar] - "Meu amigo ganhou na loteria (alguém me contou)"
+        - Exemplo: [POSV.REL]+[eu] [Amigo] [loteria] [PASS].[PERF].[ET] [ganhar] - "Meu amigo ganhou na loteria (alguém me contou)"
 	[EI] - Evidencial de Inferência
         - Indica dedução lógica ou entendimento baseado no que se sabe.
-        - Exemplo: [Chão] [molhado] [PRES].[PERF].[EP] [ser], [chuva] [PASS].[PERF].[EI] [cair] - "O chão está molhado (eu vejo), então deve ter chovido (eu inferi isso)"
+        - Exemplo: [Chão] [molhado] [PRES].[PERF].[EP] [ser], [chuva] [PASS].[PERF].[EI] [cair] - "O chão está molhado (eu vejo), deve ter chovido (eu inferi isso)"
 	[EA] - Evidencial Aprendido
         - Indica conhecimento adquirido de fontes socialmente aceitas ou mutuamente confiáveis.
         - Exemplo: [Terra] [sol] [em torno] [PRES].[HAB].[EA] [girar] - "A Terra gira em torno do sol (aprendi isso, é um fato científico)"
         - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[EA] [cair] - "Há previsão de chuva amanhã."
-	[EV] - Evidencial de Verdade-Interna (experiência pessoal interna)
+	[EV] - Evidencial de Verdade-Interna (experiência pessoal interna, subjetiva e/ou inacessível para os outros)
         - Indica experiência pessoal interna, como emoções ou sensações.
         - Exemplo: [Eu] [você] [PRES].[CONST].[EV] [amar] - "Eu te amo (é uma verdade interna, um sentimento meu)"
     [POSS] - De possibilidade
@@ -514,10 +571,10 @@ Observações:
 #### 5.1.2 Aspecto
 - Auxiliares para aspecto: 
 	[NEUT] Neutro (permanetente); é o aspecto "zero", pode ser ocultado em contexto cotidiano.
-	[PERF] completo (perfectivo); "Eu soube." 
-	[IMPERF] incompleto (imperfectivo)
-	[CONST] constante (progressivo/em progresso)
-	[HAB] habitual (recorrente)
+	[PERF] completo (perfectivo); "Eu soube.", "Eu sei." 
+	[IMPERF] incompleto (imperfectivo); "Eu fazia."
+	[CONST] constante (progressivo/em progresso); "Eu estou melhorando.", "Eu estou fazendo."
+	[HAB] habitual (recorrente); "Eu costumo correr diariamente."
 
 #### 5.1.3 Tempo
 - Auxiliares para presente [PRES], passado [PASS] e futuro [FUT].
@@ -533,10 +590,10 @@ Observações:
      - Ordens (diretas): [SUJEITO] [TEMPO (opcional)] [VERBO]
      - Pedidos (corteses): [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
 	
-    "[MODO IMPERATIVO] [dormir]." -> "Vá dormir, por favor"
+    "[MODO IMPERATIVO] [dormir]." -> "Durma, por favor"
     "[MODO IMPERATIVO] [você] [dormir]." -> "Vá dormir, por favor"
 	"[você] [agora] [dormir]." -> "Vá dormir agora."
-    Observação: Não se usa marcador de aspecto no modo imperativo, e em geral o sujeito é opcional.
+    Observação: Não se usa marcador de aspecto no modo imperativo, e o sujeito é opcional se o contexto permitir.
 	
 #### 5.2.3
 - Hortativo: [MODO HORTATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
