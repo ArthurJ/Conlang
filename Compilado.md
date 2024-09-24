@@ -537,6 +537,33 @@ Observações:
 - A inversão da ordem serve como marcador claro de que a frase é uma pergunta
 - O objeto, quando presente, segue o sujeito na estrutura da pergunta
 
+### 4.8 Convenções Narrativas
+#### 4.8.1 Omissão de Evidenciais em Ficção
+
+Em narrativas ficcionais, os evidenciais podem ser parcial ou completamente omitidos.
+Esta convenção serve para:
+- Distinguir claramente o conteúdo ficcional do factual.
+- Simplificar a narração de histórias ficcionais.
+- Criar um marcador implícito de ficcionalidade na própria estrutura da língua.
+
+Regras de aplicação:
+
+Esta omissão define os textos como explicitamente ficcionais.
+Em diálogos dentro de obras ficcionais, os personagens ainda usam evidenciais normalmente.
+A aplicação dessa regra é opcional.
+Não se aplica a textos factuais ou comunicação cotidiana.
+
+Exemplos:
+
+Narrativa ficcional (sem evidenciais):
+[Sol] [horizonte] [PASS].[PERF] [nascer]. [Herói] [espada] [PASS].[PERF] [erguer].
+"O sol nasceu no horizonte. O herói ergueu sua espada."
+Narrativa factual (com evidenciais):
+[Sol] [horizonte] [PASS].[PERF].[EP] [nascer]. [Soldado] [bandeira] [PASS].[PERF].[ET] [erguer].
+"O sol nasceu no horizonte (eu vi). O soldado ergueu a bandeira (me contaram)."
+
+Nota: Esta convenção oferece flexibilidade criativa para autores e narradores, permitindo efeitos narrativos únicos através do uso ou omissão estratégica de evidenciais.
+
 ## 5. Semântica e Pragmática
 
 ### 5.1 Marcador Composto e Complexo-Verbal
