@@ -641,7 +641,7 @@ Nota: Esta convenção oferece flexibilidade criativa para autores e narradores,
 #### 5.2.5
 - Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
 	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
-	Explicação: "Eu escreve *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
+	Explicação: "Eu escrevo *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
 	O instrumentativo é um modo específico de expressão da ferramenta usada para realizar a ação.
 
 ### 5.3 Modalidade
@@ -669,7 +669,7 @@ Casos Especiais:
   [Eu] [casado] [PRES].[PERF].[EP] [ser] - "Eu estou casado" (implica que o casamento é recente)
 
 - Para hábitos ou ações regulares:
-  [Eu] [correr] [PRES].[HAB].[EP] [fazer] - "Eu corro (habitualmente)"
+  [Eu] [PRES].[HAB].[EP] [correr] - "Eu corro (habitualmente)"
 
 #### 5.4.2 Distinção clara entre negação e antônimo.
 - Explicação: Há conceitos que não admitem estado neutro, então sua negação é seu antônimo, mas nem sempre isso se aplica. A ideia é que criar antônimos seja sempre um processo regular, e o mesmo vale para negação. Com o entendimento que negação não implica em antônimo.
