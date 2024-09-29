@@ -564,6 +564,47 @@ Narrativa factual (com evidenciais):
 
 Nota: Esta convenção oferece flexibilidade criativa para autores e narradores, permitindo efeitos narrativos únicos através do uso ou omissão estratégica de evidenciais.
 
+### 4.9 Voz Média e Construções Intransitivas
+
+#### 4.9 Partícula [MED] (Médio/Medial)
+
+A partícula [MED] é usada para expressar a voz média ou para criar construções intransitivas a partir de verbos transitivos. Esta partícula permite focar na ação ou no estado resultante, sem enfatizar o agente.
+
+Características principais:
+
+1. Posição: [MED] é colocada imediatamente antes do complexo verbal.
+2. Função: Transforma verbos transitivos em intransitivos ou expressa ações que afetam o sujeito.
+3. Compatibilidade: Mantém-se compatível com o sistema de evidencialidade e aspecto.
+
+Estrutura básica:
+[Sujeito] [Outros elementos] [MED] [Complexo-Verbal]
+
+Exemplos de uso:
+
+1. Ação reflexiva ou espontânea:
+   [Porta] [MED] [PASS].[PERF].[EP] [abrir]
+   "A porta se abriu"
+
+2. Transformação de verbo transitivo em intransitivo:
+   [Vidro] [MED] [PASS].[PERF].[EP] [quebrar]
+   "O vidro quebrou-se"
+
+3. Estado resultante:
+   [Situação] [MED] [PRES].[CONST].[EI] [melhorar]
+   "A situação está melhorando (por si só)"
+
+4. Com evidencialidade:
+   [Notícia] [MED] [PASS].[PERF].[ET] [espalhar]
+   "A notícia se espalhou (conforme relatado)"
+
+5. Combinação com outras partículas:
+   [TOP] [Economia] [MED] [PRES].[CONST].[EI] [recuperar]
+   "A economia, está se recuperando."
+
+Notas adicionais:
+- [MED] pode ser usado para expressar ações que em algumas línguas seriam expressas pela voz passiva, focando no resultado da ação sem mencionar o agente.
+- Em alguns casos, [MED] pode implicar que a ação ocorre de forma natural ou espontânea.
+
 ## 5. Semântica e Pragmática
 
 ### 5.1 Marcador Composto e Complexo-Verbal
