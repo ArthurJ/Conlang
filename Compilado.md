@@ -652,24 +652,38 @@ Notas adicionais:
 #### 5.2.1 Declarativo
     [SUJEITO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
 
-#### 5.2.2  Imperativo
-    O modo imperativo se distingue entre ordens diretas e pedidos.
+#### 5.2.2 Hortativo e Imperativo
+O Imperativo é sobre ação direta, enquanto o Hortativo é sobre criar condições para ação.
 
-     - Ordens (diretas): [SUJEITO] [TEMPO (opcional)] [VERBO]
-     - Pedidos (corteses): [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
-	
+Imperativo:
+- Foca na ação imediata
+- Pode ser direto (ordem) ou cortês (pedido)
+- O falante espera que o ouvinte realize a ação
+- Exemplo: "Durma" ou "Por favor, durma"
+
+Hortativo:
+- Foca em facilitar ou permitir uma ação
+- Implica em criar circunstâncias favoráveis
+- O falante sugere ou encoraja, mas não ordena diretamente
+- Exemplo: "Deixe-a dormir" ou "Vamos criar condições para que ela durma"
+
+Em essência, o Imperativo diz "Faça isso", enquanto o Hortativo diz "Vamos tornar isso possível".
+
+##### 5.2.2.1
+- Hortativo: [MODO HORTATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
+	"[MODO HORTATIVO] [ela] [dormir]" -> "Deixe ela dormir."
+
+##### 5.2.2.2  Imperativo
+O modo imperativo se distingue entre ordens diretas e pedidos.
+	- Ordens (diretas): [SUJEITO] [TEMPO (opcional)] [VERBO]
+	- Pedidos (corteses): [MODO IMPERATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
     "[MODO IMPERATIVO] [dormir]." -> "Durma, por favor"
     "[MODO IMPERATIVO] [você] [dormir]." -> "Vá dormir, por favor"
 	"[você] [agora] [dormir]." -> "Vá dormir agora."
-    Observação: Não se usa marcador de aspecto no modo imperativo, e o sujeito é opcional se o contexto permitir.
+    Observação: 
+    	- O sujeito é opcional se o contexto permitir.
 	
 #### 5.2.3
-- Hortativo: [MODO HORTATIVO] [SUJEITO] [TEMPO (opcional)] [VERBO]
-	"[MODO HORTATIVO] [ela] [dormir]" -> "Deixe ela dormir."
-	Observação: Esse modo tem significado próximo a "preparar", "ajudar", "tornar possível", "não impedir".
-    Observação: Não se usa marcador de aspecto no modo hortativo.
-	
-#### 5.2.4
 - Subjuntivo: [MODO SUBJUNTIVO] [SUJEITO] [TEMPO (opcional)][EVIDENCIAL] [VERBO]
 	- [EI] (planejado)
 	- [EV] (esperança)
@@ -679,7 +693,7 @@ Notas adicionais:
 	Observação: Subjuntivo é hipotético, [EP] não é aplicável para subjuntivo.
     Observação: Não se usa marcador de aspecto no modo subjuntivo.
 	
-#### 5.2.5
+#### 5.2.4
 - Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
 	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
 	Explicação: "Eu escrevo *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
