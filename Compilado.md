@@ -6,10 +6,10 @@
 
 ## 2. Morfologia
 ### 2.1 Ordem da oração:
-	- Sujeito-Objeto-(Complexo-Verbal)
+- Sujeito-Objeto-(Complexo-Verbal)
     Observação: Complexo-Verbal se refere a um marcador-composto + verbo.
-    - Verbos auxiliares não recebem marcador-composto, apenas o verbo principal é acompanhado do marcador-composto.
-    - O complexo-verbal, caso presente, é sempre o último elemento da oração.
+- Verbos auxiliares não recebem marcador-composto, apenas o verbo principal é acompanhado do marcador-composto.
+- O complexo-verbal, caso presente, é sempre o último elemento da oração.
 	 
 ### 2.2 Substantivos
 - Geralmente derivados de verbos.
@@ -24,7 +24,7 @@
 - Característica definidora única (similar ao '-as' final em Esperanto).
 - Não há declinações.
 - A língua favorece construções verbais sobre nominais quando possível.
-- Priorize o uso de verbos para expressar ações e estados.
+- Priorize o uso de verbos para expressar ações e estados quando for opção.
     Exemplo:
     "É pena que..." -> "[PRES].[CONST].[EV] [lamentar]" (verbo "lamentar" em vez de "é pena")
 
@@ -226,13 +226,13 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 #### 2.12.6 Exemplos de Uso Correto
 
 1. [Amor] [TOP] [vida] [em] [força] [mais poderosa] [PRES].[NEUT].[EV] [ser]
-   ("O amor é a força mais poderosa na vida")
+   ("O AMOR é a força mais poderosa na vida")
 
 2. [Ontem] [chuva] [PASS].[PERF].[EP] [cair], [hoje] [TOP] [sol] [PRES].[CONST].[EP] [brilhar]
-   ("Ontem choveu, mas hoje o sol está brilhando")
+   ("Ontem choveu, mas hoje... hoje o sol está brilhando")
 
 3. [Língua] [TOP] [cultura] [de] [espelho] [PRES].[NEUT].[EA] [ser]
-   ("A língua é um espelho da cultura")
+   ("A língua; ela é um espelho da cultura")
 
 ### 2.13 Construções Condicionais
 
@@ -242,26 +242,42 @@ As construções condicionais na conlang são formadas usando o marcador condici
 [COND] [oração condicional], [CONSEQ] [oração consequente]
 
 - A oração condicional (introduzida por [COND]) geralmente vem primeiro.
-- A oração consequente (introduzida por [CONSEQ]) segue a condicional.
+- A oração consequente (introduzida por [CONSEQ.LOG] ou [CONSEQ.CONTRA]) segue a condicional.
 - Verbos em orações condicionais geralmente usam POSS como evidencial.
 - Ambas as orações mantêm a ordem padrão Sujeito-Objeto-Complexo Verbal da língua.
 
 
 #### 2.13.2 Uso com Diferentes Tempos e Aspectos
 - Tanto [COND] quanto [CONSEQ] podem ser usados com diferentes marcadores de tempo e aspecto.
-- Exemplo: [COND] [chuva] [FUT].[PERF].[POSS] [cair], [CONSEQ] [eu] [NEG] [FUT].[PERF].[EI] [sair] [NEG]
+- Exemplo: [COND] [chuva] [FUT].[PERF].[POSS] [cair], [CONSEQ.LOG] [eu] [NEG] [FUT].[PERF].[EI] [sair] [NEG]
   ("Se chover, então eu não pretendo sair")
 
 #### 2.13.3 Condicionais Contrafactuais
 - Para condicionais contrafactuais (irreais), usa-se [COND] com marcadores de tempo passado.
-- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ] [eu] [PASS].[PERF].[EI] [voar]
+- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[PERF].[EI] [voar]
   ("Se eu tivesse asas, eu teria voado")
-- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ] [eu] [PASS].[IMPERF].[EI] [voar]
+- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[IMPERF].[EI] [voar]
   ("Se eu tivesse asas, eu estaria voando")
 
 #### 2.13.4 Posição Flexível do [CONSEQ]
 - Embora tipicamente [CONSEQ] introduza a oração consequente, em alguns casos pode ser posicionado no meio ou no final da oração para ênfase.
-- Exemplo: [eu], [CONSEQ], [FUT].[PERF].[EI] [NEG] [sair] [NEG] ("Eu, então, não sairei")
+- Exemplo: [eu], [CONSEQ.CONTRA], [FUT].[PERF].[EI] [NEG] [sair] [NEG] ("Eu, então, não sairei")
+
+#### 2.13.5 Tipos de [CONSEQ]
+- [CONSEQ.LOG] para consequências lógicas
+- [CONSEQ.CONTRA] para consequências contra-intuitivas
+
+Exemplos:
+Consequência Lógica:
+[COND] [chuva] [FUT].[PERF].[POSS] [cair], [CONSEQ.LOG] [chão] [molhado] [FUT].[PERF].[EI] [ser]
+"Se chover, logicamente o chão ficará molhado."
+
+Consequência Contra-intuitiva:
+[COND] [pessoa] [mais] [opções] [FUT].[PERF].[POSS] [ter], [CONSEQ.CONTRA] [decisão] [MED] [FUT].[PERF].[EA] [dificultar]
+"Se uma pessoa tiver mais opções, contra-intuitivamente, tomar uma decisão se tornará mais difícil."
+
+[COND] [sol] [EM] [inverno][Partícula de momento] [PRES].[CONST].[EP] [brilhar], [CONSEQ.CONTRA] [temperatura] [MED] [PRES].[HAB].[EA] [diminuir]
+"Mesmo se o sol está brilhando no inverno, contra-intuitivamente, as temperaturas tendem a diminuir."
 
 ### 2.14 Partícula de Simultaneidade [SIM]
 
@@ -288,7 +304,7 @@ As construções condicionais na conlang são formadas usando o marcador condici
 ##### 2.14.2.3 Negação
 - Em construções negativas de ações simultâneas, a partícula [SIM] é geralmente omitida. A negação por si só implica que a ação não ocorreu simultaneamente com a ação principal.
 - Exemplo:
-    [Ele] [NEG] [sorrir] [NEG] [PASS.PERF.EP] [entrar]
+    [Ele] [NEG] [sorrir] [NEG] [PASS].[PERF].[EP] [entrar]
     ("Ele entrou sem sorrir")
 
 ##### 2.14.2.4 Perguntas
@@ -566,8 +582,6 @@ Nota: Esta convenção oferece flexibilidade criativa para autores e narradores,
 
 ### 4.9 Voz Média e Construções Intransitivas
 
-#### 4.9 Partícula [MED] (Médio/Medial)
-
 A partícula [MED] é usada para expressar a voz média ou para criar construções intransitivas a partir de verbos transitivos. Esta partícula permite focar na ação ou no estado resultante, sem enfatizar o agente.
 
 Características principais:
@@ -650,7 +664,13 @@ Notas adicionais:
 
 ### 5.2 Modo Verbal
 #### 5.2.1 Declarativo
-    [SUJEITO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
+[SUJEITO] [PREDICADO] [TEMPO][ASPECTO][EVIDENCIAL] [VERBO]
+
+#### 5.2.1.1
+- Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
+	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
+	Explicação: "Eu escrevo *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
+	O instrumentativo é um modo específico de expressão da ferramenta usada para realizar a ação.
 
 #### 5.2.2 Hortativo e Imperativo
 O Imperativo é sobre ação direta, enquanto o Hortativo é sobre criar condições para ação.
@@ -692,12 +712,6 @@ O modo imperativo se distingue entre ordens diretas e pedidos.
 	"[MODO SUBJUNTIVO] ela [TEMPO].[EV] dormir." -> "Espero que ela durma."
 	Observação: Subjuntivo é hipotético, [EP] não é aplicável para subjuntivo.
     Observação: Não se usa marcador de aspecto no modo subjuntivo.
-	
-#### 5.2.4
-- Instrumentativo: [SUJEITO] [INSTR] [PREDICADO] [MARCADOR COMPOSTO] [VERBO] 
-	"[Eu] [(INSTR) caneta] [PASS].[PERF].[EP] [escrever]". -> "Eu escrevo com a caneta."
-	Explicação: "Eu escrevo *com* a caneta" em português não necessariamente implica que uso a caneta para escrever, e sim que a caneta está próxima ou em meu poder enquanto escrevo... e posso estar usando outro instrumento para escrever.
-	O instrumentativo é um modo específico de expressão da ferramenta usada para realizar a ação.
 
 ### 5.3 Modalidade
 - Modais com significado único e específico.
@@ -729,9 +743,6 @@ Casos Especiais:
 #### 5.4.2 Distinção clara entre negação e antônimo.
 - Explicação: Há conceitos que não admitem estado neutro, então sua negação é seu antônimo, mas nem sempre isso se aplica. A ideia é que criar antônimos seja sempre um processo regular, e o mesmo vale para negação. Com o entendimento que negação não implica em antônimo.
 
-#### 5.4.3 Conectores específicos para consequências lógicas, ilógicas ou contra-intuitivas.
-- Poucos conectores de cada tipo.
-
 ## 6. Léxico
 
 ### 6.1 Formação de Palavras
@@ -750,14 +761,14 @@ Expressões para tempo e lugar são construídas como se constrói expressõe de
 
 Nesta conlang, a "localização" temporal e espacial se forma com as parículas usadas para definir os tempos verbais, seguidas de uma partícula que expressa "momento" ou "local".
 
-    "Futuro: [FUT]+[Partícula de momento]
-    "Acima": [FUT]+[Partícula de espaço]
-    
-    "Passado": [PAS]+[Partícula de momento]
-    "Abaixo": [PAS]+[Partícula de espaço]
+"Futuro: [FUT]+[Partícula de momento]
+"Acima": [FUT]+[Partícula de espaço]
 
-    "Presente": [PRES]+[Partícula de momento]
-    "Aqui": [PRES]+[Partícula de espaço]
+"Passado": [PAS]+[Partícula de momento]
+"Abaixo": [PAS]+[Partícula de espaço]
+
+"Presente": [PRES]+[Partícula de momento]
+"Aqui": [PRES]+[Partícula de espaço]
 
 ### 6.3 Verbos Cognitivos
 - Saber: [EP]+[EI] (+ caracteristica de verbo)
