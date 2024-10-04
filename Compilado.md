@@ -90,7 +90,7 @@
     - Por palavras denotativas para comparações;
     - Uso do aspecto [HAB] para expressar periodicidade;
     - Frases completas distâncias e intervalos 
-        Exemplo: "A dois quilômetros daqui" -> "[2] [quilômetro] [distante] [PRES].[NEUT].[EP] [ser]".
+        Exemplo: "A dois quilômetros daqui" -> "[2] [quilômetro] [distante] [PRES].[IMUT].[EP] [ser]".
 
 
 #### 2.9.1 Ordem das Palavras com Preposições
@@ -120,7 +120,7 @@
 - Estrutura básica: [Sujeito] [Objeto] [PART.REFLEX.X] [TEMPO].[ASPECTO].[EVIDENCIAL] [verbo]
 - A partícula [PART.REFLEX.X] precede imediatamente o complexo verbal (marcadores + verbo)
 - Exemplos:
-  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX.1a] [PRES].[NEUTR].[EP] [ver]
+  1. "Eu uso o espelho para me ver": [Eu] [INSTR] [espelho] [PART.REFLEX.1a] [PRES].[IMUT].[EP] [ver]
   2. "Eles se amam": [Eles] [PART.REFLEX.3a] [PRES].[CONST].[EV] [amar] 
     Observação: Neste exemplo, cada integrante do grupo apontado ama todos do grupo, para indicar que cada integrante do grupo ama a si mesmo a construção teria de ser diferente.
 
@@ -151,7 +151,7 @@ A partícula [PROP] é usada para expressar propósito ou intenção em uma aç�
    "Ele comprou um livro (eu vi) provavelmente para aprender (eu inferi)."
 
 2. Sem evidencialidade:
-    [Você] [2] [pés] [ter] [PROP] [cruzar] [PRES].[NEUTR].[EV] [ter]
+    [Você] [2] [pés] [ter] [PROP] [cruzar] [PRES].[IMUT].[EV] [ter]
     "Eu acredito que você tem 2 pés para cruzar a ponte." (como ter é [EV], PROP não precisa de evidencialidade)
 
 3. Múltiplos Propósitos:
@@ -203,7 +203,7 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 #### 2.12.3 Posição na Frase
 
 - Estrutura básica: [Elemento Topicalizado] [TOP] [Resto da Frase]
-- Exemplo: [Liberdade] [TOP] [para] [humano] [essencial] [PRES].[NEUT].[EP] [ser]
+- Exemplo: [Liberdade] [TOP] [para] [humano] [essencial] [PRES].[IMUT].[EP] [ser]
   ("A liberdade é essencial para os humanos")
 
 #### 2.12.4 Interação com Outros Elementos
@@ -225,13 +225,13 @@ O marcador de tópico [TOP] é usado para enfatizar o tema principal de uma fras
 
 #### 2.12.6 Exemplos de Uso Correto
 
-1. [Amor] [TOP] [vida] [em] [força] [mais poderosa] [PRES].[NEUT].[EV] [ser]
+1. [Amor] [TOP] [vida] [em] [força] [mais poderosa] [PRES].[IMUT].[EV] [ser]
    ("O AMOR é a força mais poderosa na vida")
 
 2. [Ontem] [chuva] [PASS].[PERF].[EP] [cair], [hoje] [TOP] [sol] [PRES].[CONST].[EP] [brilhar]
    ("Ontem choveu, mas hoje... hoje o sol está brilhando")
 
-3. [Língua] [TOP] [cultura] [de] [espelho] [PRES].[NEUT].[EA] [ser]
+3. [Língua] [TOP] [cultura] [de] [espelho] [PRES].[IMUT].[EA] [ser]
    ("A língua; ela é um espelho da cultura")
 
 ### 2.13 Construções Condicionais
@@ -254,9 +254,9 @@ As construções condicionais na conlang são formadas usando o marcador condici
 
 #### 2.13.3 Condicionais Contrafactuais
 - Para condicionais contrafactuais (irreais), usa-se [COND] com marcadores de tempo passado.
-- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[PERF].[EI] [voar]
+- Exemplo: [COND] [eu] [asas] [PASS].[IMUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[PERF].[EI] [voar]
   ("Se eu tivesse asas, eu teria voado")
-- Exemplo: [COND] [eu] [asas] [PASS].[NEUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[IMPERF].[EI] [voar]
+- Exemplo: [COND] [eu] [asas] [PASS].[IMUT].[POSS] [ter], [CONSEQ.LOG] [eu] [PASS].[IMPERF].[EI] [voar]
   ("Se eu tivesse asas, eu estaria voando")
 
 #### 2.13.4 Posição Flexível do [CONSEQ]
@@ -498,7 +498,7 @@ O sistema de comparação na conlang utiliza palavras denotativas específicas p
 #### 4.4.4 Tipos de Comparação:
 
 1. Comparativo de Igualdade:
-      [lua] [brilhante] [COMP.EQ] [sol] [PRES].[NEUT].[EP] [ser]
+      [lua] [brilhante] [COMP.EQ] [sol] [PRES].[IMUT].[EP] [ser]
       "A lua é tão brilhante quanto o sol."
 
       [ela] [COMP.EQ] [guepardo] [rápido] [PRES].[HAB].[EP] [correr]
@@ -508,19 +508,19 @@ O sistema de comparação na conlang utiliza palavras denotativas específicas p
       "Ele me trata como um amigo."
 
 2. Comparativo de Superioridade:
-   [montanha] [alto] [COMP.SUP] [colina] [PRES].[NEUT].[EP] [ser]
+   [montanha] [alto] [COMP.SUP] [colina] [PRES].[IMUT].[EP] [ser]
    "A montanha é mais alta que a colina."
 
 3. Comparativo de Inferioridade:
-   [lago] [profundo] [COMP.INF] [oceano] [PRES].[NEUT].[EP] [ser]
+   [lago] [profundo] [COMP.INF] [oceano] [PRES].[IMUT].[EP] [ser]
    "O lago é menos profundo que o oceano."
 
 4. Superlativo Positivo:
-   [montanha] [ART.DEF] [alto] [COMP.SUP] [EM] [região] [PRES].[NEUT].[EP] [ser]
+   [montanha] [ART.DEF] [alto] [COMP.SUP] [EM] [região] [PRES].[IMUT].[EP] [ser]
    "A montanha é a mais alta da região."
 
 5. Superlativo Negativo:
-   [rato] [ART.DEF] [pequeno] [COMP.INF] [EM] [POSV.TEMP] [zoológico] [mamífero] [PRES].[NEUT].[EP] [ser]
+   [rato] [ART.DEF] [pequeno] [COMP.INF] [EM] [POSV.TEMP] [zoológico] [mamífero] [PRES].[IMUT].[EP] [ser]
    "O rato é o menor mamífero deste zoológico."
 
 #### 4.4.5 Notas Adicionais:
@@ -652,7 +652,7 @@ Notas adicionais:
 
 #### 5.1.2 Aspecto
 - Auxiliares para aspecto: 
-	[NEUT] Neutro (permanetente); é o aspecto "imutável".
+	[IMUT] imutável (permanetente); "O céu é azul", "A gravidade é a causa das órbitas".
 	[PERF] completo (perfectivo); "Eu soube.", "Eu sei.", "Eu fiz." . 
 	[IMPERF] incompleto (imperfectivo); "Eu fazia."
 	[CONST] constante (progressivo/em progresso); "Eu estou melhorando.", "Eu estou fazendo."
@@ -720,19 +720,19 @@ O modo imperativo se distingue entre ordens diretas e pedidos.
 ### 5.4 Conceitos Específicos
 #### 5.4.1 Distinção entre 'Ser' e 'Estar'
 
-1. Equivalente a "Ser" - [PRES].[NEUT].[EV] [ser]
-   - Usa o aspecto Neutro [NEUT]
+1. Equivalente a "Ser" - [PRES].[IMUT].[EV] [ser]
+   - Usa o aspecto Neutro [IMUT]
    - Indica características permanentes, essenciais ou de longa duração
-   - Exemplo: [Eu] [alto] [PRES].[NEUT].[EP] [ser] - "Eu sou alto"
+   - Exemplo: [Eu] [alto] [PRES].[IMUT].[EP] [ser] - "Eu sou alto"
 
 2. Equivalente a "Estar" - [PRES].[CONST].[EV] [ser]
-   - Não usa o aspecto Neutro [NEUT]
+   - Não usa o aspecto Neutro [IMUT]
    - Indica estados temporários ou transitórios
    - Exemplo: [Eu] [feliz] [PRES].[CONST].[EV] [ser] - "Eu estou feliz"
 
 Casos Especiais:
 - Para enfatizar uma característica muito permanente ou essencial:
-  [Eu] [humano] [PRES].[NEUT].[EA] [ser] - "Eu sou humano" (fato essencial)
+  [Eu] [humano] [PRES].[IMUT].[EA] [ser] - "Eu sou humano" (fato essencial)
 
 - Para estados que começaram recentemente:
   [Eu] [casado] [PRES].[PERF].[EP] [ser] - "Eu estou casado" (implica que o casamento é recente)
