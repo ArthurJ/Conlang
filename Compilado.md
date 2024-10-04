@@ -652,8 +652,8 @@ Notas adicionais:
 
 #### 5.1.2 Aspecto
 - Auxiliares para aspecto: 
-	[NEUT] Neutro (permanetente); é o aspecto "zero", pode ser ocultado em contexto cotidiano.
-	[PERF] completo (perfectivo); "Eu soube.", "Eu sei." 
+	[NEUT] Neutro (permanetente); é o aspecto "imutável".
+	[PERF] completo (perfectivo); "Eu soube.", "Eu sei.", "Eu fiz." . 
 	[IMPERF] incompleto (imperfectivo); "Eu fazia."
 	[CONST] constante (progressivo/em progresso); "Eu estou melhorando.", "Eu estou fazendo."
 	[HAB] habitual (recorrente); "Eu costumo correr diariamente."
