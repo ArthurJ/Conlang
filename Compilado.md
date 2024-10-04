@@ -728,7 +728,7 @@ O modo imperativo se distingue entre ordens diretas e pedidos.
 2. Equivalente a "Estar" - [PRES].[CONST].[EV] [ser]
    - Não usa o aspecto Neutro [IMUT]
    - Indica estados temporários ou transitórios
-   - Exemplo: [Eu] [feliz] [PRES].[CONST].[EV] [ser] - "Eu estou feliz"
+   - Exemplo: [Eu] [feliz] [PRES].[PERF].[EV] [ser] - "Eu estou feliz"
 
 Casos Especiais:
 - Para enfatizar uma característica muito permanente ou essencial:
