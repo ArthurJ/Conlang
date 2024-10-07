@@ -273,10 +273,10 @@ Consequência Lógica:
 "Se chover, logicamente o chão ficará molhado."
 
 Consequência Contra-intuitiva:
-[COND] [pessoa] [mais] [opções] [FUT].[PERF].[POSS] [ter], [CONSEQ.CONTRA] [decisão] [PASS] [FUT].[PERF].[EA] [dificultar]
+[COND] [pessoa] [mais] [opções] [FUT].[PERF].[POSS] [ter], [CONSEQ.CONTRA] [decisão] [PASSV] [FUT].[PERF].[EA] [dificultar]
 "Se uma pessoa tiver mais opções, contra-intuitivamente, tomar uma decisão se tornará mais difícil."
 
-[COND] [sol] [EM] [inverno][Partícula de momento] [PRES].[CONST].[EP] [brilhar], [CONSEQ.CONTRA] [temperatura] [PASS] [PRES].[HAB].[EA] [diminuir]
+[COND] [sol] [EM] [inverno][Partícula de momento] [PRES].[CONST].[EP] [brilhar], [CONSEQ.CONTRA] [temperatura] [PASSV] [PRES].[HAB].[EA] [diminuir]
 "Mesmo se o sol está brilhando no inverno, contra-intuitivamente, as temperaturas tendem a diminuir."
 
 ### 2.14 Partícula de Simultaneidade [SIM]
