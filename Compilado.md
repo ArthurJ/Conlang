@@ -68,21 +68,21 @@
 
 - As preposições na conlang são prepostas, ou seja, vêm antes do substantivo ou sintagma nominal que modificam.
 - Lista de preposições: 
-    [ante]
-    [até]
-    [após]
-    [com]
-    [contra]
-    [de]
-    [desde]
-    [FONTE] (mesma função de "segundo" em "João está bem, segundo Maria"; especifica a origem da informação na oração que complementa)
-    [para] (destino, destinatário, prazo, "em benefício", "em nome de", resultado)
-    [por]
-    [perante]
-    [sem]
-    [sob]
-    [sobre]
-    [trás]
+    - [ante]
+    - [até]
+    - [após]
+    - [com]
+    - [contra]
+    - [de]
+    - [desde]
+    - [FONTE] (mesma função de "segundo" em "João está bem, segundo Maria"; especifica a origem da informação na oração que complementa)
+    - [para] (destino, destinatário, prazo, "em benefício", "em nome de", resultado)
+    - [por]
+    - [perante]
+    - [sem]
+    - [sob]
+    - [sobre]
+    - [trás]
 - A função exercida pela preposição "a" do português é realizada por:
     - Preposição [para] para destino;
     - Preposição [por] para proporções;
@@ -369,6 +369,43 @@ A partícula [VIA] é usada para expressar o meio, veículo ou método pelo qual
    [Crianças] [VIA] [jogos] [PRES].[HAB].[EP] [aprender]
    "As crianças aprendem através de jogos."
 
+### 2.16 Ausência de Declinações
+
+- Não há declinações para gerar concordância verbal ou nominal.
+- Os substantivos e adjetivos mantêm sua forma independentemente de sua função na frase.
+- A ordem das palavras e as partículas gramaticais são responsáveis por indicar as relações sintáticas.
+
+Exemplos:
+1. [Gato] [PRES].[HAB].[EP] [dormir] - "O gato dorme"
+2. [Gato] [PLURAL] [PRES].[HAB].[EP] [dormir] - "Os gatos dormem"
+3. [Eu] [gato] [PRES].[PERF].[EP] [ver] - "Eu vejo o gato"
+4. [Eu] [gato] [PLURAL] [PRES].[PERF].[EP] [ver] - "Eu vejo os gatos"
+
+Observação: Note que o verbo "dormir" e "ver" não mudam sua forma, independentemente do sujeito ser singular ou plural. Da mesma forma, "gato" não muda sua forma quando é objeto da frase.
+
+### 2.17 Orações Relativas
+As orações relativas na conlang são introduzidas pela partícula relativa [PART.REL]. Em construções complexas, o artigo definido [ART.DEF] pode ser usado para clarificar a referência.
+
+#### 2.17.1 Estrutura Básica
+[Oração Principal] [PART.REL] [Oração Subordinada]
+
+#### 2.17.2 Uso do Artigo Definido em Orações Relativas Complexas
+Em orações relativas mais complexas, [ART.DEF] pode ser usado para clarificar a referência ao antecedente.
+Estrutura: [Antecedente] [PART.REL] [...] [ART.DEF] [...]
+
+#### 2.17.3 Exemplos
+1. Oração relativa simples:
+[Pessoa] [PART.REL] [livro] [PASS].[PERF].[EP] [escrever] [famoso] [PRES].[IMUT].[EP] [ser]
+"A pessoa que escreveu o livro é famosa"
+
+2. Oração relativa complexa com artigo definido:
+[Pessoa] [PART.REL] [eu] [POSV.PERM] [livro] [PASS].[PERF].[EP] [emprestar] [ART.DEF] [PASS].[PERF].[EP] [devolver]
+"A pessoa para quem eu emprestei meu livro o devolveu"
+
+3. Construção possessiva:
+[Pessoa] [PART.REL] [POSV.PERM] [casa] [vermelho] [PRES].[IMUT].[EP] [ser] [médico] [PRES].[IMUT].[EP] [ser]
+"A pessoa cuja casa é vermelha é médica"
+
 ## 3 Sistema numérico
 
 ### 3.1 Base do Sistema
@@ -627,6 +664,114 @@ Observações:
 - O uso da voz passiva é incomum quando se sabe o agente da ação.
 - Não há voz passiva para verbos intransitivos.
 
+### 4.10 Subordinação e Coordenação de Orações
+
+#### 4.10.1 Subordinação de Orações
+
+A subordinação envolve a conexão de uma oração dependente (subordinada) a uma oração principal. Tipos de orações subordinadas:
+
+1. Orações Relativas (já abordadas na seção 2.17)
+Uso: [PART.REL]
+Exemplo: [Pessoa] [PART.REL] [livro] [PASS].[PERF].[EP] [escrever] [famoso] [PRES].[IMUT].[EP] [ser]
+"A pessoa que escreveu o livro é famosa"
+
+2. Orações Substantivas
+Uso: [PART.SUB] para introduzir a oração subordinada
+Exemplo: [Eu] [PART.SUB] [você] [vir] [FUT].[PERF].[EI] [esperar]
+"Eu espero que você venha"
+
+3. Orações Adverbiais
+a. Temporal: [PART.TEMP]
+Exemplo: [PART.TEMP] [chuva] [PASS].[PERF].[EP] [cair], [eu] [casa] [PASS].[PERF].[EP] [ficar]
+"Quando choveu, eu fiquei em casa"
+b. Causal: [PART.CAUS]
+Exemplo: [Eu] [feliz] [PRES].[CONST].[EV] [ser] [PART.CAUS] [você] [aqui] [PRES].[CONST].[EP] [estar]
+"Eu estou feliz porque você está aqui"
+c. Condicional: [COND] (seção 2.13)
+Exemplo: [COND] [chuva] [FUT].[PERF].[POSS] [cair], [eu] [casa] [FUT].[PERF].[EI] [ficar]
+"Se chover, eu ficarei em casa"
+
+#### 4.10.2 Coordenação de Orações
+
+A coordenação conecta orações de igual status gramatical. Usa-se partículas coordenativas:
+
+1. Aditiva: [E]
+   Exemplo: [Eu] [livro] [PASS].[PERF].[EP] [ler] [E] [filme] [PASS].[PERF].[EP] [assistir]
+   "Eu li um livro e assisti um filme"
+
+2. Adversativa: [MAS]
+   Exemplo: [Eu] [parque] [ir] [PASS].[PERF].[EI] [querer] [MAS] [chuva] [PASS].[PERF].[EP] [cair]
+   "Eu queria ir ao parque, mas choveu"
+
+3. Alternativa: [OU]
+   Exemplo: [Você] [ficar] [FUT].[PERF].[EI] [escolher] [OU] [você] [ir] [FUT].[PERF].[EI] [escolher]
+   "Você escolherá ficar ou escolherá ir"
+
+4. Conclusiva: [CONSEQ.LOG]
+   Exemplo: [Chuva] [PASS].[PERF].[EP] [cair], [CONSEQ.LOG] [chão] [molhado] [PRES].[CONST].[EP] [estar]
+   "Choveu, consequentemente o chão está molhado"
+
+   Nota: Para conclusões contra-intuitivas, pode-se usar [CONSEQ.CONTRA]
+   Exemplo: [Sol] [PRES].[CONST].[EP] [brilhar], [CONSEQ.CONTRA] [temperatura] [PRES].[CONST].[EP] [diminuir]
+   "O sol está brilhando, no entanto a temperatura está diminuindo"
+
+#### 4.10.3 Considerações Adicionais
+- A ordem das orações pode ser flexível, mas a estrutura interna de cada oração segue a ordem padrão Sujeito-Objeto-(Complexo-Verbal).
+- Em orações coordenadas com o mesmo sujeito, o sujeito pode ser omitido nas orações subsequentes (sujeito nulo).
+- O uso de evidenciais pode variar entre as orações coordenadas, refletindo diferentes níveis de certeza ou fontes de informação.
+- O uso de [CONSEQ.LOG] e [CONSEQ.CONTRA] para orações conclusivas mantém a coerência com o sistema condicional da língua e permite expressar tanto conclusões lógicas quanto inesperadas.
+
+### 4.11 Elipse
+
+A elipse é um recurso gramatical que permite a omissão de elementos que podem ser inferidos pelo contexto, evitando repetições desnecessárias e tornando o discurso mais conciso.
+
+#### 4.11.1 Tipos de Elipse
+
+1. Elipse do Sujeito
+   - Já permitida pelo fenômeno de sujeito nulo (pro-drop) existente na língua.
+   - Exemplo: 
+     [Eu] [EM] [casa] [PASS].[PERF].[EP] [chegar], [Ø] [PASS].[PERF].[EP] [comer], [E] [Ø] [PASS].[PERF].[EP] [dormir]
+     "Cheguei em casa, comi e dormi"
+
+2. Elipse do Verbo
+   - O complexo verbal pode ser omitido quando idêntico ao da oração anterior.
+   - Exemplo:
+     [Eu] [maçã] [PASS].[PERF].[EP] [comer], [você] [banana] [Ø].[Ø].[Ø] [Ø] .
+     "Eu comi uma maçã, você (comeu) uma banana."
+
+3. Elipse do Objeto
+   - O objeto pode ser omitido quando é claro pelo contexto.
+   - Exemplo:
+     [Você] [livro] [PASS].[PERF].[EP] [ler] ? [Sim], [eu] [Ø] [PASS].[PERF].[EP] [ler].
+     "Você leu o livro? Sim, eu li (o livro)"
+
+4. Elipse em Respostas Curtas
+   - Em respostas, apenas o elemento relevante é mantido.
+   - Exemplo:
+     Pergunta: [Quem] [PASS].[PERF] [chegar] ?
+     Resposta: [João] [Ø].[Ø].[Ø] [Ø]
+     "Quem chegou? João"
+
+#### 4.11.2 Regras Gerais para Elipse
+
+1. A elipse deve ser usada apenas quando o elemento omitido pode ser facilmente recuperado pelo contexto.
+2. Em caso de ambiguidade, a repetição completa é preferível à elipse.
+3. A elipse não deve comprometer a clareza da evidencialidade ou alterar o significado pretendido.
+
+#### 4.11.3 Elipse em Construções Específicas
+
+1. Em comparações:
+   [João] [Maria] [COMP.SUP] [alto] [PRES].[IMUT].[EP] [ser], [MAS] [Pedro] [ainda] [COMP.SUP] [Ø] [Ø].[Ø].[Ø] [Ø]
+   "João é mais alto que Maria, mas Pedro (é) ainda mais (alto)"
+
+2. Em coordenações:
+   [Maria] [cantar] [PRES].[HAB].[EP] [gostar] [E] [João] [dançar] [Ø].[Ø].[Ø] [Ø]
+   "Maria gosta de cantar e João (gosta) de dançar"
+
+#### 4.11.4 Considerações Especiais
+
+- Em textos formais ou técnicos, o uso de elipse pode ser mais limitado para garantir máxima clareza.
+
 ## 5. Semântica e Pragmática
 
 ### 5.1 Marcador Composto e Complexo-Verbal
@@ -750,6 +895,37 @@ Casos Especiais:
 
 #### 5.4.2 Distinção clara entre negação e antônimo.
 - Explicação: Há conceitos que não admitem estado neutro, então sua negação é seu antônimo, mas nem sempre isso se aplica. A ideia é que criar antônimos seja sempre um processo regular, e o mesmo vale para negação. Com o entendimento que negação não implica em antônimo.
+
+### 5.5 Foco através de Stress
+
+A conlang utiliza stress (ênfase) fonológico para indicar foco em um elemento específico da oração, sem alterar a ordem das palavras ou introduzir novas partículas.
+
+#### 5.5.1 Princípios Básicos
+- Qualquer palavra na oração pode receber stress para indicar foco.
+- O stress é usado para enfatizar informação nova, contrastiva ou particularmente importante.
+- A aplicação de stress não altera a estrutura gramatical ou a ordem das palavras na oração.
+
+#### 5.5.2 Uso e Função
+- Contraste: Para destacar um elemento em oposição a outras possibilidades.
+- Correção: Para enfatizar a informação correta em uma correção.
+- Ênfase: Para dar importância especial a um elemento da oração.
+
+#### 5.5.3 Exemplos Conceituais
+(Nota: A representação exata do stress será definida quando a fonologia for desenvolvida)
+
+1. "[EU] comi uma maçã" (enfatizando que foi eu, não outra pessoa)
+2. "Eu [COMI] uma maçã" (enfatizando a ação de comer, não outra ação)
+3. "Eu comi uma [MAÇÃ]" (enfatizando que foi uma maçã, não outra fruta)
+
+#### 5.5.4 Interação com Outras Estruturas
+- O uso de stress para foco é distinto do uso do topicalizador [TOP].
+- O stress de foco pode ser aplicado a elementos em qualquer posição na oração, incluindo aqueles marcados com outras partículas gramaticais.
+
+#### 5.5.5 Considerações para Desenvolvimento Futuro
+- A realização fonética específica do stress (volume, tom, duração) será definida no desenvolvimento da fonologia.
+- Um sistema de notação escrita para indicar stress poderá ser considerado (por exemplo, sublinhado, negrito, ou um diacrítico específico).
+
+Nota: Esta característica da língua permite expressividade e nuance sem alterar a estrutura sintática básica, mantendo a eficiência e simplicidade do sistema linguístico.
 
 ## 6. Léxico
 
