@@ -582,27 +582,50 @@ Nota: Esta convenção oferece flexibilidade criativa para autores e narradores,
 
 ### 4.9 Voz Passiva
 
-A partícula [PASS] é usada para expressar a voz passiva.
+A partícula [PASSV] é usada para expressar a voz passiva.
 
-Posição: [PASS] é colocada imediatamente antes do complexo verbal.
+Posição: [PASSV] é colocada imediatamente antes do complexo verbal.
 
 Estrutura básica:
-[Sujeito] [Outros elementos] [PASS] [Complexo-Verbal]
+[Sujeito] [Outros elementos] [PASSV] [Complexo-Verbal]
 
 Exemplos de uso:
 
-1. Ação reflexiva ou espontânea:
-   [Porta] [PASS] [PASS].[PERF].[EP] [abrir]
+1. Passiva Impessoal:
+   [Porta] [PASSV] [PASS].[PERF].[EP] [abrir]
    "A porta foi aberta"
 
-   [Vidro] [PASS] [PASS].[PERF].[EP] [quebrar]
-   "O vidro foi quebrado"
+2. Citando o agente.
+   [Vidro] [PASSV] [PASS].[PERF].[EP] [quebrar], [por] [Maria]
+   "(O) vidro foi quebrado(,) por Maria"
+   Em geral, na voz passiva o objetivo é dar foco a ação ou a quem sofreu a ação.
+   Por tanto, para citar o agente deve-se coloca-lo em uma oração separada.
 
-2. Com evidencialidade:
-   [Notícia] [PASS] [PASS].[PERF].[ET] [espalhar]
-   "A notícia foi espalhada (conforme relatado)"
+4. Com evidencialidade:
+   [Notícia] [PASSV] [PASS].[PERF].[ET] [espalhar]
+   "(A) notícia foi espalhada (conforme relatado)"
 
-Observação: O uso da voz passiva é incomum quando se sabe o sujeito que perpretou a ação.
+5. Verbos bitransitivos:
+   [Livro] [para] [João] [PASSV] [PASS].[PERF].[EP] [dar](, [por] [Maria]).
+   "(O) livro foi dado ao João (por Maria)."
+   O objeto indireto (quem sofre a ação) vem antes de [PASSV], o agente (caso presente) deve ser colocado em uma oração separada.
+   
+
+6. Voz passiva em perguntas:
+   [PRES].[PERF] [PASSV] [abrir] [porta]?
+   "A porta foi aberta?"
+   [QUANDO] [PASS].[PERF] [PASSV] [construir] [ponte]?
+   "Quando a ponte foi construída?"
+   [PRES].[PERF] [PASSV] [dar] [livro] [para] [João]?
+   "O livro foi dado ao João?"
+
+7. Interação com Negação:
+   [PRES].[PERF] [NEG] [PASSV] [resolver] [NEG] [problema]?
+   "O problema não foi resolvido?"
+
+Observações: 
+- O uso da voz passiva é incomum quando se sabe o agente da ação.
+- Não há voz passiva para verbos intransitivos.
 
 ## 5. Semântica e Pragmática
 
