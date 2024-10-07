@@ -772,6 +772,40 @@ A elipse é um recurso gramatical que permite a omissão de elementos que podem 
 
 - Em textos formais ou técnicos, o uso de elipse pode ser mais limitado para garantir máxima clareza.
 
+### 4.12 Ausência de Discurso Indireto
+
+A conlang não possui uma estrutura formal de discurso indireto. Em vez disso, utiliza o sistema de evidencialidade e construções diretas para expressar informações relatadas ou secundárias.
+
+#### 4.12.1 Princípios Básicos
+- Não há transformação gramatical específica para reportar falas ou pensamentos de outros.
+- O evidencial de terceiros [ET] é usado para indicar informações relatadas.
+- Mantém-se a preferência por construções diretas e economia linguística.
+
+#### 4.12.2 Expressão de Informações Relatadas
+1. Uso do Evidencial de Terceiros [ET]:
+   [Informação relatada] [TEMPO].[ASPECTO].[ET] [verbo]
+   
+2. Citação da fonte após a informação:
+   [Informação] [TEMPO].[ASPECTO].[ET] [verbo], [Fonte] [Origem da informação]
+
+#### 4.12.3 Exemplos
+1. Equivalente a "Maria disse que João está doente":
+   [João] [doente] [PRES].[CONST].[ET] [estar], [FONTE] [Maria].
+   (Literalmente: "João está doente, conforme relatado por Maria")
+
+2. Equivalente a "Eles acham que vai chover amanhã":
+   [Chuva] [amanhã] [FUT].[PERF].[ET] [cair]
+   (Literalmente: "Choverá amanhã, conforme relatado")
+
+3. Pensamentos ou opiniões:
+   [Terra] [redondo] [PRES].[IMUT].[EA] [ser], [cientistas] [PASS].[PERF].[EP] [afirmar]
+   (Literalmente: "A Terra é redonda, conhecimento aprendido, cientistas afirmaram")
+
+#### 4.12.4 Considerações
+- Esta abordagem enfatiza a fonte e a confiabilidade da informação através do sistema de evidencialidade.
+- Permite expressão clara de informações relatadas sem necessidade de estruturas gramaticais complexas.
+- A ausência de discurso indireto formal não limita a capacidade expressiva, mas reflete uma abordagem diferente para transmitir informações secundárias.
+
 ## 5. Semântica e Pragmática
 
 ### 5.1 Marcador Composto e Complexo-Verbal
