@@ -602,6 +602,8 @@ Exemplos de uso:
    [Notícia] [PASS] [PASS].[PERF].[ET] [espalhar]
    "A notícia foi espalhada (conforme relatado)"
 
+Observação: O uso da voz passiva é incomum quando se sabe o sujeito que perpretou a ação.
+
 ## 5. Semântica e Pragmática
 
 ### 5.1 Marcador Composto e Complexo-Verbal
