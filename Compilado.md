@@ -601,6 +601,40 @@ Observações:
 - A inversão da ordem serve como marcador claro de que a frase é uma pergunta
 - O objeto, quando presente, segue o sujeito na estrutura da pergunta
 
+#### 4.7.3 Perguntas Indiretas
+
+Não existe uma estrutura gramatical específica para perguntas indiretas. Em vez disso, elas são tratadas como uma forma de discurso relatado, mantendo a estrutura da pergunta direta original.
+
+##### 4.7.3.1 Estrutura Básica
+
+Para expressar uma pergunta indireta, use a seguinte estrutura:
+
+[Sujeito que pergunta] [TEMPO].[ASPECTO].[EP] [perguntar]: [Pergunta direta]
+
+- A pergunta em si mantém a estrutura de uma pergunta direta, incluindo a inversão da ordem e a omissão do evidencial.
+
+##### 4.7.3.2 Exemplos
+
+1. Pergunta sim/não:
+   Português: "Maria perguntou se João viria à festa."
+   Conlang: [Maria] [PASS].[PERF].[EP] [perguntar]: [FUT].[PERF] [vir] [João] [EM] [festa] ?
+
+2. Pergunta com palavra interrogativa:
+   Português: "Pedro queria saber onde Ana morava."
+   Conlang: [Pedro] [PASS].[IMPERF].[EP] [perguntar]: [ONDE] [PRES].[HAB] [morar] [Ana] ?
+
+##### 4.7.3.3 Considerações
+
+- Esta abordagem mantém a coerência com o sistema de evidencialidade da língua.
+- Preserva a integridade e a estrutura da pergunta original.
+- Evita a necessidade de transformações gramaticais complexas.
+- Alinha-se com a preferência da conlang por construções diretas e economia linguística.
+
+##### 4.7.3.4 Interação com Outros Elementos Gramaticais
+
+- Tempo e Aspecto: O complexo verbal que introduz a pergunta indireta ([TEMPO].[ASPECTO].[ET] [perguntar]) pode variar para refletir quando e como a pergunta foi feita.
+- Modo: As perguntas indiretas não alteram o modo da pergunta original. Se a pergunta original estava no subjuntivo, por exemplo, ela permanece no subjuntivo.
+
 ### 4.8 Convenções Narrativas
 #### 4.8.1 Omissão de Evidenciais em Ficção
 
