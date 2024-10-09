@@ -822,7 +822,7 @@ Apesar da ausência de transformações gramaticais típicas do discurso indiret
 
 Uso de diferentes aspectos verbais para contextualização temporal:
 [João] [PASS].[IMPERF].[ET] [chegar], [Maria] [FONTE]
-"Maria disse que João estava chegando"
+"Maria relatou que João estava chegando"
 
 #### 4.12.6 Preservação da Perspectiva Original
 Embora não haja mudanças diretas em pronomes ou tempos verbais, o sistema preserva eficazmente a perspectiva e intenção do falante original:
