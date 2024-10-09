@@ -937,6 +937,17 @@ O modo imperativo se distingue entre ordens diretas e pedidos.
 ### 5.3 Modalidade
 - Modais com significado único e específico.
 	Explicação: "Can" em inglês pode significar capacidade, permissão ou possibilidade. Em vez disso, os modais devem ter um único significado.
+Modais:
+- [MOD.CAP] para capacidade
+- [MOD.NEC] para necessidade
+- [MOD.PERM] para permissão
+- [MOD.OBRIG] para obrigação
+
+Exemplos:
+[Eu] [casa] [MOD.POSS] [FUT].[PERF].[EI] [ir]
+"Eu posso ir para casa"
+[Você] [tarefa] [MOD.OBRIG] [PRES].[PERF].[EP] [completar]
+"Você deve completar a tarefa"
 
 ### 5.4 Conceitos Específicos
 #### 5.4.1 Distinção entre 'Ser' e 'Estar'
