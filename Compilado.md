@@ -125,9 +125,9 @@ Estes pronomes compostos são utilizados principalmente em construções de disc
 ### 2.10 Reflexividade e Reciprocidade
 
 - A reflexividade é expressa através de partículas reflexivas específicas:
-    [PART.REFLEX.1a] - para primeira pessoa ("me")
-    [PART.REFLEX.2a] - para segunda pessoa ("te")
-    [PART.REFLEX.3a] - para terceira pessoa ("se")
+    - [PART.REFLEX.1a] - para primeira pessoa ("me")
+    - [PART.REFLEX.2a] - para segunda pessoa ("te")
+    - [PART.REFLEX.3a] - para terceira pessoa ("se")
 - Estrutura básica: [Sujeito] [Objeto] [PART.REFLEX.X] [TEMPO].[ASPECTO].[EVIDENCIAL] [verbo]
 - A partícula [PART.REFLEX.X] precede imediatamente o complexo verbal (marcadores + verbo)
 - Exemplos:
@@ -847,29 +847,33 @@ Estas características permitem uma transmissão precisa e contextualizada de in
 - Formado por 3 sílabas que representam na ordem: tempo, aspecto, evidencialidade.
 
 #### 5.1.1 Evidencialidade
-- Marcadores: 
+- Marcadores:
 	[EP] - Evidencial Presencial
         - Indica observação direta ou experiência pessoal (empírica).
         - Exemplo: [Eu] [chuva] [PASS].[PERF].[EP] [ver] - "Eu vi a chuva (com meus próprios olhos)"
         - Exemplo: [Chuva] [PASS].[PERF].[EP] [cair] - "Eu presenciei a chuva"
         - Obs: Não deve ser usado em contextos hipotéticos (por exemplo, em conjunto com tempo futuro ou no modo subjuntivo).
+  
 	[ET] - Evidencial de Terceiros
         - Indica informação relatada ou ouvida de outras fontes.
         - Exemplo: [POSV.REL]+[eu] [Amigo] [loteria] [PASS].[PERF].[ET] [ganhar] - "Meu amigo ganhou na loteria (alguém me contou)"
+  
 	[EI] - Evidencial de Inferência
         - Indica dedução lógica ou entendimento baseado no que se sabe.
         - Exemplo: [Chão] [molhado] [PRES].[PERF].[EP] [ser], [chuva] [PASS].[PERF].[EI] [cair] - "O chão está molhado (eu vejo), deve ter chovido (eu inferi isso)"
+  
 	[EA] - Evidencial Aprendido
         - Indica conhecimento adquirido de fontes socialmente aceitas ou mutuamente confiáveis.
         - Exemplo: [Terra] [sol] [em torno] [PRES].[HAB].[EA] [girar] - "A Terra gira em torno do sol (aprendi isso, é um fato científico)"
         - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[EA] [cair] - "Há previsão de chuva amanhã."
+  
 	[EV] - Evidencial de Verdade-Interna (experiência pessoal interna, subjetiva e/ou inacessível para os outros)
         - Indica experiência pessoal interna, como emoções ou sensações.
         - Exemplo: [Eu] [você] [PRES].[CONST].[EV] [amar] - "Eu te amo (é uma verdade interna, um sentimento meu)"
-    [POSS] - De possibilidade
+
+  	[POSS] - De possibilidade
         - Indica possibilidade, sem implicar evidência de qualquer tipo.
         - Exemplo: [Chuva] [amanhã] [FUT].[PERF].[POSS] [cair] - "Pode chover amanhã"
-- Incorporada também no sistema numérico.
 
 #### 5.1.2 Aspecto
 - Auxiliares para aspecto: 
