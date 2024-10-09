@@ -47,6 +47,17 @@
 - Ausência de pronomes de tratamento. Respeito é direcionado ao título 
 	Explicação: "juiz" já é o termo para "excelência", e "presidente" já é o termo para "excelentíssimo"
 
+#### 2.6.1 Pronomes Compostos para Discurso Reportado
+Pronome composto é usado para manter a perspectiva original em discurso reportado:
+
+Exemplos:
+Estes pronomes compostos são utilizados principalmente em construções de discurso reportado para preservar a perspectiva original do falante:
+[Maria] [PASS][PERF][EP] [declarar]: "[Eu-Maria] [aqui] [FUT][PERF][EI] [vir]."
+"Maria declarou: 'Eu (Maria) virei aqui.'"
+[João] [PASS][PERF][ET] [dizer]: "[PASS][PERF] [ler] [livro] [Tu-Ana]?"
+"João disse: 'Você (Ana) leu o livro?'"
+
+
 ### 2.7 Possessivos
 - Estrutura:  [PART.POSV]+[PRONOME]
 - Diferentes formas para posse:
@@ -798,13 +809,36 @@ A conlang não possui uma estrutura formal de discurso indireto. Em vez disso, u
    (Literalmente: "Choverá amanhã, conforme relatado")
 
 3. Pensamentos ou opiniões:
-   [Terra] [redondo] [PRES].[IMUT].[EA] [ser], [cientistas] [PASS].[PERF].[EP] [afirmar]
-   (Literalmente: "A Terra é redonda, conhecimento aprendido, cientistas afirmaram")
+   [Terra] [redondo] [PRES].[IMUT].[EA] [ser]. 
+   (Literalmente: " (Como sabemos,) A Terra é redonda")
 
 #### 4.12.4 Considerações
 - Esta abordagem enfatiza a fonte e a confiabilidade da informação através do sistema de evidencialidade.
 - Permite expressão clara de informações relatadas sem necessidade de estruturas gramaticais complexas.
 - A ausência de discurso indireto formal não limita a capacidade expressiva, mas reflete uma abordagem diferente para transmitir informações secundárias.
+
+#### 4.12.5 Flexibilidade e Nuances
+Apesar da ausência de transformações gramaticais típicas do discurso indireto tradicional, o sistema oferece flexibilidade na expressão de nuances:
+
+Uso de diferentes aspectos verbais para contextualização temporal:
+[João] [PASS].[IMPERF].[ET] [chegar], [Maria] [FONTE]
+"Maria disse que João estava chegando"
+
+#### 4.12.6 Preservação da Perspectiva Original
+Embora não haja mudanças diretas em pronomes ou tempos verbais, o sistema preserva eficazmente a perspectiva e intenção do falante original:
+
+Através da atribuição clara de fonte:
+[Terra] [redondo] [PRES].[IMUT].[ET] [ser], [cientista] [FONTE]
+"O cientista afirmou que a Terra é redonda"
+
+Mantendo a integridade da declaração original:
+[Maria] [aqui] [FUT].[PERF].[ET] [vir], [FONTE] [Maria] [ontem] 
+ou
+[Maria] [PASS][PERF][EP] [declarar]: [Eu-Maria] [aqui] [FUT][PERF][EI] [vir].
+"Maria disse ontem: 'Eu virei aqui'"
+
+
+Estas características permitem uma transmissão precisa e contextualizada de informações relatadas, alinhada com os princípios culturais e linguísticos da conlang.
 
 ## 5. Semântica e Pragmática
 
