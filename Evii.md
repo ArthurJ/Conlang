@@ -1138,10 +1138,11 @@ chuva(ABS) amanhã FUT+PERF+CJ cair, [FONTE relatório]
 
 ### Estrutura Básica
 O sistema de intensidade é composto por duas partículas de intensificação e estados absolutos lexicais.
+Estados absolutos não admitem intensificação.
 
 ### Partículas de Intensidade
-- [INT] - Intensidade básica (equivalente a "muito")
-- [MAXINT] - Intensidade máxima (equivalente a "extremamente")
+- [PLUS] - Intensidade básica (equivalente a "muito")
+- [MAXPLUS] - Intensidade máxima (equivalente a "extremamente")
 
 ### Estados Absolutos
 Estados máximos são expressos por lexemas específicos, representando a qualidade em seu grau absoluto.
@@ -1150,22 +1151,22 @@ Estados máximos são expressos por lexemas específicos, representando a qualid
 
 #### Qualidades Físicas
 ```
-grande → [INT] grande → [MAXINT] grande → imenso
-pequeno → [INT] pequeno → [MAXINT] pequeno → minúsculo
-quente → [INT] quente → [MAXINT] quente → escaldante
-frio → [INT] frio → [MAXINT] frio → gélido
-alto → [INT] alto → [MAXINT] alto → altíssimo
-baixo → [INT] baixo → [MAXINT] baixo → ínfimo
+grande → [PLUS] grande → [MAXPLUS] grande → imenso
+pequeno → [PLUS] pequeno → [MAXPLUS] pequeno → minúsculo
+quente → [PLUS] quente → [MAXPLUS] quente → escaldante
+frio → [PLUS] frio → [MAXPLUS] frio → gélido
+alto → [PLUS] alto → [MAXPLUS] alto → altíssimo
+baixo → [PLUS] baixo → [MAXPLUS] baixo → ínfimo
 ```
 
 #### Qualidades Abstratas
 ```
-bom → [INT] bom → [MAXINT] bom → excelente
-ruim → [INT] ruim → [MAXINT] ruim → péssimo
-feliz → [INT] feliz → [MAXINT] feliz → radiante
-triste → [INT] triste → [MAXINT] triste → desolado
-rápido → [INT] rápido → [MAXINT] rápido → veloz
-lento → [INT] lento → [MAXINT] lento → vagaroso
+bom → [PLUS] bom → [MAXPLUS] bom → excelente
+ruim → [PLUS] ruim → [MAXPLUS] ruim → péssimo
+feliz → [PLUS] feliz → [MAXPLUS] feliz → radiante
+triste → [PLUS] triste → [MAXPLUS] triste → desolado
+rápido → [PLUS] rápido → [MAXPLUS] rápido → veloz
+lento → [PLUS] lento → [MAXPLUS] lento → vagaroso
 ```
 
 ### Ordem Sintática
@@ -1175,10 +1176,10 @@ As partículas de intensidade seguem a ordem padrão de modificadores da língua
 
 Exemplo:
 "A comida está muito quente"
-comida(ABS) [INT] quente PRES+PROG+EP estar
+comida(ABS) [PLUS] quente PRES+PROG+EP estar
 
 "O dia está extremamente frio"
-dia(ABS) [MAXINT] frio PRES+PROG+EP estar
+dia(ABS) [MAXPLUS] frio PRES+PROG+EP estar
 ```
 
 ### Notas de Uso
@@ -1207,7 +1208,7 @@ A partícula [MODO] é utilizada para transformar adjetivos em modificadores ver
 - Aceita apenas adjetivos como complemento
 - Pode combinar múltiplos adjetivos usando [E]
 - Escopo segue as regras de elipse do marcador composto
-- Pode ser modificado por [INT] e [MAXINT]
+- Pode ser modificado por [PLUS] e [MAXPLUS]
 
 ## Intensificação
 O adjetivo usado com [MODO] pode ser intensificado:
@@ -1216,10 +1217,10 @@ O adjetivo usado com [MODO] pode ser intensificado:
 [3.NEUT] [MODO rápido] PRES+PROG+EP correr
 
 "Ele corre muito rápido"
-[3.NEUT] [MODO [INT]rápido] PRES+PROG+EP correr
+[3.NEUT] [MODO [PLUS]rápido] PRES+PROG+EP correr
 
 "Ele corre extremamente rápido"
-[3.NEUT] [MODO [MAXINT]rápido] PRES+PROG+EP correr
+[3.NEUT] [MODO [MAXPLUS]rápido] PRES+PROG+EP correr
 ```
 
 ## Múltiplos Verbos e Elipse
