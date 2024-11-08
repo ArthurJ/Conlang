@@ -1456,13 +1456,13 @@ Esta construção é usada quando:
 ### 4. Elipse Verbal
 - Quando o mesmo verbo se aplica a diferentes sujeitos/objetos
 ```
-"joão(ERG) francês(ABS) PRES+HABT+EP estudar [E], pedro(ERG) italiano(ABS)"
+"joão(ERG) francês(ABS) PRES+HABT+EP estudar, [E] pedro(ERG) italiano(ABS)"
 ```
 
 ### 5. Elipse em Comparações
 - Usa o sistema de comparação da língua
 ```
-"maria(ERG) joão(COMP-SUP) PRES+PERF+EP cantar"
+"maria(ERG) joão [COMP-SUP] PRES+PERF+EP cantar"
 ```
 
 ### 6. Elipse em Respostas
@@ -1502,7 +1502,7 @@ Esta construção é usada quando:
 
 - Em diálogos com retomada
 ```
-"- joão(ERG) mercado(ABS) que [PROP] comprar PAS+PERF ir?
+"- [por que] joão(ERG) mercado(ABS) PAS+PERF ir?
  - pão [PROP]"    (elipse máxima, mantendo só objeto e PROP)
 ```
 
