@@ -45,7 +45,7 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 - EP: Evidencial presencial (percepção direta do falante)
 - ER: Evidencial relatado (algo relatado ao falante)
 - EI: Evidencial inferido (inferência lógica, entendimento momentâneo ou opinião)
-- EA: Evidencial aprendido (fontes socialmente aceitas ou mutuamente aceitas)
+- EA: Evidencial aprendido (verdades social e formalmente aceitas)
 - VI: Verdade-Interna (experiência subjetiva do falante: sensações, emoções, sentimentos, sonhos, crenças)
 - CJ: Conjectura (hipótese, possibilidade ou ausência de evidências)
 
@@ -53,6 +53,12 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 
 - Não há hierarquia estrita entre evidenciais
 - Escolha baseada na intenção do falante e nível de confiança
+-  EA (Evidencial Aprendido):
+  - Próprio de contextos formais
+  - Marca conhecimento verificável e socialmente estabelecido
+  - Carrega alta responsabilidade epistêmica 
+  - Uso incorreto ou malicioso é falta grave
+  - Em contextos cotidianos, usado apenas para fatos mutuamente acordados entre os interlocutores
 - Em narrativas ficcionais:
   - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
   - Personagens em diálogos ainda usam evidenciais normalmente
