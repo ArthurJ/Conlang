@@ -1437,6 +1437,22 @@ A elipse depende da recuperabilidade pelo contexto
 "joão(ERG) pão(ABS) PRES+PERF+EP comprar [E] comer"
 ```
 
+#### Elipse de Objeto com Função Antipassiva
+Quando o objeto é omitido e o agente é remarcado como absolutivo, a construção assume função antipassiva, focalizando a ação em vez do paciente:
+```
+Transitivo:
+"joão(ERG) pão(ABS) PRES+PERF+EP comer"
+
+Antipassivo:
+"joão(ABS) PRES+HABT+EP comer"
+```
+
+Esta construção é usada quando:
+- O foco está na ação, não no paciente
+- O paciente é genérico ou irrelevante
+- O paciente é recuperável pelo contexto através do sistema de elipse
+
+
 ### 4. Elipse Verbal
 - Quando o mesmo verbo se aplica a diferentes sujeitos/objetos
 ```
