@@ -5,8 +5,8 @@
 - Língua ergativa-absolutiva
 - Ordem básica: SOV (Sujeito-Objeto-Verbo)
 - Quando há desvio da ordem SOV por razões estilísticas ou ênfase:
-- Ergativo marcado com prefixo [ERG]
-- Absolutivo marcado com prefixo [ABS]
+- Ergativo marcado com **prefixo** [ERG]
+- Absolutivo marcado com **prefixo** [ABS]
 
 ## Marcador Composto
 
@@ -30,7 +30,6 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 - EI no futuro expressa planejamento
 - ER no futuro expressa planejamento de terceiros
 - EA no futuro expressa previsão (de eventos naturais, como previsão do tempo)
-
 
 ### Aspectos
 
@@ -64,7 +63,6 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
   - Personagens em diálogos ainda usam evidenciais normalmente
   - Omissão não permitida em comunicação cotidiana ou textos factuais
 
-
 ## Características Específicas
 
 ### Ser/Estar
@@ -73,7 +71,6 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
   - IMUT: características permanentes ("ser")
   - Outros aspectos: estados temporários ("estar")
 
-
 ## Exemplos
 
 ### Estruturas Básicas
@@ -81,23 +78,19 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 ```
 
 "A comida está pronta"
-comida(ABS) pronta PRES+PROG+EP existir
-
+(ABS)comida pronta PRES+PROG+EP existir
 
 "O fogo é quente"
-fogo(ABS) quente PRES+IMUT+EA existir
-
+(ABS)fogo quente PRES+IMUT+EA existir
 
 "A Terra gira em torno do Sol"
-Terra(ABS) Sol-em-torno PRES+HABT+EA girar
-
+(ABS)Terra [PERI] Sol PRES+HABT+EA girar
 
 "Eu vi a chuva cair"
-chuva(ABS) PRES+PROG+EP cair
-
+(ABS)chuva PRES+PROG+EP cair
 
 "Dizem que o rei morreu"
-rei(ABS) PAS+PERF+ER morrer
+(ABS)rei PAS+PERF+ER morrer
 
 ```
 
@@ -105,11 +98,10 @@ rei(ABS) PAS+PERF+ER morrer
 
 ```
 "Talvez chova amanhã"
-chuva(ABS) amanhã FUT+PERF+CJ cair
-
+(ABS)chuva amanhã FUT+PERF+CJ cair
 
 "Estou com dor de cabeça"
-eu(ABS) dor-de-cabeça PRES+PROG+VI ter
+(ABS)eu dor-de-cabeça PRES+PROG+VI ter
 
 ```
 
@@ -117,13 +109,12 @@ eu(ABS) dor-de-cabeça PRES+PROG+VI ter
 
 ```
 Narração:
-cavaleiro(ERG) dragão(ABS) PAS+PERF matar
+(ERG)cavaleiro (ABS)dragão PAS+PERF matar
 
 Diálogo dentro da narrativa:
-"dragão(ERG) aldeia(ABS) PAS+PERF+EP destruir", guerreiro(ERG) PAS+PERF dizer
+"(ERG)dragão (ABS)aldeia PAS+PERF+EP destruir", [FONTE] guerreiro
 
 ```
-
 
 # Sistema de Modos Verbais
 
@@ -138,94 +129,82 @@ Estrutura básica:
 
 Onde MARCADOR COMPOSTO = [TEMPO][ASPECTO][EVIDENCIAL]
 
-
 ### Sub-modo Frustrativo
 
 ```
-
 [SUJEITO] [OBJETO] [MARCADOR COMPOSTO] [VERBO] [FRUST]
-
 ```
 
 - Indica tentativa frustrada ou falha na ação
-
 - [FRUST] é um marcador pós-verbal
-
-
 
 ## Modo Subjuntivo
 
 ```
-
 [SUBJ] [SUJEITO] [TEMPO (opcional)] [VERBO]
-
 ```
 
 - Expressa desejos, vontades e esperanças
-
 - Não usa marcadores de aspecto
-
 - Diferente do declarativo+VI que expressa experiências internas reais
 
+### Diferenciação entre Subjuntivo e VI
 
+O modo subjuntivo e o evidencial VI (Verdade-Interna) servem propósitos distintos:
+
+#### Modo Subjuntivo
+- Expressa desejos e vontades não realizados
+- Foca em situações hipotéticas
+
+#### Evidencial VI
+- Expressa experiências subjetivas reais
+- Foca em sensações, emoções e experiências internas atuais ou passadas
+- Segue a estrutura regular com marcador composto
+
+#### Exemplos:
+"Sinto-me feliz" (experiência atual)
+(ABS)[1] feliz PRES+PROG+VI estar
+
+"Quero ser feliz" (desejo)
+[SUBJ] (ABS)[1] feliz ser
+
+"Estou triste" (emoção atual)
+(ABS)[1] triste PRES+PROG+VI estar
+
+"Desejo não sentir dor" (vontade)
+[SUBJ] [1] dor [NEG-inicio]ter[NEG-fim]
 
 ## Modos Diretivos
 Os modos diretivos não usam marcador composto
 
-
 ### Modo Hortativo
 
 ```
-
-[HORTATIVO] [SUJEITO] [VERBO]
-
+[HORTATIVO] ((ABS)[SUJEITO]) [VERBO]
 ```
 
 - Expressa sugestões
-
 - "Deixar acontecer", "não atrapalhar", "facilitar"
-
 - Usado para 2ª pessoa singular e 1ª/2ª plural
-
-
 
 ### Imperativo Cortês
 
 ```
-
-[PEDIDO] [SUJEITO] [VERBO]
-
-```
-
-ou
-
-```
-
-[PEDIDO] [VERBO] [ABS][SUJEITO]
-
+[PEDIDO] ((ABS) [SUJEITO]) [VERBO]
 ```
 
 - Para pedidos educados
-
 - Duas formas possíveis com diferentes níveis de cortesia
-
-
 
 ### Imperativo Direto
 
 ```
-
-[SUJEITO] [VERBO]
-
+((ABS) [SUJEITO]) [VERBO]
 ```
 
 - Forma mais direta e simples
-
 - Para ordens e comandos diretos
-
 - Marcado pela ausência de marcadores
-
-
 
 ## Interrogativos
 Para perguntas, não faz sentido o uso de evidenciais; 
@@ -234,35 +213,32 @@ Pois geralmente evidenciais expressam como a informação foi adquirida.
 ### Perguntas Binárias (sim/não)
 
 ```
-
 [SUJEITO] [?] [TEMPO+ASPECTO] [VERBO] ?
-
 ```
 
 - Partícula interrogativa [?] antes do verbo
-
-
 
 ### Perguntas-QU
 A ordem nas perguntas-QU é flexível para permitir diferentes ênfases pragmáticas
 
 ```
-
 [palavra-QU] [TEMPO+ASPECTO] [VERBO] [complementos]?
-
 ```
 
 ou
 
 ```
-
 [palavra-QU] [complementos] [TEMPO+ASPECTO] [VERBO]?
-
 ```
 
 - Ordem flexível permitindo diferentes ênfases
-
 - Palavras interrogativas no início da frase
+
+#### Exemplo:
+```
+"Quem te deu permissão?"
+"[quem] [MOD.PERM] PAS+PERF dar ([para] [2.INT])?"
+```
 
 ### Palavras Interrogativas
 Para perguntas que não são de sim/não, o basco usa palavras interrogativas específicas:
@@ -273,7 +249,6 @@ Para perguntas que não são de sim/não, o basco usa palavras interrogativas es
 [quando]
 [como]
 [por que]
-
 
 # Sistema de Negação
 
@@ -317,15 +292,15 @@ Uso: Similar à negação nominal, para negar qualidades inerentes
 ## Exemplos Gerais
 ```
 "Eu não vou"
-eu [NEG-inicio][FUT+PERF+EP] [ir][NEG-fim]
+[1] [NEG-inicio][FUT+PERF+EP] [ir][NEG-fim]
 ou
-eu [FUT+PERF+EP] [NEG-inicio][ir][NEG-fim]
+[1] [FUT+PERF+EP] [NEG-inicio][ir][NEG-fim]
 
 "Ele não está feliz" (por inferência)
-ele [NEG-inicio][feliz][NEG-fim] [PRES+PROG+EI] estar
+[3.NEUT] [NEG-inicio][feliz][NEG-fim] [PRES+PROG+EI] estar
 
 "Ele não está feliz" (porque ele disse)
-ele [NEG-inicio][feliz][NEG-fim] [PRES+PROG+ER] estar
+[3.NEUT] [NEG-inicio][feliz][NEG-fim] [PRES+PROG+ER] estar
 ```
 
 ## Regras Especiais
@@ -334,7 +309,7 @@ ele [NEG-inicio][feliz][NEG-fim] [PRES+PROG+ER] estar
 - Cada elemento negado recebe seu próprio par [NEG-inicio][NEG-fim]
 ```
 "Ele não come e não dorme"
-ele [NEG-inicio][PRES+HABT+EP] [comer][NEG-fim] e [NEG-inicio][PRES+HABT+EP] [dormir][NEG-fim]
+[3.NEUT] [NEG-inicio][PRES+HABT+EP] [comer][NEG-fim] e [NEG-inicio][PRES+HABT+EP] [dormir][NEG-fim]
 ```
 
 ### Interação com Modos
@@ -348,6 +323,7 @@ ele [NEG-inicio][PRES+HABT+EP] [comer][NEG-fim] e [NEG-inicio][PRES+HABT+EP] [do
 
 ## Princípios Básicos
 - Antônimos são formados pelo prefixo [ANT-]
+- [ANT-] se aplica preferencialmente a substantivos e adjetivos
 - Negação e antonímia são processos distintos e regulares
 - Negação não implica necessariamente em antonímia
 
@@ -439,35 +415,47 @@ verdadeiro
 
 ### Estrutura Básica
 ```
-[objeto1][ABS] [objeto2][COMP] [qualidade] [MARCADOR-COMPOSTO] estar
+[ERG][objeto1] [ABS][objeto2] [[COMP-(SUP/INF)] [qualidade]] [MARCADOR-COMPOSTO] estar
+[ABS][objeto1] [ABS][objeto2] [[COMP-EQ] [qualidade]] [MARCADOR-COMPOSTO] estar
 ```
 
-### Exemplos de Comparações
+### Exemplos de Comparações (SOV)
 ```
 "A água está mais quente que o chá"
-água[ABS] chá[COMP-SUP] quente [PRES+PROG+EP] estar
+água chá [COMP-SUP] quente [PRES+PROG+EP] estar
 
 "A água está menos quente que o chá"
-água[ABS] chá[COMP-INF] quente [PRES+PROG+EP] estar
+água chá [COMP-INF] quente [PRES+PROG+EP] estar
 
 "A água está tão quente quanto o chá"
-água[ABS] chá[COMP-EQ] quente [PRES+PROG+EP] estar
+água chá [COMP-EQ] quente [PRES+PROG+EP] estar
+```
+### Exemplos de Comparações (Fora de SOV)
+```
+"A água está mais quente que o chá"
+[ABS]chá [ERG]água [COMP-SUP] quente [PRES+PROG+EP] estar
+
+"A água está mais quente que o chá"
+[ERG]água [COMP-SUP] quente [PRES+PROG+EP] estar [REL.ABS] chá
+
+"A água está tão quente quanto o chá"
+[ABS]água [COMP-EQ] quente [PRES+PROG+EP] estar [REL.ABS] chá
 ```
 
 ## Superlativos
 ### Estrutura
 - Formados com artigo definido + partícula comparativa
 ```
-[objeto][ABS] [ART.DEF][COMP] [qualidade] [MARCADOR-COMPOSTO] estar
+[ABS][objeto] [ART.DEF][COMP] [qualidade] [MARCADOR-COMPOSTO] estar
 ```
 
 ### Exemplos
 ```
 "A água é a mais quente"
-água[ABS] [ART.DEF][COMP-SUP] quente [PRES+IMUT+EP] estar
+[ABS]água [ART.DEF][COMP-SUP] quente [PRES+IMUT+EP] estar
 
 "A água é a menos quente"
-água[ABS] [ART.DEF][COMP-INF] quente [PRES+IMUT+EP] estar
+[ABS]água [ART.DEF][COMP-INF] quente [PRES+IMUT+EP] estar
 ```
 
 ## Casos Especiais
@@ -475,19 +463,19 @@ verdadeiro
 ### Verdades Universais
 ```
 "Mercúrio é mais denso que água" (verdade científica)
-mercúrio[ABS] água[COMP-SUP] denso [PRES+IMUT+EA] estar
+mercúrio água [COMP-SUP] denso [PRES+IMUT+EA] estar
 ```
 
 ### Experiências Subjetivas
 ```
 "A sopa está mais quente que o esperado"
-[ART.DEF]sopa[ABS] esperado[COMP-SUP] quente [PRES+PROG+VI] estar
+[ART.DEF] sopa esperado [COMP-SUP] quente [PRES+PROG+VI] estar
 ```
 
 ### Comparações Genéricas
 ```
 "Água é mais quente que gelo" (em geral)
-água[ABS] gelo[COMP-SUP] quente [PRES+IMUT+EA] estar
+água gelo [COMP-SUP] quente [PRES+IMUT+EA] estar
 ```
 
 ## Interação com Evidenciais
@@ -594,7 +582,6 @@ cidadeA[ABS] cidadeB[COMP-SUP] [2] [quilômetro] [distante] [PRES+IMUT+EP] ser
 "A temperatura aumenta conforme subimos"
 temperatura[ABS] [FUT+ESP][COMP-SUP] quente [PRES+PROG+EA] estar
 ```
-
 
 # Sistema de Coordenação de Orações
 
@@ -788,8 +775,8 @@ livro PL
 
 ## Números Específicos
 - Formato: número-PL
-- Sempre após o substantivo/pronome e PL
-- Ordem: [palavra] PL [número-PL]
+- Sempre entre o substantivo/pronome e PL
+- Ordem: [palavra] [número-PL]
 
 ### Exemplos com Números
 ```
@@ -854,7 +841,6 @@ COL peixe 3-PL
 [1.INCL] COL pássaro 2-PL PAS+PERF+EP ver
 ```
 
-
 # Sistema de Possessivos
 
 ## Estrutura Básica
@@ -917,7 +903,6 @@ A posse é indicada por uma estrutura que combina uma partícula de posse com um
 "[POSS.PROPR]+[1] livro 3-PL" = "meus três livros"
 ```
 
-
 ## Sistema de Preposições
 
 ### Preposições Básicas
@@ -937,7 +922,6 @@ A posse é indicada por uma estrutura que combina uma partícula de posse com um
 - [peri] - ao redor, na periferia de
 - [prox] - proximidade genérica, equivale a "em"
 - [trans] - através de
-
 
 ### Partículas Especiais
 
@@ -964,7 +948,6 @@ As partículas formam unidades sintáticas indivisíveis com seus elementos:
    - Devem permanecer juntos
    - Ordem interna flexível
    - Precedem o marcador composto
-
 
 ### Distinções Importantes
 
@@ -1333,8 +1316,6 @@ Modais podem ser objeto de outros verbos:
 - Modais não devem ser combinados na mesma oração.
 - Em respostas curtas, a partícula modal pode ser usada isoladamente
 
-
-
 # Sistema de Pronomes Relativos
 
 ## Pronomes Básicos
@@ -1412,8 +1393,6 @@ homem [REL.POSS] carro(ABS) [NEG-inicio]PRES+PROG+EP funcionar[NEG-fim]
 - Para simples foco ou ênfase, a ordem flexível das palavras com marcação de caso é suficiente
 - A elipse segue as mesmas regras do sistema geral de elipses da língua
 
-
-
 # Sistema de Elipses
 Todas as elipses são opcionais
 A elipse depende da recuperabilidade pelo contexto
@@ -1457,7 +1436,6 @@ Esta construção é usada quando:
 - O foco está na ação, não no paciente
 - O paciente é genérico ou irrelevante
 - O paciente é recuperável pelo contexto através do sistema de elipse
-
 
 ### 4. Elipse Verbal
 - Quando o mesmo verbo se aplica a diferentes sujeitos/objetos
@@ -1517,14 +1495,12 @@ Esta construção é usada quando:
 - Em coordenações, a elipse do [PROP] só é permitida quando os propósitos são semanticamente equivalentes
 - Em respostas, o [PROP] deve ser mantido para preservar a função semântica de propósito
 
-
 #---------------------------------------------------------------------------------------------------------
 PARA A ANALISE, IGNORE O TEXTO A PARTIR DAQUI
 
 # Introdução
 A língua valoriza a precisão na comunicação e a clareza sobre a origem do conhecimento; busca expressar com precisão as nuances da experiência e da interação com o mundo.
 Nela, é preferível o uso de construções verbais sobre as nominais, e substantivos são geralmente derivados de verbos.
-
 
 A definir:
 - Listar partículas
@@ -1538,7 +1514,6 @@ A definir:
 - Formação de Palavras
 - Sistema Numérico
 - Data e Hora
-
 
 ## Referências:
 
