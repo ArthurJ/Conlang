@@ -676,12 +676,12 @@ Sudoeste: [SUL+OES]
 Duas formas possíveis:
 1. Negação envolvendo toda estrutura:
 ```
-(ABS)joão [NEG-inicio]PAS+PERF+EP comer [E] PAS+PERF+EP beber[NEG-fim]
+(ABS)João [NEG-inicio]PAS+PERF+EP comer [E] PAS+PERF+EP beber[NEG-fim]
 ```
 
 2. Negação de cada verbo separadamente:
 ```
-(ABS)joão [NEG-inicio]PAS+PERF+EP comer[NEG-fim] [E] [NEG-inicio]PAS+PERF+EP beber[NEG-fim]
+(ABS)João [NEG-inicio]PAS+PERF+EP comer[NEG-fim] [E] [NEG-inicio]PAS+PERF+EP beber[NEG-fim]
 ```
 
 ## Coordenação Alternativa
@@ -816,31 +816,35 @@ Estes pronomes compostos são utilizados principalmente em construções de disc
 [João] [PAS.PERF.ER] [dizer]: "[PAS.PERF] [ler] [livro] [Tu-Ana]?"
 "João disse: 'Você (Ana) leu o livro?'"
 
-### Reflexivos
+### Reflexividade e Reciprocidade
 Em construções reflexivas, a partícula reflexiva deve anteceder o marcador composto de verbo
 
 ### Partículas Reflexivas
 Existem três partículas:
-- [PART.REFLEX.1a]
-- [PART.REFLEX.2a]
-- [PART.REFLEX.3a]
+- [PART.REFLEX.1a] - para primeira pessoa ("me")
+- [PART.REFLEX.2a] - para segunda pessoa ("te")
+- [PART.REFLEX.3a] - para terceira pessoa ("se")
 
 ### Ordem Sintática com Reflexivos
 ```
-(ABS)Sujeito + Objeto + [PART.REFLEX] + MARCADOR + Verbo
+(ABS)Sujeito + Objeto + [PART.REFLEX.X] + MARCADOR + Verbo
 ```
 
-Exemplo:
+Exemplos:
 ```
-"(ABS)joão cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear"
+"(ABS)João cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear"
+"João penteia o (próprio) cabelo"
+
+"(ABS)[1] [INSTR] [espelho] [PART.REFLEX.1a] [PRES.IMUT.EP] [ver]"
+"Eu uso o espelho para me ver"
 ```
 
 ### Coordenação com Reflexivos
 ```
-"(ABS)joão cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear [E] [PART.REFLEX.3a] secar"
+"(ABS)João cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear [E] [PART.REFLEX.3a] secar"
 ```
 
-# Sistema de Pluralização e Coletivos
+# Sistema de Pluralização
 
 ## Plural Regular
 - Marcado pela posposição PL
@@ -893,35 +897,6 @@ Seguem o padrão regular com PL:
 
 "Vocês" (informal)
 [2.INT] PL
-```
-
-## Coletivos
-- Marcado pela preposição COL
-- Indica grupos/conjuntos homogêneos
-- Sempre precede o substantivo
-
-### Exemplos de Coletivos
-```
-"O cardume"
-COL peixe
-
-"O rebanho"
-COL ovelha
-
-"A floresta"
-COL árvore
-```
-
-## Exemplos Combinados
-```
-"Os três cardumes"
-COL peixe 3-PL
-
-"Eles cinco viram o rebanho"
-[3.NEUT] 5-PL COL ovelha PAS+PERF+EP ver
-
-"Nós (inclusivo) vimos os dois bandos"
-[1.INCL] COL pássaro 2-PL PAS+PERF+EP ver
 ```
 
 # Sistema de Possessivos
@@ -1006,8 +981,13 @@ A posse é indicada por uma estrutura que combina uma partícula de posse com um
 - [prox] - proximidade genérica, equivale a "em"
 - [trans] - através de
 
+#### Preposições Compostas
+Para expressar relações mais complexas, preposições podem ser combinadas.
+Exemplo: "[de] [inter] casa" (de dentro da casa)
+
 ### Partículas Especiais
 
+[COL] - marca coletivos/grupos homogêneos
 [SIMU] - expressa ações simultâneas
 [PROP] - indica propósito ou intenção da ação
 [INSTR] - indica instrumento
@@ -1079,20 +1059,51 @@ Algumas funções da preposição "a" em português são cobertas por:
    [2] [km]
    ```
 
+## Partícula de Coletivos [COL]
+- Indica grupos/conjuntos homogêneos
+- Sempre precede o substantivo que modifica
+
+### Exemplos de Coletivos
+```
+"O cardume"
+COL peixe
+
+"O rebanho"
+COL ovelha
+
+"A floresta"
+COL árvore
+```
+
+## Exemplos Combinados
+```
+"Os três cardumes"
+COL peixe 3-PL
+
+"Eles cinco viram o rebanho"
+[3.NEUT] 5-PL COL ovelha PAS+PERF+EP ver
+
+"Nós (inclusivo) vimos os dois bandos"
+[1.INCL] COL pássaro 2-PL PAS+PERF+EP ver
+```
+
 ## Partícula de Simultaneidade [SIMU]
 
 - A partícula [SIMU] é usada para expressar ações que ocorrem simultaneamente.
 - Posição: [SIMU] precede imediatamente o verbo da ação simultânea.
 - Estrutura básica: [Sujeito] [SIMU] [Verbo Simultâneo] [marcador composto] [verbo]
+- As informações do marcador se aplicam ao verbo simultâneo.
 
 Exemplo:
 - "Ismália pôs-se na torre a sonhar":
-    [Ismália] [EM] [torre] [SIMU] [sonhar] [PART.REFLEX] [PAS][PERF][ER] [pôr]
+    [Ismália] [inter] [torre] [SIMU] [sonhar] [PART.REFLEX.1a] [PAS.PERF.ER] [pôr]
 
 ## Sistema de Partícula de Propósito [PROP]
 
 ### Estrutura Básica
-A partícula [PROP] indica propósito ou intenção da ação. Em contextos declarativos, deve ser acompanhada de evidencial, exceto em casos específicos. A partícula sempre acompanha o verbo que expressa a ação intencional.
+A partícula [PROP] indica propósito ou intenção da ação. 
+Em contextos declarativos, é geralmente acompanhada de evidencial. 
+A partícula sempre acompanha o verbo que expressa a ação intencional.
 
 ### Uso com Evidenciais
 A escolha do evidencial com [PROP] indica como a informação sobre o propósito foi obtida.
@@ -1105,8 +1116,8 @@ A escolha do evidencial com [PROP] indica como a informação sobre o propósito
 
 #### Evidenciais Opcionais
 Em casos de propósito do próprio falante:
-- O evidencial pode ser/geralmente é omitido quando o falante expressa a própria intenção.
-- A não-omissão neste caso é usada para ênfase, de acordo com a intenção do falante.
+- O evidencial é geralmente omitido quando o falante expressa a própria intenção.
+- A presença neste caso é usada para ênfase, conforme a intenção do falante.
 
 ### Casos sem Evidencial
 
@@ -1123,7 +1134,7 @@ Em casos de propósito do próprio falante:
 ### Ordem Sintática
 
 #### Declarativas
-- [PROP] e seu evidencial acompanham o verbo que expressa o propósito
+- [PROP], e seu evidencial, acompanham o verbo que expressa o propósito
 - O verbo principal mantém seu próprio marcador composto com evidencial apropriado
 ```
 [SUJEITO] [complementos] [objeto] [PROP]+[EVID] [verbo_propósito] [MARCADOR] [verbo_principal]
@@ -1257,7 +1268,7 @@ Exemplo:
 ### Notas de Uso
 - As partículas precedem a qualidade modificada
 - Estados absolutos são lexemas independentes
-- O sistema se aplica primariamente a adjetivos e alguns advérbios
+- O sistema se aplica priMariamente a adjetivos e alguns advérbios
 - Nem todas as qualidades necessitam ter um estado absoluto lexical
 - As partículas mantêm sua posição como unidade sintática em diferentes ordens de palavras
 
@@ -1494,7 +1505,7 @@ A elipse depende da recuperabilidade pelo contexto
 ### 1. Elipse do Marcador
 - Quando dois ou mais verbos coordenados compartilham o mesmo sujeito e marcador
 ```
-"(ERG)joão (ABS)pão PRES+PERF+EP comprar [E] comer"
+"(ERG)João (ABS)pão PRES+PERF+EP comprar [E] comer"
 ```
 
 - Quando o aspecto for IMUT e o contexto permitir
@@ -1505,23 +1516,23 @@ A elipse depende da recuperabilidade pelo contexto
 ### 2. Elipse do Sujeito em Coordenações
 - Em orações coordenadas subsequentes
 ```
-"(ERG)joão (ABS)pão PRES+PERF+EP fazer [E] [joão(ERG)] (ABS)café preparar"
+"(ERG)João (ABS)pão PRES+PERF+EP fazer [E] [João(ERG)] (ABS)café preparar"
 ```
 
 ### 3. Elipse de Objeto
 - Baseada no contexto
 ```
-"(ERG)joão (ABS)pão PRES+PERF+EP comprar [E] comer"
+"(ERG)João (ABS)pão PRES+PERF+EP comprar [E] comer"
 ```
 
 #### Elipse de Objeto com Função Antipassiva
 Quando o objeto é omitido e o agente é remarcado como absolutivo, a construção assume função antipassiva, focalizando a ação em vez do paciente:
 ```
 Transitivo:
-"(ERG)joão (ABS)pão PRES+PERF+EP comer"
+"(ERG)João (ABS)pão PRES+PERF+EP comer"
 
 Antipassivo:
-"(ABS)joão PRES+HABT+EP comer"
+"(ABS)João PRES+HABT+EP comer"
 ```
 
 Esta construção é usada quando:
@@ -1532,27 +1543,27 @@ Esta construção é usada quando:
 ### 4. Elipse Verbal
 - Quando o mesmo verbo se aplica a diferentes sujeitos/objetos
 ```
-"(ERG)joão (ABS)francês PRES+HABT+EP estudar, [E] (ERG)pedro italiano(ABS)"
+"(ERG)João (ABS)francês PRES+HABT+EP estudar, [E] (ERG)pedro italiano(ABS)"
 ```
 
 ### 5. Elipse em Comparações
 - Usa o sistema de comparação da língua
 ```
-"(ERG)maria joão [COMP-SUP] PRES+PERF+EP cantar"
+"(ERG)Maria João [COMP-SUP] PRES+PERF+EP cantar"
 ```
 
 ### 6. Elipse em Respostas
 - Em diálogos
 ```
 "- quem (ABS)pão comer?
- - joão(ERG)"
+ - João(ERG)"
 ```
 
 ### 7. Elipse com Mudança de Evidencial
 - Em diálogos onde a fonte da informação muda
 ```
-"- (ABS)joão doente PRES+PROG+ER estar
- - [(ABS)joão doente PRES+PROG]+EP"
+"- (ABS)João doente PRES+PROG+ER estar
+ - [(ABS)João doente PRES+PROG]+EP"
 ```
 
 ### 8. Elipse com [PROP]
@@ -1566,19 +1577,19 @@ Esta construção é usada quando:
 
 - Em coordenações com mesmo propósito
 ```
-"(ERG)joão (ABS)biblioteca história [PROP] ler [E] geografia estudar PAS+PERF+EP ir"
+"(ERG)João (ABS)biblioteca história [PROP] ler [E] geografia estudar PAS+PERF+EP ir"
 (elipse do [PROP] no segundo verbo por compartilhar o mesmo propósito geral)
 ```
 
 - Em coordenações com propósitos diferentes
 ```
-"(ERG)maria (ABS)cidade pão [PROP] comprar [E] amigos [PROP]+[ER] visitar FUT+PERF+EI ir"
+"(ERG)Maria (ABS)cidade pão [PROP] comprar [E] amigos [PROP]+[ER] visitar FUT+PERF+EI ir"
 (não permite elipse por serem propósitos distintos)
 ```
 
 - Em diálogos com retomada
 ```
-"- [por que] (ERG)joão (ABS)mercado PAS+PERF ir?
+"- [por que] (ERG)João (ABS)mercado PAS+PERF ir?
  - pão [PROP]"    (elipse máxima, mantendo só objeto e PROP)
 ```
 
@@ -1586,70 +1597,3 @@ Esta construção é usada quando:
 - [PROP] não pode ser elidido se os evidenciais forem diferentes
 - Em coordenações, a elipse do [PROP] só é permitida quando os propósitos são semanticamente equivalentes
 - Em respostas, o [PROP] deve ser mantido para preservar a função semântica de propósito
-
-#---------------------------------------------------------------------------------------------------------
-PARA A ANALISE, IGNORE O TEXTO A PARTIR DAQUI
-
-# Introdução
-A língua valoriza a precisão na comunicação e a clareza sobre a origem do conhecimento; busca expressar com precisão as nuances da experiência e da interação com o mundo.
-Nela, é preferível o uso de construções verbais sobre as nominais, e substantivos são geralmente derivados de verbos.
-
-# Evolução
-EI (inferência) -> VI (experiência interna)
-                -> CJ (especulação pura)
-ER (relatado) -> EA (base conceitual estruturada)
-
-A definir:
-- Listar partículas
-- Verbos cognitivos
-	Saber [EP+EI]
-	Pensar/Achar [EI]
-	Acreditar [EV+ER]
-	Lembrar [VI+EP]
-	Duvidar [CJ]
-- TOPicalização
-- Formação de Palavras
-- Sistema Numérico
-- Data e Hora
-
-## Referências:
-
-## 1. Referências Diretas
-
-### Sistema de Negação
-- **Francês e Tupinambá**: Sistema de negação circunfixa (negação em duas partes que "envolvem" o elemento negado)
-- Exemplo da língua: [NEG-inicio][elemento][NEG-fim]
-- Comparação: Similar ao "ne...pas" do francês
-
-### Sistema de Evidencialidade
-- **Sanöma**: Uso de evidenciais como parte da construção de orações.
-- Evidenciais da língua: EP (presencial), ER (relatado), EI (inferido), EA (aprendido), VI (verdade-interna), CJ (conjectura)
-
-### Sistema de Alinhamento
-- **Línguas Ergativas**: Sistema ergativo-absolutivo
-
-## 2. Influências Estruturais
-
-### Sistema de Modos Verbais
-- **Línguas Ameríndias**: Modo frustrativo, Modo hortativo, Clusividade
-
-## 3. Inovações Próprias
-
-### Sistema de Coordenação
-- Distinção entre consequências lógicas [CONSEQ.LOG] e contra-intuitivas [CONSEQ.CONTRA]
-- Sistema próprio de marcação de propósito [PROP]
-
-### Sistema de Expressões Temporais e Espaciais
-- Unificação única de conceitos espaciais e temporais usando as mesmas partículas base
-- Uso de partículas de tempo ([PRES], [PAS], [FUT], [PAS-PROX], [FUT-PROX]) para expressar tanto tempo quanto espaço
-
-## 4. Tendências Tipológicas
-
-### Ordem das Palavras
-- SOV (Sujeito-Objeto-Verbo) como ordem básica
-- Similar a aproximadamente 45% das línguas naturais
-- Exemplos de línguas naturais com SOV: Japonês, Turco, Persa
-
-### Sistema de Pluralização
-- Sistema analítico com partículas separadas
-- Distinção entre plural simples, plural específico e coletivos
