@@ -18,9 +18,9 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 ### Tempos
 
 - PAS: Passado
-- PAS.PROX: Passado próximo
+- PAS-PROX: Passado próximo
 - PRES: Presente
-- FUT.PROX: Futuro próximo
+- FUT-PROX: Futuro próximo
 - FUT: Futuro
 
 #### Notas: 
@@ -44,20 +44,101 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 - EP: Evidencial presencial (percepção direta do falante)
 - ER: Evidencial relatado (algo relatado ao falante)
 - EI: Evidencial inferido (inferência lógica, entendimento momentâneo ou opinião)
-- EA: Evidencial aprendido (verdades social e formalmente aceitas)
+- EA: Evidencial aprendido (marca diálogo baseado em um sistema de conhecimento estruturado)
 - VI: Verdade-Interna (experiência subjetiva do falante: sensações, emoções, sentimentos, sonhos, crenças)
 - CJ: Conjectura (hipótese, possibilidade ou ausência de evidências)
+
+### EA (Evidencial Aprendido)
+
+#### Definição
+EA é um evidencial que marca declarações derivadas de uma base conceitual específica e funciona como um convite ao questionamento dessa base. 
+Indica que:
+1. Existe uma base conceitual fundamentando a declaração
+2. Esta base é potencialmente conhecida/acessível aos participantes
+3. O interlocutor é convidado a questionar/verificar qual base está sendo usada
+4. A declaração pode ser validada dentro da base conceitual em questão
+
+#### Características Essenciais
+- Marca a existência de uma base conceitual subjacente
+- Convida ao diálogo sobre qual base está sendo usada
+- Distribui a responsabilidade epistêmica entre os interlocutores
+- Permite verificação de consistência uma vez estabelecida a base
+
+#### Uso Apropriado
+
+[Previsão do tempo institucional]
+"Amanhã teremos chuva" (EA)
+-> Base conceitual meteorológica implícita pelo contexto
+-> Aberto a questionamento sobre qual modelo/sistema
+
+[Aula de física]
+"A força resulta em aceleração" (EA)
+-> Base conceitual estabelecida pelo contexto educacional
+-> Permite questionar qual nível/modelo físico
+
+[Mudança de base conceitual]
+"Na relatividade, isso muda..." (EA)
+-> Explicitação necessária por estar alterando a base
+
+
+#### Notas sobre EA
+- A base conceitual pode estar implícita quando o contexto é claro
+- Deve ser explicitada em casos de ambiguidade ou mudança
+- O convite ao questionamento é parte integral do evidencial
+- A responsabilidade é compartilhada entre os interlocutores
+
+#### Especificação Contextual
+- Contextos profissionais/institucionais estabelecem suas bases conceituais
+- Contextos educacionais definem progressivamente suas bases
+- Documentação formal pode requerer explicitação
+- Mudanças de contexto ou base devem ser marcadas
+
+#### Limitações e Cuidados
+
+1. Limitações Sociais/Institucionais:
+- Dinâmicas sociais podem inibir o questionamento
+- Contextos não-dialógicos requerem atenção especial
+- Possibilidade de uso manipulativo deve ser considerada
+- Responsabilidade compartilhada não elimina necessidade de clareza inicial
+
+2. Usos Incorretos Comuns (não-maliciosos):
+- Confusão entre autoridade e base conceitual
+   
+   "O doutor disse que..." (usar ER)
+   "A ciência prova que..." (muito vago)
+   
+- Mistura com opinião/experiência pessoal
+   
+   "Todo mundo sabe que..." (base não identificável)
+   "Na minha experiência..." (usar VI ou EI)
+   
+- Uso inadequado por status
+      
+   "Como profissional da área..." (experiência não é base conceitual)
+   "Baseado nos meus anos de estudo..." (usar EI)
+   
+- Confusão com consenso
+   
+   "É consenso que..." (consenso não é base conceitual)
+   "Todos os especialistas concordam..." (usar ER)
+   
+- Super-extensão do conceito
+   
+   "Na base conceitual da vida..." (vago demais)
+   "Como todos podem ver..." (usar EP ou EI)
+   
+
+3. Prevenção de Erros Comuns:
+- Verificar se existe uma base conceitual real e identificável
+- Distinguir entre experiência pessoal e conhecimento estruturado
+- Evitar usar EA para parecer "mais científico"
+- Manter consciência da diferença entre autoridade e base conceitual
+- Reconhecer quando outros evidenciais são mais apropriados
 
 #### Notas sobre Evidencialidade:
 
 - Não há hierarquia estrita entre evidenciais
 - Escolha baseada na intenção do falante e nível de confiança
--  EA (Evidencial Aprendido):
-  - Próprio de contextos formais
-  - Marca conhecimento verificável e socialmente estabelecido
-  - Carrega alta responsabilidade epistêmica 
-  - Uso incorreto ou malicioso é falta grave
-  - Em contextos cotidianos, usado apenas para fatos mutuamente acordados entre os interlocutores
 - Em narrativas ficcionais:
   - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
   - Personagens em diálogos ainda usam evidenciais normalmente
@@ -190,7 +271,7 @@ Os modos diretivos não usam marcador composto
 ### Imperativo Cortês
 
 ```
-[PEDIDO] ((ABS) [SUJEITO]) [VERBO]
+[PEDIDO] ((ABS)[SUJEITO]) [VERBO]
 ```
 
 - Para pedidos educados
@@ -199,7 +280,7 @@ Os modos diretivos não usam marcador composto
 ### Imperativo Direto
 
 ```
-((ABS) [SUJEITO]) [VERBO]
+((ABS)[SUJEITO]) [VERBO]
 ```
 
 - Forma mais direta e simples
@@ -501,19 +582,19 @@ Futuro: [FUT]+[MOM]
 Construído com partícula temporal + marcador espacial:
 ```
 Aqui: [PRES]+[ESP]
-Sob:[PAS.PROX]+[ESP]
+Sob:[PAS-PROX]+[ESP]
 Abaixo: [PAS]+[ESP]
-Sobre: [FUT.PROX]+[ESP]
+Sobre: [FUT-PROX]+[ESP]
 Acima: [FUT]+[ESP]
 ```
 
 ### Exemplos
 ```
 "A água está mais quente que antes"
-água[ABS] [PAS+MOM][COMP-SUP] quente [PRES+PROG+EP] estar
+(ABS)água [PAS+MOM][COMP-SUP] quente [PRES+PROG+EP] estar
 
 "O pássaro acima é maior que o pássaro aqui"
-pássaro[ABS] [FUT+ESP] pássaro[ABS] [PRES+ESP][COMP-SUP] grande [PRES+PROG+EP] estar
+(ERG)pássaro [FUT+ESP] (ABS)pássaro [PRES+ESP][COMP-SUP] grande [PRES+PROG+EP] estar
 ```
 
 ## Direções Cardeais
@@ -536,10 +617,10 @@ Sudoeste: [SUL+OES]
 ### Exemplos
 ```
 "A cidade norte está mais distante que a cidade sul"
-cidade[ABS] [NOR] cidade[ABS] [SUL][COMP-SUP] [distante] [PRES+IMUT+EP] ser
+[ERG]cidade [NOR] [ABS]cidade [SUL][COMP-SUP] [distante] [PRES+IMUT+EP] ser
 
 "A cidade está ao nordeste"
-cidade[ABS] [NOR+LES] [PRES+IMUT+EP] ser
+(ABS)cidade [NOR+LES] [PRES+IMUT+EP] ser
 ```
 
 ## Sistema de Distâncias
@@ -554,13 +635,13 @@ cidade[ABS] [NOR+LES] [PRES+IMUT+EP] ser
 [2] [quilômetro] [distante] [PRES+IMUT+EP] ser
 
 "A cidade está dois quilômetros ao norte"
-cidade[ABS] [2] [quilômetro] [distante] [NOR] [PRES+IMUT+EP] ser
+(ABS)cidade [2] [quilômetro] [distante] [NOR] [PRES+IMUT+EP] ser
 ```
 
 ### Comparações de Distância
 ```
 "A cidade A está 2 quilômetros mais distante que a cidade B"
-cidadeA[ABS] cidadeB[COMP-SUP] [2] [quilômetro] [distante] [PRES+IMUT+EP] ser
+[ERG]cidadeA [ABS]cidadeB [COMP-SUP] [2] [quilômetro] [distante] [PRES+IMUT+EP] ser
 ```
 
 ## Aspectos Específicos
@@ -580,7 +661,7 @@ cidadeA[ABS] cidadeB[COMP-SUP] [2] [quilômetro] [distante] [PRES+IMUT+EP] ser
 ### Combinações Especiais
 ```
 "A temperatura aumenta conforme subimos"
-temperatura[ABS] [FUT+ESP][COMP-SUP] quente [PRES+PROG+EA] estar
+(ABS)temperatura [FUT+ESP][COMP-SUP] quente [PRES+PROG+EA] estar
 ```
 
 # Sistema de Coordenação de Orações
@@ -595,12 +676,12 @@ temperatura[ABS] [FUT+ESP][COMP-SUP] quente [PRES+PROG+EA] estar
 Duas formas possíveis:
 1. Negação envolvendo toda estrutura:
 ```
-joão(ABS) [NEG-inicio]PAS+PERF+EP comer [E] PAS+PERF+EP beber[NEG-fim]
+(ABS)joão [NEG-inicio]PAS+PERF+EP comer [E] PAS+PERF+EP beber[NEG-fim]
 ```
 
 2. Negação de cada verbo separadamente:
 ```
-joão(ABS) [NEG-inicio]PAS+PERF+EP comer[NEG-fim] [E] [NEG-inicio]PAS+PERF+EP beber[NEG-fim]
+(ABS)joão [NEG-inicio]PAS+PERF+EP comer[NEG-fim] [E] [NEG-inicio]PAS+PERF+EP beber[NEG-fim]
 ```
 
 ## Coordenação Alternativa
@@ -685,31 +766,31 @@ Formato básico:
 ### Ordem SOV (sem prefixo ergativo)
 ```
 "Eu vi o livro"
-[1] livro(ABS) PAS+PERF+EP ver
+[1] (ABS)livro PAS+PERF+EP ver
 
 "Nós (incluindo você) vamos à festa"
-[1.INCL] festa(ABS) FUT+PERF+EP ir
+[1.INCL] (ABS)festa FUT+PERF+EP ir
 
 "Nós (sem você) vamos à festa"
-[1.EXCL] festa(ABS) FUT+PERF+EP ir
+[1.EXCL] (ABS)festa FUT+PERF+EP ir
 ```
 
 ### Ordem Alterada (com prefixo ergativo)
 ```
 "O livro, eu vi" (OSV)
-livro(ABS) [ERG][1] PAS+PERF+EP ver
+(ABS)livro [ERG][1] PAS+PERF+EP ver
 
 "Vi o livro, eu" (OVS)
-livro(ABS) PAS+PERF+EP ver [ERG][1]
+(ABS)livro PAS+PERF+EP ver [ERG][1]
 ```
 
 ### Uso com Títulos
 ```
 "Médico examinou o paciente"
-médico paciente(ABS) PAS+PERF+EP examinar
+(ERG)médico (ABS)paciente PAS+PERF+EP examinar
 
 "Juiz determinou a sentença"
-juiz sentença(ABS) PAS+PERF+EP determinar
+(ERG)juiz (ABS)sentença PAS+PERF+EP determinar
 ```
 
 ## Características Especiais
@@ -728,9 +809,11 @@ Pronome composto é usado para manter a perspectiva original em discurso reporta
 
 Exemplos:
 Estes pronomes compostos são utilizados principalmente em construções de discurso reportado para preservar a perspectiva original do falante:
-[Maria] [PASS][PERF][EP] [declarar]: "[Eu-Maria] [aqui] [FUT][PERF][EI] [vir]."
+
+[Maria] [PAS.PERF.EP] [declarar]: "[Eu-Maria] [aqui] [FUT.PERF.EI] [vir]."
 "Maria declarou: 'Eu (Maria) virei aqui.'"
-[João] [PASS][PERF][ER] [dizer]: "[PASS][PERF] [ler] [livro] [Tu-Ana]?"
+
+[João] [PAS.PERF.ER] [dizer]: "[PAS.PERF] [ler] [livro] [Tu-Ana]?"
 "João disse: 'Você (Ana) leu o livro?'"
 
 ### Reflexivos
@@ -744,17 +827,17 @@ Existem três partículas:
 
 ### Ordem Sintática com Reflexivos
 ```
-Sujeito(ABS) + Objeto + [PART.REFLEX] + MARCADOR + Verbo
+(ABS)Sujeito + Objeto + [PART.REFLEX] + MARCADOR + Verbo
 ```
 
 Exemplo:
 ```
-"joão(ABS) cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear"
+"(ABS)joão cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear"
 ```
 
 ### Coordenação com Reflexivos
 ```
-"joão(ABS) cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear [E] [PART.REFLEX.3a] secar"
+"(ABS)joão cabelo [PART.REFLEX.3a] PRES+PROG+EP pentear [E] [PART.REFLEX.3a] secar"
 ```
 
 # Sistema de Pluralização e Coletivos
@@ -887,13 +970,13 @@ A posse é indicada por uma estrutura que combina uma partícula de posse com um
 
 ### Frases Básicas
 ```
-"[POSS.REL]+[1] pai(ERG) pão(ABS) PRES+PERF+EP comer"
+"[POSS.REL]+[1] (ERG)pai (ABS)pão PRES+PERF+EP comer"
 = "meu pai comeu o pão"
 
-"[POSS.PROPR]+[3.NEUT] casa(ABS) PRES+IMUT+EA grande ser"
+"[POSS.PROPR]+[3.NEUT] (ABS)casa PRES+IMUT+EA grande ser"
 = "a casa dele é grande"
 
-"[POSS.TEMP]+[2.FORM] livro(ABS) PRES+PROG+EP mesa estar"
+"[POSS.TEMP]+[2.FORM] (ABS)livro PRES+PROG+EP mesa estar"
 = "seu livro (emprestado) está na mesa"
 ```
 
@@ -955,10 +1038,10 @@ As partículas formam unidades sintáticas indivisíveis com seus elementos:
 Depende da intenção do falante:
 ```
 "Enviou o pacote pelo correio" (como sistema)
-[3.NEUT] [VIA correio] [PASS.PERF.EP] [enviar] [pacote](ABS)
+[3.NEUT] [VIA correio] [PAS.PERF.EP] [enviar] (ABS)[pacote]
 
 "Enviou o pacote usando o correio" (como serviço)
-[3.NEUT] [INSTR correio] [PASS.PERF.EP] [enviar] [pacote](ABS)
+[3.NEUT] [INSTR correio] [PAS.PERF.EP] [enviar] (ABS)[pacote]
 ```
 
 ### Ordens Alternativas (não-SOV)
@@ -966,13 +1049,13 @@ Em ordens diferentes de SOV, as unidades sintáticas permanecem intactas:
 
 ```
 OSV:
-[para] [destino] [ERG][Eu] [VIA carro] [INSTR GPS] [PASS.PERF.EP] [chegar]
+[para] [destino] [ERG][Eu] [VIA carro] [INSTR GPS] [PAS.PERF.EP] [chegar]
 
 OVS:
-[para] [destino] [PASS.PERF.EP] [chegar] [ERG][Eu] [VIA carro] [INSTR GPS]
+[para] [destino] [PAS.PERF.EP] [chegar] [ERG][Eu] [VIA carro] [INSTR GPS]
 
 SVO:
-[ERG][Eu] [VIA carro] [INSTR GPS] [PASS.PERF.EP] [chegar] [para] [destino]
+[ERG][Eu] [VIA carro] [INSTR GPS] [PAS.PERF.EP] [chegar] [para] [destino]
 ```
 
 ## Notas Adicionais
@@ -1004,7 +1087,7 @@ Algumas funções da preposição "a" em português são cobertas por:
 
 Exemplo:
 - "Ismália pôs-se na torre a sonhar":
-    [Ismália] [EM] [torre] [SIMU] [sonhar] [PART.REFLEX] [PASS][PERF][ER] [pôr]
+    [Ismália] [EM] [torre] [SIMU] [sonhar] [PART.REFLEX] [PAS][PERF][ER] [pôr]
 
 ## Sistema de Partícula de Propósito [PROP]
 
@@ -1056,35 +1139,35 @@ Em casos de propósito do próprio falante:
 #### Declarativas
 ```
 "Ele foi ao mercado para comprar pão" (ele nos disse)
-[3.NEUT](ERG) mercado(ABS) pão [PROP]+[ER] comprar PAS+PERF+ER ir
+(ERG)[3.NEUT] (ABS)mercado pão [PROP]+[ER] comprar PAS+PERF+ER ir
 
 "Vou ao mercado para comprar pão" (declarando minha própria intenção)
-[1](ERG) mercado(ABS) pão [PROP] comprar FUT+PERF+EP ir
+(ERG)[1] (ABS)mercado pão [PROP] comprar FUT+PERF+EP ir
 
 "O professor veio para ensinar matemática" (propósito estabelecido)
-professor(ERG) matemática [PROP]+[EA] ensinar PAS+PERF+EP vir
+(ERG)professor matemática [PROP]+[EA] ensinar PAS+PERF+EP vir
 ```
 
 #### Interrogativas
 ```
 "Por que você foi ao mercado?"
-por_que mercado(ABS) PAS+PERF ir?
-(ou: por_que PAS+PERF mercado(ABS) ir?)
+por_que (ABS)mercado PAS+PERF ir?
+(ou: por_que PAS+PERF (ABS)mercado ir?)
 
 "Ele foi ao mercado para comprar pão?" (perguntando sobre intenção específica)
-[3.NEUT](ERG) mercado(ABS) pão [PROP] comprar [?] PAS+PERF ir?
+(ERG)[3.NEUT] (ABS)mercado pão [PROP] comprar [?] PAS+PERF ir?
 
 "O que ele foi ao mercado para comprar?"
-o_que mercado(ABS) [PROP] comprar PAS+PERF ir?
-(ou: o_que [PROP] comprar mercado(ABS) PAS+PERF ir?)
+o_que (ABS)mercado [PROP] comprar PAS+PERF ir?
+(ou: o_que [PROP] comprar mercado PAS+PERF ir?)
 
 "Quando ele vai ao mercado para comprar pão?"
-quando mercado(ABS) pão [PROP] comprar FUT+PERF ir?
-(ou: quando FUT+PERF mercado(ABS) pão [PROP] comprar ir?)
+quando (ABS)mercado pão [PROP] comprar FUT+PERF ir?
+(ou: quando FUT+PERF (ABS)mercado pão [PROP] comprar ir?)
 
 "Onde você treina para competir?"
-onde [2.INT](ERG) [PROP] competir PRES+HABT treinar?
-(ou: onde PRES+HABT [2.INT](ERG) [PROP] competir treinar?)
+onde (ERG)[2.INT] [PROP] competir PRES+HABT treinar?
+(ou: onde PRES+HABT (ERG)[2.INT] [PROP] competir treinar?)
 ```
 
 # Partícula [FONTE]
@@ -1108,16 +1191,16 @@ ou
 
 ## Exemplos
 ```
-[FONTE cientistas], Terra(ABS) Sol-em-torno PRES+HABT+EA girar
+[FONTE cientistas], (ABS)Terra Sol-em-torno PRES+HABT+EA girar
 "Segundo os cientistas, a Terra gira em torno do Sol"
 
-Terra(ABS) Sol-em-torno PRES+HABT+EA girar, [FONTE cientistas]
+(ABS)Terra Sol-em-torno PRES+HABT+EA girar, [FONTE cientistas]
 "A Terra gira em torno do Sol, segundo os cientistas"
 
-[FONTE relatório], chuva(ABS) amanhã FUT+PERF+CJ cair
+[FONTE relatório], (ABS)chuva amanhã FUT+PERF+CJ cair
 "De acordo com o relatório, vai chover amanhã"
 
-chuva(ABS) amanhã FUT+PERF+CJ cair, [FONTE relatório]
+(ABS)chuva amanhã FUT+PERF+CJ cair, [FONTE relatório]
 "Vai chover amanhã, de acordo com o relatório"
 ```
 
@@ -1165,10 +1248,10 @@ As partículas de intensidade seguem a ordem padrão de modificadores da língua
 
 Exemplo:
 "A comida está muito quente"
-comida(ABS) [INT] quente PRES+PROG+EP estar
+(ABS)comida [INT] quente PRES+PROG+EP estar
 
 "O dia está extremamente frio"
-dia(ABS) [MAXINT] frio PRES+PROG+EP estar
+(ABS)dia [MAXINT] frio PRES+PROG+EP estar
 ```
 
 ### Notas de Uso
@@ -1233,7 +1316,8 @@ O escopo de [MODO] acompanha a elipse do marcador composto:
 # Sistema de Modalidade
 
 ## Visão Geral
-O sistema de modalidade interage com os sistemas de evidenciais e consequências existentes. As modalidades epistêmicas são cobertas pelos evidenciais e [CONSEQ], enquanto modalidades deônticas e dinâmicas são expressas por partículas modais específicas.
+O sistema de modalidade interage com os sistemas de evidenciais e consequências existentes. 
+As modalidades epistêmicas são cobertas pelos evidenciais e [CONSEQ], enquanto modalidades deônticas e dinâmicas são expressas por partículas modais específicas.
 
 ## Partículas Modais
 
@@ -1243,10 +1327,10 @@ O sistema de modalidade interage com os sistemas de evidenciais e consequências
 - Exemplos:
   ```
   "Ele pode ir" (tem permissão)
-  [3.NEUT](ABS) [MOD.PERM] PRES+PERF+EP ir
+  (ABS)[3.NEUT] [MOD.PERM] PRES+PERF+EP ir
 
   "Quem te deu permissão?"
-  quem(ERG) [2.INT](ABS) [MOD.PERM] PAS+PERF dar?
+  (ERG)quem (ABS)[2.INT] [MOD.PERM] PAS+PERF dar?
   ```
 
 ### [MOD.DEVER] - Modalidade Deôntica de Obrigação
@@ -1254,21 +1338,29 @@ O sistema de modalidade interage com os sistemas de evidenciais e consequências
 - Exemplos:
   ```
   "Você deve estudar"
-  [2.INT](ABS) [MOD.DEVER] PRES+PERF+EP estudar
+  (ABS)[2.INT] [MOD.DEVER] PRES+PERF+EP estudar
 
   "As crianças devem dormir cedo"
-  criança(ABS) PL [MOD.DEVER] PRES+HABT+EA dormir
+  (ABS)criança PL cedo [MOD.DEVER] PRES+HABT+EA dormir
   ```
+
+### [MOD.NEC] - Modalidade Dinâmica de Necessidade
+- Expressa necessidade fisiológica, física, situacional e circunstancial
+- Exemplos:
+```
+ "Eu preciso dormir"
+ (ABS)[1] [MOD.NEC] PRES+PERF+EP dormir
+```
 
 ### [MOD.CAP] - Modalidade Dinâmica de Capacidade
 - Expressa habilidade ou capacidade intrínseca
 - Exemplos:
   ```
   "Ela sabe nadar"
-  [3.FEM](ABS) [MOD.CAP] PRES+IMUT+EP nadar
+  (ABS)[3.FEM] [MOD.CAP] PRES+IMUT+EP nadar
 
   "O pássaro consegue voar"
-  pássaro(ABS) [MOD.CAP] PRES+IMUT+EA voar
+  (ABS)pássaro [MOD.CAP] PRES+IMUT+EA voar
   ```
 
 ## Regras Sintáticas
@@ -1281,17 +1373,17 @@ O sistema de modalidade interage com os sistemas de evidenciais e consequências
 - O evidencial do verbo principal indica a fonte da informação sobre a modalidade
 ```
 "Ouvi dizer que ele sabe nadar"
-[3.NEUT](ABS) [MOD.CAP] PRES+PERF+ER nadar
+(ABS)[3.NEUT] [MOD.CAP] PRES+PERF+ER nadar
 ```
 
 ### Negação
 Pode negar tanto a modalidade quanto o verbo:
 ```
 "Não tem permissão para ir"
-[3.NEUT](ABS) [NEG.inicio][MOD.PERM][NEG.fim] PRES+PERF+EP ir
+(ABS)[3.NEUT] [NEG.inicio][MOD.PERM][NEG.fim] PRES+PERF+EP ir
 
 "Pode não ir"
-[3.NEUT](ABS) [MOD.PERM] PRES+PERF+EP [NEG.inicio]ir[NEG.fim]
+(ABS)[3.NEUT] [MOD.PERM] PRES+PERF+EP [NEG.inicio]ir[NEG.fim]
 ```
 
 ### Perguntas
@@ -1308,12 +1400,12 @@ Em perguntas curtas, a partícula modal pode aparecer sozinha:
 Modais podem ser objeto de outros verbos:
 ```
 "Perdeu a permissão de sair"
-[3.NEUT](ERG) [MOD.PERM] sair PAS+PERF+EP perder
+(ERG)[3.NEUT] [MOD.PERM] sair PAS+PERF+EP perder
 ```
 
 ## Notas
 - Modalidades epistêmicas são expressas através do sistema de evidenciais e [CONSEQ]
-- Modais não devem ser combinados na mesma oração.
+- Modais podem ser coordenados de forma aditiva.
 - Em respostas curtas, a partícula modal pode ser usada isoladamente
 
 # Sistema de Pronomes Relativos
@@ -1334,28 +1426,28 @@ Modais podem ser objeto de outros verbos:
 ### Relações de Posse [REL.POSS]
 ```
 "O homem cujo carro quebrou"
-homem [REL.POSS] carro(ABS) PAS+PERF+EP quebrar
+homem [REL.POSS] (ABS)carro PAS+PERF+EP quebrar
 
 "A menina cuja casa visitei"
-menina [REL.POSS] casa(ABS) [1](ERG) PAS+PERF+EP visitar
+menina [REL.POSS] (ABS)casa (ERG)[1] PAS+PERF+EP visitar
 ```
 
 ### Relações Espaciais [REL.LOC]
 ```
 "A casa onde morei"
-casa [REL.LOC] [1](ABS) PAS+PERF+EP morar
+casa [REL.LOC] (ABS)[1] PAS+PERF+EP morar
 
 "O parque onde as crianças brincam"
-parque [REL.LOC] criança(ABS) PL PRES+HABT+EP brincar
+parque [REL.LOC] (ABS)criança PL PRES+HABT+EP brincar
 ```
 
 ### Relações Temporais [REL.TEMP]
 ```
 "O dia quando cheguei"
-dia [REL.TEMP] [1](ABS) PAS+PERF+EP chegar
+dia [REL.TEMP] (ABS)[1] PAS+PERF+EP chegar
 
 "A hora quando o sol nasce"
-hora [REL.TEMP] sol(ABS) PRES+HABT+EA nascer
+hora [REL.TEMP] (ABS)sol PRES+HABT+EA nascer
 ```
 
 ## Interação com Outros Sistemas
@@ -1363,28 +1455,28 @@ hora [REL.TEMP] sol(ABS) PRES+HABT+EA nascer
 ### Com Sistema de Evidenciais
 ```
 "A casa onde dizem que o fantasma aparece"
-casa [REL.LOC] fantasma(ABS) PRES+HABT+ER aparecer
+casa [REL.LOC] (ABS)fantasma PRES+HABT+ER aparecer
 
 "O homem cujo carro, segundo dizem, é o mais rápido"
-homem [REL.POSS] carro(ABS) [ART.DEF][COMP-SUP] rápido PRES+IMUT+ER ser
+homem [REL.POSS] (ABS)carro [ART.DEF][COMP-SUP] rápido PRES+IMUT+ER ser
 ```
 
 ### Com Sistema de Aspecto
 ```
 "O parque onde sempre brinco"
-parque [REL.LOC] [1](ABS) PRES+HABT+EP brincar
+parque [REL.LOC] (ABS)[1] PRES+HABT+EP brincar
 
 "A época quando nevava constantemente"
-([PAS])[MOM] [REL.TEMP] neve(ABS) PAS+HABT+EA cair
+([PAS])[MOM] [REL.TEMP] (ABS)neve PAS+HABT+EA cair
 ```
 
 ### Com Sistema de Negação
 ```
 "A casa onde nunca morei"
-casa [REL.LOC] [1](ABS) [NEG-inicio]PAS+PERF+EP morar[NEG-fim]
+casa [REL.LOC] (ABS)[1] [NEG-inicio]PAS+PERF+EP morar[NEG-fim]
 
 "O homem cujo carro não funciona"
-homem [REL.POSS] carro(ABS) [NEG-inicio]PRES+PROG+EP funcionar[NEG-fim]
+homem [REL.POSS] (ABS)carro [NEG-inicio]PRES+PROG+EP funcionar[NEG-fim]
 ```
 
 ## Notas
@@ -1402,7 +1494,7 @@ A elipse depende da recuperabilidade pelo contexto
 ### 1. Elipse do Marcador
 - Quando dois ou mais verbos coordenados compartilham o mesmo sujeito e marcador
 ```
-"joão(ERG) pão(ABS) PRES+PERF+EP comprar [E] comer"
+"(ERG)joão (ABS)pão PRES+PERF+EP comprar [E] comer"
 ```
 
 - Quando o aspecto for IMUT e o contexto permitir
@@ -1413,23 +1505,23 @@ A elipse depende da recuperabilidade pelo contexto
 ### 2. Elipse do Sujeito em Coordenações
 - Em orações coordenadas subsequentes
 ```
-"joão(ERG) pão(ABS) PRES+PERF+EP fazer [E] [joão(ERG)] café(ABS) preparar"
+"(ERG)joão (ABS)pão PRES+PERF+EP fazer [E] [joão(ERG)] (ABS)café preparar"
 ```
 
 ### 3. Elipse de Objeto
 - Baseada no contexto
 ```
-"joão(ERG) pão(ABS) PRES+PERF+EP comprar [E] comer"
+"(ERG)joão (ABS)pão PRES+PERF+EP comprar [E] comer"
 ```
 
 #### Elipse de Objeto com Função Antipassiva
 Quando o objeto é omitido e o agente é remarcado como absolutivo, a construção assume função antipassiva, focalizando a ação em vez do paciente:
 ```
 Transitivo:
-"joão(ERG) pão(ABS) PRES+PERF+EP comer"
+"(ERG)joão (ABS)pão PRES+PERF+EP comer"
 
 Antipassivo:
-"joão(ABS) PRES+HABT+EP comer"
+"(ABS)joão PRES+HABT+EP comer"
 ```
 
 Esta construção é usada quando:
@@ -1440,27 +1532,27 @@ Esta construção é usada quando:
 ### 4. Elipse Verbal
 - Quando o mesmo verbo se aplica a diferentes sujeitos/objetos
 ```
-"joão(ERG) francês(ABS) PRES+HABT+EP estudar, [E] pedro(ERG) italiano(ABS)"
+"(ERG)joão (ABS)francês PRES+HABT+EP estudar, [E] (ERG)pedro italiano(ABS)"
 ```
 
 ### 5. Elipse em Comparações
 - Usa o sistema de comparação da língua
 ```
-"maria(ERG) joão [COMP-SUP] PRES+PERF+EP cantar"
+"(ERG)maria joão [COMP-SUP] PRES+PERF+EP cantar"
 ```
 
 ### 6. Elipse em Respostas
 - Em diálogos
 ```
-"- quem(ERG) pão(ABS) comer?
+"- quem (ABS)pão comer?
  - joão(ERG)"
 ```
 
 ### 7. Elipse com Mudança de Evidencial
 - Em diálogos onde a fonte da informação muda
 ```
-"- joão(ABS) doente PRES+PROG+ER estar
- - [joão(ABS) doente PRES+PROG]+EP"
+"- (ABS)joão doente PRES+PROG+ER estar
+ - [(ABS)joão doente PRES+PROG]+EP"
 ```
 
 ### 8. Elipse com [PROP]
@@ -1474,19 +1566,19 @@ Esta construção é usada quando:
 
 - Em coordenações com mesmo propósito
 ```
-"joão(ERG) biblioteca(ABS) história [PROP] ler [E] geografia estudar PAS+PERF+EP ir"
+"(ERG)joão (ABS)biblioteca história [PROP] ler [E] geografia estudar PAS+PERF+EP ir"
 (elipse do [PROP] no segundo verbo por compartilhar o mesmo propósito geral)
 ```
 
 - Em coordenações com propósitos diferentes
 ```
-"maria(ERG) cidade(ABS) pão [PROP] comprar [E] amigos [PROP]+[ER] visitar FUT+PERF+EI ir"
+"(ERG)maria (ABS)cidade pão [PROP] comprar [E] amigos [PROP]+[ER] visitar FUT+PERF+EI ir"
 (não permite elipse por serem propósitos distintos)
 ```
 
 - Em diálogos com retomada
 ```
-"- [por que] joão(ERG) mercado(ABS) PAS+PERF ir?
+"- [por que] (ERG)joão (ABS)mercado PAS+PERF ir?
  - pão [PROP]"    (elipse máxima, mantendo só objeto e PROP)
 ```
 
@@ -1501,6 +1593,11 @@ PARA A ANALISE, IGNORE O TEXTO A PARTIR DAQUI
 # Introdução
 A língua valoriza a precisão na comunicação e a clareza sobre a origem do conhecimento; busca expressar com precisão as nuances da experiência e da interação com o mundo.
 Nela, é preferível o uso de construções verbais sobre as nominais, e substantivos são geralmente derivados de verbos.
+
+# Evolução
+EI (inferência) -> VI (experiência interna)
+                -> CJ (especulação pura)
+ER (relatado) -> EA (base conceitual estruturada)
 
 A definir:
 - Listar partículas
@@ -1544,7 +1641,7 @@ A definir:
 
 ### Sistema de Expressões Temporais e Espaciais
 - Unificação única de conceitos espaciais e temporais usando as mesmas partículas base
-- Uso de partículas de tempo ([PRES], [PAS], [FUT], [PAS.PROX], [FUT.PROX]) para expressar tanto tempo quanto espaço
+- Uso de partículas de tempo ([PRES], [PAS], [FUT], [PAS-PROX], [FUT-PROX]) para expressar tanto tempo quanto espaço
 
 ## 4. Tendências Tipológicas
 
