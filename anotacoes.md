@@ -2,23 +2,21 @@
 A língua valoriza a precisão na comunicação e a clareza sobre a origem do conhecimento; busca expressar com precisão as nuances da experiência e da interação com o mundo.
 Nela, é preferível o uso de construções verbais sobre as nominais, e substantivos são geralmente derivados de verbos.
 
-# Evolução
-EI (inferência) -> VI (experiência interna)
-                -> CJ (especulação pura)
-ER (relatado) -> EA (base conceitual estruturada)
+# Aparente evolução dos evidenciais
+EI (inferência, opinião)->	VI (experiência interna)
+						->	CJ (especulação pura)
+ER (relato simples)		->	EA (base conceitual estruturada)
 
 A definir:
 - Listar partículas
 - Verbos cognitivos
 	Saber [EP+EI]
 	Pensar/Achar [EI]
-	Acreditar [EV+ER]
+	Acreditar [VI+ER]
 	Lembrar [VI+EP]
 	Duvidar [CJ]
-- TOPicalização
-- Formação de Palavras
-- Sistema Numérico
-- Data e Hora
+- Como funciona a formação de palavras?
+
 
 ## Fonologia e Prosódia
 - A penúltima sílaba é sempre tônica (regra geral da língua).
@@ -35,7 +33,7 @@ A definir:
 - Característica definidora única (similar ao '-as' final em Esperanto).
 - Não há declinações.
 - A língua favorece construções verbais sobre nominais quando possível.
-- Priorize o uso de verbos para expressar ações e estados quando for opção.
+- Priorização o uso de verbos para expressar ações e estados.
     Exemplo:
     "É pena que..." -> "[PRES.PROG.VI] [lamentar]" (verbo "lamentar" em vez de "é pena")
 
