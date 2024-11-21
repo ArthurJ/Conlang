@@ -101,7 +101,7 @@ Indica que:
 - Possibilidade de uso manipulativo deve ser considerada
 - Responsabilidade compartilhada não elimina necessidade de clareza inicial
 
-2. Usos Incorretos Comuns (não-maliciosos):
+2. Usos reconhecidos como incorretos (não-maliciosos):
 - Confusão entre autoridade e base conceitual
    
    "O doutor disse que..." (usar ER)

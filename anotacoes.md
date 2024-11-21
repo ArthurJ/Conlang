@@ -1,25 +1,34 @@
-# Introdução
-A língua valoriza a precisão na comunicação e a clareza sobre a origem do conhecimento; busca expressar com precisão as nuances da experiência e da interação com o mundo.
-Nela, é preferível o uso de construções verbais sobre as nominais, e substantivos são geralmente derivados de verbos.
+Observei que na língua é preferível o uso de construções verbais sobre as nominais.
 
 # Aparente evolução dos evidenciais
-EI (inferência, opinião)->	VI (experiência interna)
-						->	CJ (especulação pura)
-ER (relato simples)		->	EA (base conceitual estruturada)
+- EI (inferência, opinião) derivou:
+	VI (experiência interna)
+	CJ (especulação pura)
 
-A definir:
-- Listar partículas
+- ER (relato simples) derivou EA (base conceitual estruturada)
+
+# Em estudo:
+- Verbos existênciais parecem importantes:
+	Existir
+	Comer
+	Fazer
+	Ir
+	Dormir
 - Verbos cognitivos
 	Saber [EP+EI]
 	Pensar/Achar [EI]
-	Acreditar [VI+ER]
+	Presenciar [EP]
+	Acreditar [ER+VI]
 	Lembrar [VI+EP]
-	Duvidar [CJ]
+	Duvidar [PL+VI]
+	Refletir ~= [mastigar]
+	Entender ~= [absorver]
+	Grok ?
 - Como funciona a formação de palavras?
 
 
-## Fonologia e Prosódia
-- A penúltima sílaba é sempre tônica (regra geral da língua).
+## Prosódia
+- A penúltima sílaba é geralmente sempre tônica.
 
 ### Substantivos
 - Geralmente derivados de verbos.
