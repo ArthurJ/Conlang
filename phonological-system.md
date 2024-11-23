@@ -31,6 +31,10 @@ Onde:
 - /x/ = som de "r" como em "carro"
 - /j/ = som de "j" como em "já"
 
+#### Africadas
+- Surda: /tʃ/ (como "tch" em "tchau")
+- Sonora: /dʒ/ (como "ĝ" em "ĝardeno" do esperanto)
+
 #### Nasais
 - /m/, /n/
 
