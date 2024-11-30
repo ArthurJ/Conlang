@@ -36,11 +36,14 @@ Onde:
 - Sonora: /dʒ/ (como "ĝ" em "ĝardeno" do esperanto)
 
 #### Nasais
-- /m/, /n/
+- /m/, /n/, /ɲ/ ("nh" do português)
 
 #### Líquidas
 - /l/ = som de "l" como em "lata"
 - /r/ = tepe (r fraco) como em "caro"
+
+#### Palatal
+- /ʎ/ ("lh" do português)
 
 ## Estrutura Silábica
 
