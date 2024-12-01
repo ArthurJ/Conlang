@@ -53,7 +53,7 @@ Em verdades universais ou atemporais, o marcador de tempo pode ser omitido com I
 ``` 
 (ABS)fogo quente IMUT+EP ser
 ```
-Observação: IMUT parece ser usado com muita cautéla; talvez como reconhecimento que poucas coisas são realmente imutáveis.
+Observação: IMUT parece ser usado com muita cautela; talvez como reconhecimento que poucas coisas são realmente imutáveis.
 
 ### Evidenciais
 
