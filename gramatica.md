@@ -23,6 +23,14 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 - FUT-PROX: Futuro próximo
 - FUT: Futuro
 
+#### Substituição por Marcadores Temporais
+
+Marcadores temporais simples (ontem, amanhã, etc.) podem substituir o marcador de tempo no marcador composto
+Exemplo:
+```
+[ontem] PERF+EP em vez de PAS+PERF+EP
+```
+
 #### Notas: 
 
 - Todo futuro é hipotético (a menos que você seja um viajante do tempo), [EP] não é aplicável para futuro.
@@ -38,6 +46,13 @@ Unidade sintática que precede imediatamente o verbo conjugado, composta por tr�
 - IMPF: Imperfectivo - descreve processos incompletos
 - PROG: Progressivo - descreve processos em progresso no momento
 - HABT: Habitual - descreve processos que ocorrem regularmente
+
+#### Casos Especiais com IMUT
+
+Em verdades universais ou atemporais, o marcador de tempo pode ser omitido com IMUT:
+``` 
+(ABS)fogo quente IMUT+EP ser
+```
 
 ### Evidenciais
 
@@ -159,10 +174,10 @@ Indica que:
 ```
 
 "A comida está pronta"
-(ABS)comida pronta PRES+PROG+EP existir
+(ABS)comida pronta PRES+PROG+EP ser
 
 "O fogo é quente"
-(ABS)fogo quente PRES+IMUT+EA existir
+(ABS)fogo quente PRES+IMUT+EA ser
 
 "A Terra gira em torno do Sol"
 (ABS)Terra [PERI] Sol PRES+HABT+EA girar
