@@ -47,12 +47,13 @@ Exemplo:
 - PROG: Progressivo - descreve processos em progresso no momento
 - HABT: Habitual - descreve processos que ocorrem regularmente
 
-#### Casos Especiais com IMUT
+#### Sobre o IMUT
 
 Em verdades universais ou atemporais, o marcador de tempo pode ser omitido com IMUT:
 ``` 
 (ABS)fogo quente IMUT+EP ser
 ```
+Observação: IMUT parece ser usado com muita cautéla; talvez como reconhecimento que poucas coisas são realmente imutáveis.
 
 ### Evidenciais
 
