@@ -77,8 +77,13 @@ Onde:
 ### Codas Permitidas
 Apenas três consoantes são permitidas em coda:
 - /s/ (realizado como [z] antes de vogal)
-- /r/ (tepe)
-- /n/ (geralmente realiza-se como nasalização da vogal precedente)
+- /r/ (tepe, como em "carta")
+- /N/ (nasalização da vogal precedente)
+- /k/ (como em "cacto")
+- /p/ (como em "apto")
+- /b/ (como em "absoluto")
+- /g/ (com em "magnitude")
+- /f/ (como em "afta")
 
 ### Ditongos
 
