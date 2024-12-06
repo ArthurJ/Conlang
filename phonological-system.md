@@ -28,8 +28,8 @@ Onde:
 
 Onde:
 - /ʃ/ = som de "ch" como em "chave"
-- /x/ = som de "r" como em "carro"
-- /j/ = som de "j" como em "já"
+- /h/ = som de "r" como em "carro"
+- /ʒ/ = som de "j" como em "já"
 
 #### Africadas
 - Surda: /tʃ/ (como "tch" em "tchau")
