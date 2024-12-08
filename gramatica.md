@@ -154,11 +154,13 @@ Indica que:
 #### Notas sobre Evidencialidade:
 
 - Não há hierarquia estrita entre evidenciais
-- Escolha baseada na intenção do falante e nível de confiança
+- Escolha baseada na intenção do falante e seu nível de confiança
+- Os evidenciais não marcam necessariamente o nível de confiança da declaração:
+     - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança em uma opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
 - Em narrativas ficcionais:
   - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
   - Personagens em diálogos ainda usam evidenciais normalmente
-  - Omissão não permitida em comunicação cotidiana ou textos factuais
+  - Esta omissão é uma marca implicita de que o texto é ficção.
 
 ## Características Específicas
 
