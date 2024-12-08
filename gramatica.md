@@ -36,8 +36,8 @@ Exemplo:
 - Todo futuro é hipotético (a menos que você seja um viajante do tempo), [EP] não é aplicável para futuro.
 - VI no futuro expressa esperança
 - EI no futuro expressa planejamento
-- ER no futuro expressa planejamento de terceiros
-- EA no futuro expressa previsão (de eventos naturais, como previsão do tempo)
+- ER no futuro expressa planejamento/esperança de terceiros
+- EA no futuro expressa previsão baseada em conhecimento (como previsão do tempo)
 
 ### Aspectos
 
