@@ -7,6 +7,9 @@ Observei que na língua é preferível o uso de construções verbais sobre as n
 
 - ER (relato simples) derivou EA (base conceitual estruturada)
 
+# Aparente evolução dos aspectos
+- IMUT e HAB parecem intimamente relacionados, sugerindo que surgiram juntos ou que um derivou do outro.
+
 # Em estudo:
 - Verbos existênciais parecem importantes:
 	Existir
