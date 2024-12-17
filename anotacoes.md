@@ -1,5 +1,8 @@
 Observei que na língua é preferível o uso de construções verbais sobre as nominais.
 
+# Nome
+O nome da lingua deriva de "Fala/Canto do saber desperto".
+
 # Aparente evolução dos evidenciais
 - EI (inferência, opinião) derivou:
 	VI (experiência interna)
@@ -10,9 +13,17 @@ Observei que na língua é preferível o uso de construções verbais sobre as n
 # Aparente evolução dos aspectos
 - IMUT e HAB parecem intimamente relacionados, sugerindo que surgiram juntos ou que um derivou do outro.
 
+# Verticalidade do tempo.
+Parece que a interpretação do tempo ser vertical tem haver com a chuva:
+	A chuva que está acima nas núvens, que pode cair no futuro.
+	A chuva que está acima, prestes a nos atingir no futuro imediato.
+	A chuva que nos toca no presente.
+	A chuva que escorreu para o chão, no passado próximo.
+	E que foi absorvida pelo chão ou correu para os rios, no passado.
+
 # Em estudo:
 - Verbos existênciais parecem importantes:
-	Existir
+	Existir/Ser/Estar
 	Comer
 	Fazer
 	Ir
@@ -44,7 +55,6 @@ Observei que na língua é preferível o uso de construções verbais sobre as n
 ### Verbos
 - Característica definidora única (similar ao '-as' final em Esperanto).
 - Não há declinações.
-- A língua favorece construções verbais sobre nominais quando possível.
 - Priorização o uso de verbos para expressar ações e estados.
     Exemplo:
     "É pena que..." -> "[PRES.PROG.VI] [lamentar]" (verbo "lamentar" em vez de "é pena")
