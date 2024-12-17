@@ -918,6 +918,10 @@ Seguem o padrão regular com PL:
 ```
 
 # Sistema de Possessivos
+A posse é expressa usando o sistema de possessivos, não há verbo equivalente a "ter".
+
+"Eu tenho uma casa" -> [POSS.PROPR]+[1] casa PRES+IMUT+EP [existir]
+"Eu já não tenho casa" -> [POSS.PROPR]+[1] casa PAS+PERF+EP [existir]
 
 ## Estrutura Básica
 A posse é indicada por uma estrutura que combina uma partícula de posse com um pronome:
