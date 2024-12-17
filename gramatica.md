@@ -1243,9 +1243,10 @@ ou
 ## Sistema de Intensidade
 
 ### Estrutura Básica
-O sistema de intensidade é composto por duas partículas de intensificação e estados absolutos lexicais.
+O sistema de intensidade é composto por partículas de intensificação e estados absolutos lexicais.
 
 ### Partículas de Intensidade
+- [MININT] - Intensidade menor/intermediaria (equivalente a "levemente" ou "mildly")
 - [INT] - Intensidade básica (equivalente a "muito")
 - [MAXINT] - Intensidade máxima (equivalente a "extremamente")
 
@@ -1253,6 +1254,12 @@ O sistema de intensidade é composto por duas partículas de intensificação e 
 Estados máximos são expressos por lexemas específicos, representando a qualidade em seu grau absoluto.
 
 ### Exemplos
+
+#### Intensidade intermediária
+```
+morno → [MININT] quente ("não se pode dizer que é frio")
+morno → [MININT] frio ("não se pode dizer que é quente")
+```
 
 #### Qualidades Físicas
 ```
