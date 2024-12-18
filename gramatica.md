@@ -67,7 +67,8 @@ Observação: IMUT parece ser usado com muita cautela; talvez como reconheciment
 ### EA (Evidencial Aprendido)
 
 #### Definição
-EA é um evidencial que marca declarações derivadas de uma base conceitual específica e funciona como um convite ao questionamento dessa base. 
+EA marca declarações derivadas de uma base conceitual específica e funciona como um convite ao questionamento dessa base. Usar EA como argumento de autoridade representa uma incompreensão fundamental de sua função - o evidencial existe precisamente para permitir verificação e questionamento da base conceitual sendo utilizada, não para emprestar autoridade à declaração.
+
 Indica que:
 1. Existe uma base conceitual fundamentando a declaração
 2. Esta base é potencialmente conhecida/acessível aos participantes
