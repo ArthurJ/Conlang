@@ -28,6 +28,7 @@ Parece que a interpretação do tempo ser vertical tem haver com a chuva:
 	Fazer
 	Ir
 	Dormir
+	Despertar
 - Verbos cognitivos
 	Saber [EP+EI]
 	Pensar/Achar [EI]
@@ -37,7 +38,7 @@ Parece que a interpretação do tempo ser vertical tem haver com a chuva:
 	Duvidar [PL+VI]
 	Refletir ~= [mastigar]
 	Entender ~= [absorver]
-	Grok ?
+	Grok/Entender ~= [despertar]
 - Como funciona a formação de palavras?
 
 

@@ -59,7 +59,7 @@ Observação: IMUT parece ser usado com muita cautela; talvez como reconheciment
 
 - EP: Evidencial presencial (percepção direta do falante)
 - ER: Evidencial relatado (algo relatado ao falante)
-- EI: Evidencial inferido (inferência lógica, entendimento momentâneo ou opinião)
+- EI: Evidencial inferido(/assumido) (inferência lógica, entendimento momentâneo ou opinião)
 - EA: Evidencial aprendido (marca diálogo baseado em um sistema de conhecimento estruturado)
 - VI: Verdade-Interna (experiência subjetiva do falante: sensações, emoções, sentimentos, sonhos, crenças)
 - CJ: Conjectura (hipótese, possibilidade ou ausência de evidências)
@@ -85,7 +85,7 @@ Indica que:
 
 [Previsão do tempo institucional]
 "Amanhã teremos chuva" (EA)
--> Base conceitual meteorológica implícita pelo contexto
+-> Base conceitual (meteorologia) implícita pelo contexto
 -> Aberto a questionamento sobre qual modelo/sistema
 
 [Aula de física]
