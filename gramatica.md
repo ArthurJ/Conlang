@@ -769,7 +769,7 @@ Formato básico:
 
 ## Segunda Pessoa
 - [2.INT] - segunda pessoa íntima/informal
-- [2.FORM] - segunda pessoa formal (usado apenas quando não há título aplicável)
+- [2.FORM] - segunda pessoa formal (usado quando não há título aplicável)
 (+ [PL] para plurais)
 
 ## Terceira Pessoa

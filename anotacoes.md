@@ -42,7 +42,7 @@ Parece que a interpretação do tempo ser vertical tem haver com a chuva:
 
 
 ## Prosódia
-- A penúltima sílaba é geralmente sempre tônica.
+- Geralmente a penúltima sílaba é tônica.
 
 ### Substantivos
 - Geralmente derivados de verbos.
