@@ -1,10 +1,10 @@
 Observei que na língua é preferível o uso de construções verbais sobre as nominais.
 
 # Nome
-O nome da lingua deriva de "Fala/Canto do saber desperto".
+O nome da lingua deriva de "Fala/Canto do saber".
 
 # Aparente evolução dos evidenciais
-- EI (inferência, opinião) derivou:
+- EI (inferência, opinião, assumido) derivou:
 	VI (experiência interna)
 	CJ (especulação pura)
 
@@ -25,7 +25,6 @@ Parece que a interpretação do tempo ser vertical tem haver com a chuva:
 - Verbos existênciais parecem importantes:
 	Existir/Ser/Estar
 	Comer
-	Fazer
 	Ir
 	Dormir
 	Despertar

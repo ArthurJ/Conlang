@@ -42,10 +42,10 @@ Exemplo:
 ### Aspectos
 
 - IMUT: Imutável - descreve situações de permanência ou estados duradouros
+- HABT: Habitual - descreve processos que ocorrem regularmente
 - PERF: Perfectivo - descreve processos completos
 - IMPF: Imperfectivo - descreve processos incompletos
 - PROG: Progressivo - descreve processos em progresso no momento
-- HABT: Habitual - descreve processos que ocorrem regularmente
 
 #### Sobre o IMUT
 
@@ -57,7 +57,7 @@ Observação: IMUT parece ser usado com muita cautela; talvez como reconheciment
 
 ### Evidenciais
 
-- EP: Evidencial presencial (percepção direta do falante)
+- EP: Evidencial presencial (percepção direta do falante, por quaisquer sentidos)
 - ER: Evidencial relatado (algo relatado ao falante)
 - EI: Evidencial inferido(/assumido) (inferência lógica, entendimento momentâneo ou opinião)
 - EA: Evidencial aprendido (marca diálogo baseado em um sistema de conhecimento estruturado)
@@ -101,13 +101,13 @@ Indica que:
 #### Notas sobre EA
 - A base conceitual pode estar implícita quando o contexto é claro
 - Deve ser explicitada em casos de ambiguidade ou mudança
-- O convite ao questionamento é parte integral do evidencial
 - A responsabilidade é compartilhada entre os interlocutores
-- Usar EA expressar autoridade intelectual representa uma incompreensão fundamental de sua função - o evidencial existe precisamente para permitir verificação e questionamento da base conceitual sendo utilizada, não para emprestar autoridade à declaração.
+- O evidencial é um convite explicito ao questionamento
+- Usar EA expressar autoridade intelectual representa uma incompreensão fundamental da sua função
 
 #### Especificação Contextual
 - Contextos profissionais/institucionais estabelecem suas bases conceituais
-- Contextos educacionais definem progressivamente suas bases
+- Contextos educacionais
 - Documentação formal pode requerer explicitação
 - Mudanças de contexto ou base devem ser marcadas
 
@@ -156,13 +156,17 @@ Indica que:
 #### Notas sobre Evidencialidade:
 
 - Não há hierarquia estrita entre evidenciais
-- Escolha baseada na intenção do falante e seu nível de confiança
+- Escolha baseada na intenção do falante
 - Os evidenciais não marcam necessariamente o nível de confiança da declaração:
-     - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança em uma opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
+     - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança numa opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
 - Em narrativas ficcionais:
   - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
   - Personagens em diálogos ainda usam evidenciais normalmente
   - Esta omissão é uma marca implicita de que o texto é ficção.
+  - Parece haver variação (dialetal?) no [ER]: 
+    - [ER] -> relato
+    - [ER.1] -> relato de origem conhecida / reportado próximo
+    - [ER.2] -> relato de origem desconhecida / reportado distante
 
 ## Características Específicas
 
@@ -177,9 +181,8 @@ Indica que:
 ### Estruturas Básicas
 
 ```
-
 "A comida está pronta"
-(ABS)comida pronta PRES+PROG+EP ser
+(ABS)comida pronta PRES+PERF+EP ser
 
 "O fogo é quente"
 (ABS)fogo quente PRES+IMUT+EA ser
@@ -187,22 +190,17 @@ Indica que:
 "A Terra gira em torno do Sol"
 (ABS)Terra [PERI] Sol PRES+HABT+EA girar
 
-"Eu vi a chuva cair"
+"Eu vejo a chuva caindo"
 (ABS)chuva PRES+PROG+EP cair
 
 "Dizem que o rei morreu"
 (ABS)rei PAS+PERF+ER morrer
-
-```
-
-### Exemplos com Modificadores
-
-```
+ 
 "Talvez chova amanhã"
-(ABS)chuva amanhã FUT+PERF+CJ cair
+(ABS)chuva amanhã PERF+CJ cair
 
 "Estou com dor de cabeça"
-(ABS)eu dor-de-cabeça PRES+PROG+VI ter
+(ABS)eu dor-de-cabeça PRES+PROG+VI sofrer
 
 ```
 
