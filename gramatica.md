@@ -1167,6 +1167,24 @@ Em casos de propósito do próprio falante:
 [SUJEITO] [complementos] [objeto] [PROP] [verbo_propósito] [?] [MARCADOR] [verbo_principal]
 ```
 
+Para responder afirmativamente, repete-se o verbo com o marcador composto (não existe palavra equivalente a "sim").
+Caso a pergunta seja referente a própria fonte da informação (sobre o próprio interlocutor), o marcador é opcional.
+
+  ```
+  "Você comeu?" → "[2.INT] [?] PAS+PERF+EP comer?"
+  "Sim (comi)" → "PAS+PERF+EP comer" ou "comer"
+  ```
+
+  ```
+  "Ele comeu?" → "[3.NEUT] [?] PAS+PERF+EP comer?"
+
+  "Sim (comeu, eu vi)" → "PAS+PERF+EP comer"
+  ou
+  "Sim (comeu, me contaram)" → "PAS+PERF+ER comer"
+  ou
+  "((tudo me leva a cre/acho) que) Sim" → "PAS+PERF+EI comer"
+  ```
+
 ### Exemplos
 
 #### Declarativas
