@@ -309,7 +309,7 @@ Os modos diretivos não usam marcador composto
 Para perguntas, não faz sentido o uso de evidenciais; 
 Pois geralmente evidenciais expressam como a informação foi adquirida.
 
-### Perguntas Binárias (sim/não)
+### Perguntas Binárias (confirmam ou negam)
 
 ```
 [SUJEITO] [?] [TEMPO+ASPECTO] [VERBO] ?
@@ -340,7 +340,7 @@ ou
 ```
 
 ### Palavras Interrogativas
-Para perguntas que não são de sim/não, o basco usa palavras interrogativas específicas:
+Para perguntas mais complexas, usa-se palavras interrogativas específicas:
 
 [quem]
 [o que]
