@@ -1162,7 +1162,7 @@ Em casos de propósito do próprio falante:
 [SUJEITO] [complementos] [objeto] [PROP]+[EVID] [verbo_propósito] [MARCADOR] [verbo_principal]
 ```
 
-#### Interrogativas Binárias (sim/não)
+#### Interrogativas Binárias (afirmar/negar)
 ```
 [SUJEITO] [complementos] [objeto] [PROP] [verbo_propósito] [?] [MARCADOR] [verbo_principal]
 ```
