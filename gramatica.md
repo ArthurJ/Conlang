@@ -176,9 +176,9 @@ Indica que:
   - IMUT: características permanentes ("ser")
   - Outros aspectos: estados temporários ("estar")
 
-## Exemplos
+#### Exemplos
 
-### Estruturas Básicas
+#### Estruturas Básicas
 
 ```
 "A comida está pronta"
@@ -204,7 +204,7 @@ Indica que:
 
 ```
 
-### Exemplos de Narrativa Ficcional
+#### Exemplos de Narrativa Ficcional
 
 ```
 Narração:
@@ -213,6 +213,16 @@ Narração:
 Diálogo dentro da narrativa:
 "(ERG)dragão (ABS)aldeia PAS+PERF+EP destruir", [FONTE] guerreiro
 
+```
+
+### Valência Verbal e Ausência de Impessoalidade
+Não encontrei nessa língua a presença de verbos impessoais. 
+Ao descrever eventos naturais os falantes descrevem a situação em vez de usarem verbos impessoais.
+
+```
+"Amanhecer" -> "O sol subiu"/"O dia começou"/"O céu clareou"
+"Chover" -> "A chuva/aguá cai"
+"Relampejou" -> "Presenciei um relâmpago"
 ```
 
 # Sistema de Modos Verbais
