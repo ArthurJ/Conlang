@@ -33,7 +33,7 @@ Exemplo:
 
 #### Notas: 
 
-- Todo futuro é hipotético (a menos que você seja um viajante do tempo), [EP] não é aplicável para futuro.
+- Todo futuro é tratado como hipotético, [EP] não é aplicável para futuro. (Isso seria um problema para viajantes do tempo?)
 - VI no futuro expressa esperança
 - EI no futuro expressa planejamento
 - ER no futuro expressa planejamento/esperança de terceiros
@@ -60,9 +60,9 @@ Observação: IMUT parece ser usado com muita cautela; talvez como reconheciment
 - EP: Evidencial presencial (percepção direta do falante, por quaisquer sentidos)
 - ER: Evidencial relatado (algo relatado ao falante)
 - EI: Evidencial inferido(/assumido) (inferência lógica, entendimento momentâneo ou opinião)
-- EA: Evidencial aprendido (marca diálogo baseado em um sistema de conhecimento estruturado)
 - VI: Verdade-Interna (experiência subjetiva do falante: sensações, emoções, sentimentos, sonhos, crenças)
 - CJ: Conjectura (hipótese, possibilidade ou ausência de evidências)
+- EA: Evidencial aprendido (marca diálogo baseado em um sistema de conhecimento estruturado)
 
 ### EA (Evidencial Aprendido)
 
@@ -99,25 +99,21 @@ Indica que:
 
 
 #### Notas sobre EA
-- A base conceitual pode estar implícita quando o contexto é claro
-- Deve ser explicitada em casos de ambiguidade ou mudança
-- A responsabilidade é compartilhada entre os interlocutores
-- O evidencial é um convite explicito ao questionamento
-- Usar EA expressar autoridade intelectual representa uma incompreensão fundamental da sua função
+- A responsabilidade é compartilhada entre os interlocutores:
+  * Quando um dos interlocutores tenta inibir questionamentos dos demais, ou usar EA como marca de autoridade, o esperado é que os demais desengajarem do uso de EA (e provavelmente da conversa).
+    Por esse motivo o EA acaba sendo encarado como **um convite explicito ao questionamento**.
+- A base conceitual pode estar implícita quando o contexto permite, e é explicitada em caso de mudança
 
-#### Especificação Contextual
-- Contextos profissionais/institucionais estabelecem suas bases conceituais
+#### Contextos
 - Contextos educacionais
+- Contextos profissionais/institucionais que estabelecem suas bases conceituais
+- Debates
 - Documentação formal pode requerer explicitação
-- Mudanças de contexto ou base devem ser marcadas
 
 #### Limitações e Cuidados
+1. Pelo que entendi, o EA geralmente é não é usado com/por crianças antes dos 7 anos.
+Não parece ser uma proibição, apenas é menos comum.
 
-1. Limitações Sociais/Institucionais:
-- Dinâmicas sociais podem inibir o questionamento
-- Contextos não-dialógicos requerem atenção especial
-- Possibilidade de uso manipulativo deve ser considerada
-- Responsabilidade compartilhada não elimina necessidade de clareza inicial
 
 2. Usos reconhecidos como incorretos (porém não necessariamente maliciosos):
 - Confusão entre autoridade e base conceitual
@@ -144,9 +140,11 @@ Indica que:
    
    "Na base conceitual da vida..." (vago demais)
    "Como todos podem ver..." (usar EP ou EI)
+
+Em casos como esse, geralmente o interlocutor é questionado sobre esse uso.
    
 
-3. Prevenção de Erros Comuns:
+3. Estratégias de prevenção de Erros Comuns:
 - Verificar se existe uma base conceitual real e identificável
 - Distinguir entre experiência pessoal e conhecimento estruturado
 - Evitar usar EA para parecer "mais científico"
@@ -155,8 +153,8 @@ Indica que:
 
 #### Notas sobre Evidencialidade:
 
-- Não há hierarquia estrita entre evidenciais
-- Escolha baseada na intenção do falante
+- Não parece haver hierarquia estrita entre evidenciais
+- Escolha é baseada na intenção do falante
 - Os evidenciais não marcam necessariamente o nível de confiança da declaração:
      - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança numa opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
 - Em narrativas ficcionais:
