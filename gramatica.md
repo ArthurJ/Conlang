@@ -151,20 +151,35 @@ Em casos como esse, geralmente o interlocutor é questionado sobre esse uso.
 - Manter consciência da diferença entre autoridade e base conceitual
 - Reconhecer quando outros evidenciais são mais apropriados
 
-#### Notas sobre Evidencialidade:
+### Notas sobre Evidencialidade:
 
 - Não parece haver hierarquia estrita entre evidenciais
 - Escolha é baseada na intenção do falante
 - Os evidenciais não marcam necessariamente o nível de confiança da declaração:
      - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança numa opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
-- Em humor, narrativas ficcionais, ironia, sarcasmo, metáforas, ambiguidade proposital e outras situações de "suspensão de factualidade":
-  - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
-  - Personagens em diálogos ainda usam evidenciais normalmente
-  - Esta omissão é uma marca implicita de que o texto/declaração é não-factual.
 - Parece haver variação (dialetal?) no [ER]: 
     - [ER] -> relato
     - [ER.1] -> relato de origem conhecida / reportado próximo
     - [ER.2] -> relato de origem desconhecida / reportado distante
+
+#### Suspensão de Factualidade
+
+Aplica-se em narrativas ficcionais, humor, ironia, sarcasmo, metáforas, ambiguidade proposital e construções de generalização.
+
+- **Omissão de Evidencial:** Os evidenciais podem ser parcial ou completamente omitidos na "voz do narrador", no uso de metáforas e no emprego do **Você Genérico/Empático** (uso da 2ª pessoa intima para referir-se a um sujeito indefinido ou universal).
+- **Diálogos Internos:** Personagens em diálogos dentro de narrativas mantêm o uso normal de evidenciais (pois para o personagem, aquela realidade é factual).
+- **Marcador de Não-Factualidade:** A ausência do evidencial atua como marca implícita de que a declaração não descreve um evento específico do mundo real, mas sim um cenário hipotético ou uma construção retórica.
+
+**Exemplo de Diferenciação:**
+
+1. Uso Específico (Factual):
+"Você está cansado" (Eu vejo/infiro isso sobre você, agora)
+`[2.INT] cansado PRES+PROG+EP estar`
+
+2. Uso Genérico (Não-Factual):
+"Se você está cansado, nada funciona" (Declaração sobre qualquer pessoa)
+`[COND] [2.INT] cansado estar [CONSEQ.LOG] nada funcionar`
+*(Note a ausência completa do marcador composto ou apenas do evidencial, dependendo da intenção e necessidade)*
 
 ## Características Específicas
 
