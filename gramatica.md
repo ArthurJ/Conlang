@@ -157,11 +157,11 @@ Em casos como esse, geralmente o interlocutor é questionado sobre esse uso.
 - Escolha é baseada na intenção do falante
 - Os evidenciais não marcam necessariamente o nível de confiança da declaração:
      - Alguém pode ter alto nível de confiança num relato e baixo nível de confiança numa opinião própria que não lhe parece completamente bem fundamentada, por exemplo.
-- Em narrativas ficcionais:
+- Em humor, narrativas ficcionais, ironia, sarcasmo, metáforas, ambiguidade proposital e outras situações de "suspensão de factualidade":
   - Evidenciais podem ser parcial ou completamente omitidos na voz do narrador
   - Personagens em diálogos ainda usam evidenciais normalmente
-  - Esta omissão é uma marca implicita de que o texto é ficção.
-  - Parece haver variação (dialetal?) no [ER]: 
+  - Esta omissão é uma marca implicita de que o texto/declaração é não-factual.
+- Parece haver variação (dialetal?) no [ER]: 
     - [ER] -> relato
     - [ER.1] -> relato de origem conhecida / reportado próximo
     - [ER.2] -> relato de origem desconhecida / reportado distante
